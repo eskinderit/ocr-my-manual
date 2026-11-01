@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_26/vespa_manual_26_3.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.18313384799694177,
+  "text": "Fig. 15 - Livello olio nel carter\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Fig. 15 - Livello olio nel carter\n"
+        }
+      }
+    ],
+    "created": 1793448005,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 289,
+      "total_tokens": 304,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-lC5odHvTPco7eNSllkA7CgAygjiO22rI",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 281,
+      "prompt_ms": 75.762,
+      "prompt_per_token_ms": 0.26961565836298934,
+      "prompt_per_second": 3708.9833953697107,
+      "predicted_n": 15,
+      "predicted_ms": 55.404,
+      "predicted_per_token_ms": 3.9574285714285717,
+      "predicted_per_second": 252.6893365099993
+    }
+  }
+}

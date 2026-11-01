@@ -1,0 +1,257 @@
+[
+  {
+    "model": "qwen3vl4b",
+    "image": "imgs/vespa_manual_0.png",
+    "image_sha256": "21673b1e3150c54c72bc695702fac1c7d1ce5b6300aaf79eb128af15508e16d3",
+    "prompt": "Transcribe all visible text in this image exactly as written. Preserve the original language. Output only the transcription, no explanation.",
+    "request_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 2048
+    },
+    "elapsed_seconds": 4.370642659001052,
+    "text": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE",
+    "finish_reason": "stop",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE"
+          }
+        }
+      ],
+      "created": 1793450369,
+      "model": "qwen3vl4b",
+      "system_fingerprint": "b124-e71b805",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 4063,
+        "total_tokens": 4094,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-J0rpd7DgKcd8WJg8E6Jp77M6uuMrNJil",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 4063,
+        "prompt_ms": 3571.136,
+        "prompt_per_token_ms": 0.8789406842234802,
+        "prompt_per_second": 1137.7332031039982,
+        "predicted_n": 31,
+        "predicted_ms": 493.312,
+        "predicted_per_token_ms": 16.443733333333334,
+        "predicted_per_second": 60.81344058121432
+      }
+    }
+  },
+  {
+    "model": "qwen3vl4b",
+    "image": "imgs/vespa_manual_0.png",
+    "image_sha256": "21673b1e3150c54c72bc695702fac1c7d1ce5b6300aaf79eb128af15508e16d3",
+    "prompt": "Read the lettering in the image, including stylized lettering. Return only the visible text, with no commentary.",
+    "request_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 2048
+    },
+    "elapsed_seconds": 0.7909138619974255,
+    "text": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE",
+    "finish_reason": "stop",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE"
+          }
+        }
+      ],
+      "created": 1793450370,
+      "model": "qwen3vl4b",
+      "system_fingerprint": "b124-e71b805",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 4062,
+        "total_tokens": 4093,
+        "prompt_tokens_details": {
+          "cached_tokens": 4033
+        }
+      },
+      "id": "chatcmpl-hItF1ViwOxY5lGLehtsb3soxoqKOgDmJ",
+      "timings": {
+        "cache_n": 4033,
+        "prompt_n": 29,
+        "prompt_ms": 24.428,
+        "prompt_per_token_ms": 0.8423448275862069,
+        "prompt_per_second": 1187.1622728017028,
+        "predicted_n": 31,
+        "predicted_ms": 496.501,
+        "predicted_per_token_ms": 16.55003333333333,
+        "predicted_per_second": 60.422839027514556
+      }
+    }
+  },
+  {
+    "model": "qwen3vl4b",
+    "image": "outputs/crops/vespa_manual_0/vespa_manual_0_3.png",
+    "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+    "prompt": "Transcribe all visible text in this image exactly as written. Preserve the original language. Output only the transcription, no explanation.",
+    "request_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 2048
+    },
+    "elapsed_seconds": 2.498862580999732,
+    "text": "Vespa 150",
+    "finish_reason": "stop",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Vespa 150"
+          }
+        }
+      ],
+      "created": 1793450373,
+      "model": "qwen3vl4b",
+      "system_fingerprint": "b124-e71b805",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 8,
+        "prompt_tokens": 2662,
+        "total_tokens": 2670,
+        "prompt_tokens_details": {
+          "cached_tokens": 4
+        }
+      },
+      "id": "chatcmpl-dOIlG6zZyysuJzrAi1zlMzvPhnW6UoIy",
+      "timings": {
+        "cache_n": 4,
+        "prompt_n": 2658,
+        "prompt_ms": 1956.033,
+        "prompt_per_token_ms": 0.7359040632054176,
+        "prompt_per_second": 1358.872779753716,
+        "predicted_n": 8,
+        "predicted_ms": 113.546,
+        "predicted_per_token_ms": 16.220857142857145,
+        "predicted_per_second": 61.64902330333081
+      }
+    }
+  },
+  {
+    "model": "qwen3vl4b",
+    "image": "outputs/crops/vespa_manual_0/vespa_manual_0_3.png",
+    "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+    "prompt": "Read the lettering in the image, including stylized lettering. Return only the visible text, with no commentary.",
+    "request_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 2048
+    },
+    "elapsed_seconds": 0.24473523399978875,
+    "text": "Vespa 150",
+    "finish_reason": "stop",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Vespa 150"
+          }
+        }
+      ],
+      "created": 1793450373,
+      "model": "qwen3vl4b",
+      "system_fingerprint": "b124-e71b805",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 8,
+        "prompt_tokens": 2661,
+        "total_tokens": 2669,
+        "prompt_tokens_details": {
+          "cached_tokens": 2632
+        }
+      },
+      "id": "chatcmpl-Thd68ZGsYr94crrox7uKzpFvCyfuymtT",
+      "timings": {
+        "cache_n": 2632,
+        "prompt_n": 29,
+        "prompt_ms": 23.172,
+        "prompt_per_token_ms": 0.7990344827586207,
+        "prompt_per_second": 1251.5104436388744,
+        "predicted_n": 8,
+        "predicted_ms": 116.03,
+        "predicted_per_token_ms": 16.575714285714287,
+        "predicted_per_second": 60.329225200379206
+      }
+    }
+  },
+  {
+    "model": "qwen3vl4b",
+    "image": "outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+    "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+    "prompt": "Transcribe all visible text in this image exactly as written. Preserve the original language. Output only the transcription, no explanation.",
+    "request_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 2048
+    },
+    "elapsed_seconds": 3.5438022110015153,
+    "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale.",
+    "finish_reason": "stop",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale."
+          }
+        }
+      ],
+      "created": 1793450376,
+      "model": "qwen3vl4b",
+      "system_fingerprint": "b124-e71b805",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 1799,
+        "total_tokens": 1934,
+        "prompt_tokens_details": {
+          "cached_tokens": 4
+        }
+      },
+      "id": "chatcmpl-nHFYY0ahStXBrZ7btvWjWzaZvQFuikuH",
+      "timings": {
+        "cache_n": 4,
+        "prompt_n": 1795,
+        "prompt_ms": 1190.527,
+        "prompt_per_token_ms": 0.6632462395543176,
+        "prompt_per_second": 1507.7356498424647,
+        "predicted_n": 135,
+        "predicted_ms": 2088.19,
+        "predicted_per_token_ms": 15.583507462686567,
+        "predicted_per_second": 64.17040594965017
+      }
+    }
+  }
+]

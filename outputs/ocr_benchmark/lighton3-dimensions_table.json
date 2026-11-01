@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_7/vespa_manual_7_0.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.9685748679985409,
+  "text": "Interasse ruote . . . . . 1165 mm.  \nLarghezza max sul manubrio 770 mm.  \nLunghezza max . . . . . 1700 mm.  \nAltezza max . . . . . 1040 mm.  \nAltezza minima pedana . 220 mm.  \nRaggio di volta . . . . . 1500 mm.  \nPeso totale a vuoto . . . . 92 Kg.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Interasse ruote . . . . . 1165 mm.  \nLarghezza max sul manubrio 770 mm.  \nLunghezza max . . . . . 1700 mm.  \nAltezza max . . . . . 1040 mm.  \nAltezza minima pedana . 220 mm.  \nRaggio di volta . . . . . 1500 mm.  \nPeso totale a vuoto . . . . 92 Kg.\n"
+        }
+      }
+    ],
+    "created": 1793448007,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 117,
+      "prompt_tokens": 1334,
+      "total_tokens": 1451,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-4IOIgdZwxRy0qnOHOD7rWbqKt9j0IrDA",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 1326,
+      "prompt_ms": 426.057,
+      "prompt_per_token_ms": 0.3213099547511312,
+      "prompt_per_second": 3112.259627232976,
+      "predicted_n": 117,
+      "predicted_ms": 463.666,
+      "predicted_per_token_ms": 3.9971206896551723,
+      "predicted_per_second": 250.18008652780233
+    }
+  }
+}

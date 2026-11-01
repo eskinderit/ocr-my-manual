@@ -1,0 +1,7 @@
+mod. 1956
+
+PIAGGIO
+
+Vespa 150
+
+USO E MANUTENZIONE

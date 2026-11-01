@@ -1,0 +1,3810 @@
+{
+  "vespa_manual_0": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          2241,
+          210,
+          3660,
+          447
+        ],
+        "text": "mod. 1956",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_2.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          214,
+          231,
+          641,
+          713
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_0.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          1014,
+          985,
+          3301,
+          2164
+        ],
+        "text": "Vasco da Gamas\n1500",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          1873,
+          2405,
+          3662,
+          2572
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_0.md"
+  },
+  "vespa_manual_1": {
+    "elements": [
+      {
+        "label": "abandon",
+        "bbox": [
+          3528,
+          241,
+          5650,
+          339
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          652,
+          246,
+          1213,
+          341
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          806,
+          458,
+          5521,
+          844
+        ],
+        "text": "Le descrizioni ed illustrazioni fornite alla presente pubblicazione s'intendono non Impegnative; la P IAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo quel descritto ed illustrato, di opportare la qualunque momento, senza inpegarsi ed aggiungevole tempestivamente questo pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale.",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_2.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2476,
+          1005,
+          3846,
+          1191
+        ],
+        "text": "AVVERTENZE",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          651,
+          1251,
+          5673,
+          1899
+        ],
+        "text": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non\ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-\ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-\nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          651,
+          1950,
+          5673,
+          2437
+        ],
+        "text": "Si raccomanda l'uso di miscela carburante composta di benzina normale di\n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su\nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_0.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          1580,
+          2592,
+          4680,
+          2781
+        ],
+        "text": "INDICE DEI PRINCIPALI ARGOMENTI",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          639,
+          2838,
+          5688,
+          3822
+        ],
+        "text": "<table><tr><td>Presentazione</td><td>pag.</td><td>3</td><td>Impianto elettrico</td><td>pag.</td><td>13</td></tr><tr><td>Schema comandi</td><td>»</td><td>5</td><td>Accessori</td><td>»</td><td>17</td></tr><tr><td>Dati d'identificazione</td><td>»</td><td>6</td><td>Norme per l'uso</td><td>»</td><td>19</td></tr><tr><td>Prestazioni e caratt. principali</td><td>»</td><td>8</td><td>Manutenzione</td><td>»</td><td>26</td></tr><tr><td>Motore: descrizione</td><td>»</td><td>8</td><td>Tabella della lubrificazione</td><td>»</td><td>30</td></tr><tr><td>Telaio: descrizione</td><td>»</td><td>10</td><td>Riçerca guasti e irregolarità</td><td>»</td><td>32</td></tr></table>",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_7.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_1.md"
+  },
+  "vespa_manual_10": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          383,
+          275,
+          2818,
+          1299
+        ],
+        "text": "La sospensione posteriore, a braccio oscillante porta motore e ruota, è munita di molla biconica elicoidale a flessibilità variabile e di ammortizzatore idraulico a doppio effetto coassiale.",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2954,
+          286,
+          5385,
+          793
+        ],
+        "text": "l'estremità destra del manubrio; quello posteriore manovrabile a mezzo pedale disposto sulla pedana destra.",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2967,
+          826,
+          5025,
+          986
+        ],
+        "text": "Tamburi alettati in lega leggera.",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2949,
+          1197,
+          5385,
+          2048
+        ],
+        "text": "Cavalletto sostegno moto: a due zampe applicato sotto la pedana. Due molle di richiamo tengono il cavalletto aderente alla pedana durante la marcia, impedendone le vibrazioni.",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          385,
+          1463,
+          2816,
+          2135
+        ],
+        "text": "Le ruote intercambiabili, hanno cer-\nchioni stampati in lamiera di acciaio,\ndi Ø 8\", sui quali sono montati pne-\numatici 3.50-8\".",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2944,
+          2305,
+          5381,
+          3503
+        ],
+        "text": "Antifurto: sul telaio, in prossimità del manubrio, vi è una serratura antifurto.\n\nPer bloccare la moto occorre girare la chiave e far ruotare il manubrio tutto verso sinistra fino allo scatto. Per sbloccare girare la chiave in senso inverso e raddrizzare il manubrio",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          384,
+          2307,
+          2815,
+          2815
+        ],
+        "text": "Sella: applicata a sbalzo con dispositivo elastico sulla carrozzeria e munita anteriormente di sospensione con molla.",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          378,
+          2980,
+          2819,
+          3497
+        ],
+        "text": "Freni: ad espansione con comando flessibile: quello anteriore manovrabile a mano a mezzo leva disposta sul-",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5024,
+          3693,
+          5355,
+          3809
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_6.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_10.md"
+  },
+  "vespa_manual_11": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          358,
+          94,
+          3064,
+          3255
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3178,
+          263,
+          4015,
+          427
+        ],
+        "text": "(vedi fig. 6).",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3178,
+          465,
+          5636,
+          1504
+        ],
+        "text": "Ricordare che la serratura antifurto non\ndeve essere mai lubrificata, neppure\nin caso di difettoso funzionamento.\n\nInoltre evitare assolutamente di av-\nviare la moto se la chiave non vi\nrimane impegnata.",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3189,
+          1719,
+          5640,
+          2755
+        ],
+        "text": "Tachimetro contachilometri: applicato al centro del supporto manubrio, entro un alloggiamento ricavato nel coperchio-porta faro (ved. fig. 6), completa la moto avvantaggiandone altresi l'estetica.",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3199,
+          2821,
+          5644,
+          3489
+        ],
+        "text": "La presa del movimento avviene sull'asse della ruota anteriore mediante una trasmissione completamente interna.",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_1.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          1217,
+          3285,
+          2297,
+          3394
+        ],
+        "text": "Fig. 6 - Serratura antifurto",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          641,
+          3680,
+          977,
+          3804
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_11/vespa_manual_11_4.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_11.md"
+  },
+  "vespa_manual_12": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          400,
+          297,
+          2833,
+          616
+        ],
+        "text": "Il quadrante del contachilometri, du-\nrante la marcia nelle ore notturne, è",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2971,
+          313,
+          5411,
+          629
+        ],
+        "text": "illuminato da apposita lampada montata\nin corrispondenza del quadrante stesso.",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_9.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          800,
+          827,
+          5004,
+          1019
+        ],
+        "text": "IMPIANTO DI ILLUMINAZIONE E SEGNALAZIONE",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          398,
+          1244,
+          2836,
+          1881
+        ],
+        "text": "L'energia elettrica per i dispositivi dell'impianto di illuminazione e segna- lazione è fornita in c. a. e in c. c. come segue (fig. 7):",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2967,
+          1253,
+          5409,
+          1888
+        ],
+        "text": "- Per l'illuminazione del contachilometri è prevista un apposita lampada che può essere alimentata in c. a. e in c. c.",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          397,
+          1896,
+          2830,
+          2677
+        ],
+        "text": "-- Sono alimentati in c. a., direttamente dal volano magnete a 6 poli (tensione nominale d'impianto 6 V) le luci abb. e anabb., la luce rossa post. e l'avvisatore acustico.",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2963,
+          2064,
+          5409,
+          2864
+        ],
+        "text": "Il proiettore anteriore, Ø 105, applicato sul manubrio, è munito di lampada biluce da 25/25 w (abb. e anabb.) e di lampada da 3 w (luce di città e e di posizione).",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          396,
+          2719,
+          2828,
+          3516
+        ],
+        "text": "— Sono alimentate in c. c., da una batteria 6V - 4 Ah, caricata dal volano magnete a mezzo di apposito raddrizzatore metallico, le luci di posizione anteriore e posteriore.",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2962,
+          3053,
+          5399,
+          3534
+        ],
+        "text": "Il fanalino posteriore, munito di traspa-\nrente rosso, che funge anche da cata-\nrinfrangente, è dotato di una lampada",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5053,
+          3720,
+          5397,
+          3836
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_12/vespa_manual_12_7.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_12.md"
+  },
+  "vespa_manual_13": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          508,
+          360,
+          5574,
+          3488
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_13/vespa_manual_13_0.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          2396,
+          3725,
+          3779,
+          3832
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_13/vespa_manual_13_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_13.md"
+  },
+  "vespa_manual_14": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          399,
+          299,
+          2831,
+          623
+        ],
+        "text": "da 5w (per la luce rossa post., luce\ndi posizione e luce targa).",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_4.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          3180,
+          300,
+          5184,
+          464
+        ],
+        "text": "REGOLAZIONE PROIETTORE",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2962,
+          585,
+          5413,
+          2318
+        ],
+        "text": "L'orientamento corretto del proiettore può ottenersi eseguendo la regolazione sul piano verticale (agire sulla vite \"V.. - Fig. 8 - e spostare il proiettore). Prima di orientare il proiettore, control- lare che i pneumatici ant. e poster. siano gonfiati rispettivamente a 0,8 e 1,8 atm; quindi disporre la Vespa in piano, di fronte ad uno schermo bian- co come in fig. 8.",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          395,
+          662,
+          2831,
+          2112
+        ],
+        "text": "Sul manubrio al lato destro è installato il gruppo commutatore-deviatore, munito di due levette, quella di commutatione a 3 posizioni (luce di città, fanalino posteriore e luce contachilometri-tutto spento-luci del proiettore, fanalino posteriore e luce contachilometri), quello di deviazione a 2 posizioni (luce abb. o anabb.)",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          388,
+          2147,
+          2823,
+          2619
+        ],
+        "text": "Il commutatore porta anche due pul-\nsanti' uno per la massa del motore e\nl'altro per l'avvisatore acustico.",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2957,
+          2344,
+          5396,
+          3544
+        ],
+        "text": "Avviato il motore, bloccare la manodpola comando gas a circa 1/3 della sua corsa e mettere il commutatore in posizione di \"abbagliante,\": con due persone a bordo, agire sul dispositivo di regolazione e orientare il proiettore fino a far coincidere il centro del",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5042,
+          3722,
+          5383,
+          3843
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_14/vespa_manual_14_5.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_14.md"
+  },
+  "vespa_manual_15": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3178,
+          280,
+          5612,
+          594
+        ],
+        "text": "fascio luminoso col punto \"O\" dello schermo.",
+        "crop": "crops/vespa_manual_15/vespa_manual_15_2.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          324,
+          336,
+          3102,
+          3133
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_15/vespa_manual_15_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3185,
+          634,
+          5623,
+          1421
+        ],
+        "text": "L'operazione suddetta può effettuarsi anche con il solo pilota a bordo; in tal caso però, se il veicolo venisse impiegato con due persone, sarebbe necessario ricontrollare l'orientamento.",
+        "crop": "crops/vespa_manual_15/vespa_manual_15_1.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          893,
+          3219,
+          2549,
+          3326
+        ],
+        "text": "Fig. 8. Scheme orientamento proiettore",
+        "crop": "crops/vespa_manual_15/vespa_manual_15_4.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          651,
+          3719,
+          989,
+          3840
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_15/vespa_manual_15_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_15.md"
+  },
+  "vespa_manual_16": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          1885,
+          286,
+          3909,
+          471
+        ],
+        "text": "ATTREZZI DI CORREDO",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_11.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          384,
+          698,
+          2813,
+          1012
+        ],
+        "text": "Chiavi: una chiave a tubo quadrupla\n(mm. 11-14-21-22).",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2952,
+          705,
+          5406,
+          1850
+        ],
+        "text": "Gli attrezzi di corredo sono contenuti\nin una borsa di tela che è sistemata,\nunitamente al presente libretto, alla\nbusta di collaudo e al libretto dei buo-\nni di assistenza gratuita, nella sacca\nporta attrezzi, sul lato sinistro della moto.\nLa sacca è munita di serratura antifurto",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          392,
+          1031,
+          2816,
+          1332
+        ],
+        "text": "Una chiave doppia piatta con aperture\nmm. 11, 14.",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          387,
+          1353,
+          2820,
+          1846
+        ],
+        "text": "Tre chiavi piatte semplici, rispettivamente con aperture di mm. 7, 8, 10.\n\nCacciavite: n. 1.",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_9.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2192,
+          2122,
+          3585,
+          2309
+        ],
+        "text": "ACCESSORI",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          382,
+          2536,
+          2820,
+          2855
+        ],
+        "text": "La Vespa 150 può essere fornita a ri-\nchiesta di (fig. 9):",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2950,
+          2538,
+          5396,
+          2853
+        ],
+        "text": "fori, previsti nel portapacchi posteriore di cui la moto è dotata.",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_10.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2942,
+          2884,
+          5396,
+          3533
+        ],
+        "text": "È elegante e di limitato ingombro ed integra l'efficacia delle sospensioni, rendendo eccezionalmente confortevolmente la posizione del passeggero.",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          382,
+          2890,
+          2825,
+          3361
+        ],
+        "text": "Sella posteriore per passeggero; del tipo a sbalzo, munita anteriormente di sospensione con molla.",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          381,
+          3379,
+          2810,
+          3524
+        ],
+        "text": "La sella posteriore viene fissata su tre",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5050,
+          3712,
+          5389,
+          3830
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_16/vespa_manual_16_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_16.md"
+  },
+  "vespa_manual_17": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3190,
+          228,
+          5632,
+          1603
+        ],
+        "text": "Ruota di scorta con supporto: il supporto della ruota, mediante interposizione di apposita guarnizione, è fissabile al telaio della moto su due fori previsti nella trave centrale del telaio stesso. Esso è di notevole robustezza e semplicità e mantiene la ruota in posizione facilmente accessibile ed estetica.",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          661,
+          715,
+          3132,
+          2881
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3204,
+          1811,
+          5646,
+          2665
+        ],
+        "text": "Dalla semplice e razionale concezione della moto «Vespa 150» ne consegue che non necessitano particolari accorgimenti per l'uso e personale specializzato per la manutenzione.",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3213,
+          2768,
+          5658,
+          3457
+        ],
+        "text": "Sono sufficienti le possibilità dell'utente,\nanche il più profano, uniformate ad\nalcune norme essenziali da seguirsi\ned attuarsi con cura ed attenzione.",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_2.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          762,
+          3112,
+          2798,
+          3222
+        ],
+        "text": "Fig. 9 - Applicazione sella post. e ruote di scorta",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          663,
+          3636,
+          1000,
+          3755
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_17/vespa_manual_17_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_17.md"
+  },
+  "vespa_manual_18": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          2013,
+          272,
+          3665,
+          462
+        ],
+        "text": "NORME PER L'USO",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          318,
+          604,
+          2781,
+          1099
+        ],
+        "text": "RODAGGIO: Durante il periodo di rodaggio (2000 Km.) osservare le seguenti prescrizioni:",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2911,
+          607,
+          5020,
+          763
+        ],
+        "text": "sostituzione dell'olio del cambio.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_11.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2919,
+          797,
+          5388,
+          1276
+        ],
+        "text": "— Dopo i primi 1000 Km. controllare che non si abbiano allentamenti dei dadi e dei bulloni.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          326,
+          1129,
+          2782,
+          1767
+        ],
+        "text": "— Impiegare miscela: 80 cc. di olio\nESSOLUBE 30 per 1 lt. di benzina,\novvero miscela ESSO MIX al 7%.\n\n— Non superare le seguenti velocità:",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_9.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2922,
+          1429,
+          5383,
+          1750
+        ],
+        "text": "# MISCELA DA USARE DOPO RO-DAGGIO:",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_12.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2928,
+          1764,
+          5396,
+          2567
+        ],
+        "text": "Dopo i primi 2000 Km. la miscela benzina olio da usare deve essere composta di 55 cc. di olio Essolube 30 per 1 lt. di benzina, ovvero miscela Esso MIX al 5%.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          668,
+          1833,
+          2461,
+          2315
+        ],
+        "text": "20 Km/h con la 1ª marcia\n\n35 Km/h con la 2ª marcia\n\n55 Km/h con la 3ª marcia",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          336,
+          2372,
+          2794,
+          2869
+        ],
+        "text": "Non mantenere le suddette velocità\nmax consentite per lunghi periodi di\ntempo.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2939,
+          2741,
+          5401,
+          3546
+        ],
+        "text": "Avvertenze: si raccomanda di usare\nbuona benzina normale per auto e di cu-\nrare la perfetta miscelazione con l'olio.\nTenere sempre pulito lo sfiato del tappo\nserbatoio miscela.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          342,
+          2901,
+          2796,
+          3381
+        ],
+        "text": "In salita, oltre a non superare le sud-dette velocità max, non si deve viaggiare con piena apertura di gas.",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          358,
+          3398,
+          2791,
+          3554
+        ],
+        "text": "— Dopo i primi 1000 Km. effettuare la",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_10.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5036,
+          3724,
+          5400,
+          3846
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_18/vespa_manual_18_8.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_18.md"
+  },
+  "vespa_manual_19": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3241,
+          246,
+          5669,
+          1614
+        ],
+        "text": "Avviamento. Per avviare il motore\naprire il rubinetto della miscela (le 3\nposizioni \"aperto, chiuso, riserva, so-\nno indicate in fig. 10), porre il cambio\nin posizione di folle (vedi fig. 11),\ntenere la manopola di comando gas\nal minimo ed agire sul pedale della\nmessa in moto.",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          782,
+          590,
+          3005,
+          3115
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3242,
+          1671,
+          5658,
+          2170
+        ],
+        "text": "In caso di difficoltà assicurarsi che il motore non sia ingolfato, cioè che non goccioli miscela dal carburatore.",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3242,
+          2216,
+          5654,
+          2718
+        ],
+        "text": "Se il motore è ingolfato si può provvedere con l'uno o con l'altro dei metodi qui sotto esposti:",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3239,
+          2778,
+          5653,
+          3450
+        ],
+        "text": "Tentare la manovra a spinta: ingranare la seconda, agire sulla frizione e spingendo la moto prendere una certa velocità. Dopo di ciò, lasciare",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_1.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          1064,
+          3251,
+          2695,
+          3360
+        ],
+        "text": "Fig. 10 - Posizioni del rubinello miscela",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_6.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          680,
+          3603,
+          1025,
+          3728
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_4.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_19.md"
+  },
+  "vespa_manual_2": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          2202,
+          403,
+          3578,
+          579
+        ],
+        "text": "PRESENTAZIONE",
+        "crop": "crops/vespa_manual_2/vespa_manual_2_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          393,
+          798,
+          5395,
+          1125
+        ],
+        "text": "La PIAGGIO, accogliendoLa nella famiglia dei Vespisti, La ringrazia per la scelta, sicura che il veicolo sarà di Suo pieno gradimento.",
+        "crop": "crops/vespa_manual_2/vespa_manual_2_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          394,
+          1135,
+          5394,
+          2067
+        ],
+        "text": "Per le sue prerogative (confort, consumo limitato, maneggevolezza, silenziosità, eleganza ecc.), alla Vespa sono infatti aperti i più vasti campi d'impiego, dall'uso per lavoro al turismo, dall'impiego sulle grandi arterie del traffico a quello su piccole strade campestri e sentieri montani; percorsi lunghi e tormentati non La affaticheranno e guidando la Vespa Ella si accerterà subito della bontà delle sue prestazioni.",
+        "crop": "crops/vespa_manual_2/vespa_manual_2_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          387,
+          2085,
+          5387,
+          2569
+        ],
+        "text": "La lettura di questo libretto, nel quale sono riportate le semplici norme per l'uso e la manutenzione del veicolo Le permetterà di meglio conoscere la Sua Vespa e di usarla nella maniera più appropriata.",
+        "crop": "crops/vespa_manual_2/vespa_manual_2_0.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5088,
+          3654,
+          5368,
+          3770
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_2/vespa_manual_2_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_2.md"
+  },
+  "vespa_manual_20": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          304,
+          286,
+          2778,
+          800
+        ],
+        "text": "di colpo la leva della frizione e riagire\nsu di essa appena il motore si è avviato.",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_2.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          3051,
+          585,
+          5210,
+          3234
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          301,
+          876,
+          2782,
+          1927
+        ],
+        "text": "— Chiudere il rubinetto miscela, to-gliere la candela e far compiere al motore alcuni giri azionando la leva di avviamento. Prima di rimontare la candela è bene asciugarla con uno straccio pulito.",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          299,
+          2095,
+          2779,
+          2951
+        ],
+        "text": "Avvertenza. Porre la massima attenzione nel rimontaggio della candela. Imboccarla con la dovuta inclinazione. Avvitarla a mano e bloccarla quindi con la chiave.",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          302,
+          3000,
+          2774,
+          3334
+        ],
+        "text": "Riaprire il rubinetto miscela ed agire\nsulla leva di avviamento.",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_3.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          3494,
+          3368,
+          4779,
+          3484
+        ],
+        "text": "Fig. 11 - Comando del cambio",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          303,
+          3400,
+          2767,
+          3556
+        ],
+        "text": "Se, viceversa, il motore non è ingol-",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5013,
+          3742,
+          5358,
+          3870
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_20/vespa_manual_20_6.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_20.md"
+  },
+  "vespa_manual_21": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3261,
+          268,
+          5665,
+          2854
+        ],
+        "text": "Cambio marce. Avendo raggiunto in 1ª marcia una conveniente velocità, to-gliere repentinamente gas, tirare la leva della frizione e ruotare rapidamente la manopola sinistra sulla posizione di 2ª marcia; quindi lasciare la leva della frizione e ridare immediatamente gas. Procedere analogamente per innestare la 3ª marcia. Per passare da una marcia a quella immediatamente inferiore, si segue un analogo procedimento. Qualora l'utente debba ridurre la ve-lo-cità, non esiti a passare alla marcia inferiore. Vedere lo schema del cambio in fig. 12.",
+        "crop": "crops/vespa_manual_21/vespa_manual_21_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          718,
+          280,
+          3127,
+          1476
+        ],
+        "text": "fato, richiamare miscela al carburatore\npremendo tre o quattro volte il pulsante\nsituato sul coperchio della vaschetta\ndel carburatore stesso, tirare verso l'al-\nto la leva di comando parzializzatore\naria posta sotto la sella e agire nuova-\nmente sul pedale di messa in moto.",
+        "crop": "crops/vespa_manual_21/vespa_manual_21_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          720,
+          1762,
+          3128,
+          3464
+        ],
+        "text": "Partenza. Tenendo il motore al minimo tirare la leva di comando frizione e ruotare la manopola sinistra in modo che la lineetta su di essa incisa venga ad indicare la 1ª marcia (vedi fig. 11). Eseguire ora simultaneamente queste due operazioni: lasciare con dolcezza la leva della frizione e ruotare la manopola destra (comando gas), avviando così la macchina.",
+        "crop": "crops/vespa_manual_21/vespa_manual_21_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3266,
+          3123,
+          5661,
+          3450
+        ],
+        "text": "Avvertenze. Non ruotare la manopola\ncomando cambio a motore spento.",
+        "crop": "crops/vespa_manual_21/vespa_manual_21_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          721,
+          3648,
+          1058,
+          3767
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_21/vespa_manual_21_4.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_21.md"
+  },
+  "vespa_manual_22": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          298,
+          278,
+          2769,
+          1495
+        ],
+        "text": "Qaulora vengano riscontrate irregola-\nrità di funzionamento al comando cam-\nbio ed in particolare l'indurimento nel-\nla manovra, consigliamo l'utente a ri-\nvolgersi, per la registrazione e la messa\na punto, ad una Filiale o ad un'Officina\nautorizzata.",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          2947,
+          807,
+          5624,
+          2681
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          301,
+          1696,
+          2779,
+          2561
+        ],
+        "text": "Pneumatici. Essendo le ruote intercam-\nbiabili, esse possono venire montate\nsia anteriormente che posteriormente,\nbeninteso variando la pressione come\ndi seguito indicato.",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          307,
+          2680,
+          2777,
+          3543
+        ],
+        "text": "In caso di guasto ad un pneumatico, occorre smontare la ruota dalla moto svitando e togliendo i quattro dadi che la fissano al tamburo del freno, e standola lateralmente affinché esca dai",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_1.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          3502,
+          2773,
+          4706,
+          2888
+        ],
+        "text": "Fig. 12 - Scheme del cambio",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2873,
+          2935,
+          5366,
+          3378
+        ],
+        "text": "1. Frizione - 2. Ingranaggio frizione - 3. Al comando cambio 4. Stelo della crociera - 5. Crociera del cambio - 6. Ingranaggio 1.a velocità - 7. Ingranaggio 2.a velocità - 8. Ingranaggio 3.a velocità - 9. Albero porta ingranaggi e ruota - 10. Ingr. elastico",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_6.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5020,
+          3711,
+          5365,
+          3836
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_22/vespa_manual_22_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_22.md"
+  },
+  "vespa_manual_23": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3262,
+          241,
+          5686,
+          735
+        ],
+        "text": "4 prigionieri, provvedere quindi alla sua riparazione o alla sua sostituzione con la ruota di scorta.",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3261,
+          848,
+          5680,
+          1699
+        ],
+        "text": "Avvertenza. Al rimontaggio della ruota bloccare alternativamente (in diagonale) e progressivamente i quattro dadi. Curare che le rondelle elastiche siano al loro posto.",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_1.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          752,
+          1072,
+          3121,
+          2545
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3255,
+          1818,
+          5676,
+          2843
+        ],
+        "text": "Per liberare il pneumatico occorre anzitutto sgonfiarlo: quindi svitare i sei dadi che uniscono il cerchione con l'anello di chiusura, toglierli unitamente alle relative rondelle e separare questi ultimi (vedi fig. 13).",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_0.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          1249,
+          2643,
+          2593,
+          2752
+        ],
+        "text": "Fig. 13 - Smonteggio pneumatico",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3253,
+          2944,
+          5680,
+          3449
+        ],
+        "text": "La pressione deve essere tenuta a 1.25 Kg./cmq. per la gomma posteriore e 0,8 Kg./cmq. per quella anteriore.",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          709,
+          3603,
+          1063,
+          3729
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_23/vespa_manual_23_4.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_23.md"
+  },
+  "vespa_manual_24": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          279,
+          276,
+          2775,
+          982
+        ],
+        "text": "Qualora la moto venga impiegata per trasporto di due persone, aumentare la pressione della gomma posteriore a 1.8 - 2 Kg./cmq.",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          3052,
+          315,
+          5133,
+          3293
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          282,
+          1058,
+          2770,
+          1384
+        ],
+        "text": "Arresto del motore : Premere il botto-\nne di massa.",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_9.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          283,
+          1415,
+          2771,
+          1754
+        ],
+        "text": "Rimane nel cilindro miscela carburata che facilita il successivo avviamento.",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          286,
+          1820,
+          2774,
+          2322
+        ],
+        "text": "Registrazione dei freni. Per ottenere un buon funzionamento dei freni occorre che:",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          287,
+          2354,
+          2774,
+          2864
+        ],
+        "text": "— la ruota giri liberamente quando il pedalino o la leva di comando sono in posizione di riposo.",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          289,
+          2891,
+          2764,
+          3220
+        ],
+        "text": "— l'azione frenante inizi appena si agisce sul rispettivo comando.",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          289,
+          3238,
+          2770,
+          3572
+        ],
+        "text": "Queste condizioni si raggiungono re-\ngolando i comandi mediante gli appo-",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_7.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          3569,
+          3380,
+          4728,
+          3496
+        ],
+        "text": "Fig. 14 - Registrazione jreni",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_5.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5044,
+          3749,
+          5381,
+          3878
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_24/vespa_manual_24_6.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_24.md"
+  },
+  "vespa_manual_25": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3238,
+          263,
+          5663,
+          738
+        ],
+        "text": "tando la vite premente sul coperchio del corpo del carburatore. Per innalzare il minimo, avvitare; per abbassarlo svitare.",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          680,
+          264,
+          3104,
+          740
+        ],
+        "text": "siti registri indicati con freccia alla fig. 15.\n\nRegistrazione minimo. È eseguibile\nsenza alcun attrezzo avvitando e svi-",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_3.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2171,
+          814,
+          4179,
+          998
+        ],
+        "text": "MANUTENZIONE",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3245,
+          1060,
+          5662,
+          1800
+        ],
+        "text": "verificare il livello dell'olio nella\nscatola del cambio svitando il tappo\nportante la dicitura «OLIO». Il livello\ndell'olio a moto diritta deve sfiorare\nil foro (vedi fig. 15).",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          691,
+          1066,
+          3113,
+          2387
+        ],
+        "text": "Pulizia della moto. Per la pulizia esterna del motore è bene servirsi di petrolio, di pennello e stracci puliti per asciugare. Tutte le parti verniciate vanno invece lavate con acqua, usando una spugna per detergere e pelle scamosciata per asciugare. È dannoso per la vernice usare petrolio: ciò la rende opaca e la deteriora.",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3248,
+          1817,
+          5662,
+          2534
+        ],
+        "text": "Inoltre porre la massima attenzione, che\nla batteria abbia gli l'attacchi contradi-\nstinti coi segni + (positivo) e — (ne-\ngativo) collegati con i cavetti rispetti-\nvamente di colore verde e nero.",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          695,
+          2408,
+          3117,
+          3291
+        ],
+        "text": "Qualora si debba pulire la parabola riflettente del faro, adoperare un soffio di aria oppure un piumino molto morbido. Evitare la strofinatura con panno e porre attenzione di non toccare con le dita la superficie.",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3256,
+          2549,
+          5662,
+          3130
+        ],
+        "text": "L'errato collegamento rende rapidamente inefficiente il raddrizzatore, danneggiando irreparabilmente la batteria.",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_10.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3269,
+          3172,
+          5667,
+          3462
+        ],
+        "text": "Curare che i tappi siano bene avvitati e che non cadano corpi estranei nelle cella",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          698,
+          3320,
+          3121,
+          3463
+        ],
+        "text": "Prima di mettere in servizio la moto:",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_6.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          698,
+          3647,
+          1040,
+          3767
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_25/vespa_manual_25_9.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_25.md"
+  },
+  "vespa_manual_26": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          288,
+          313,
+          1853,
+          465
+        ],
+        "text": "Dopo i primi 1000 km.:",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          287,
+          473,
+          2742,
+          1903
+        ],
+        "text": "Sostituire l'olio del cambio. L'operazione deve essere eseguita a motore caldo. Prima di introdurre il quantitativo di olio nuovo, circa 140 g. (fino a sfiorare il foro di carico), immettere un pò di olio fresco, far girare il motore per alcuni secondi e vuotare nuovamente il carter attraverso il foro di scarico (fig. 15).",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          2945,
+          697,
+          5176,
+          3202
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_1.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          294,
+          1935,
+          1346,
+          2085
+        ],
+        "text": "Ogni 2000 Km.:",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          287,
+          2103,
+          2739,
+          2726
+        ],
+        "text": "1) Smontare il filtro aria e pulirlo agitandolo in bagno di benzina-olio al 30%.\n\n2) Verificare il livello dell'olio nella scatola del cambio.",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          288,
+          2755,
+          2736,
+          3060
+        ],
+        "text": "3) Pulire e riempire gli ingrassatori del\nmozzo anteriore.",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_9.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          287,
+          3080,
+          2728,
+          3387
+        ],
+        "text": "4) Ingrassare tutte le levette di comando freno e il settore comando cambio.",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_8.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          3436,
+          3296,
+          4720,
+          3412
+        ],
+        "text": "Fig. 15 - Livello olio nel cartoncino.",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          281,
+          3404,
+          2718,
+          3558
+        ],
+        "text": "5) Pulire con tela finissima o apposite li-",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_7.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          4961,
+          3746,
+          5302,
+          3870
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_2.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_26.md"
+  },
+  "vespa_manual_27": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          3236,
+          291,
+          5679,
+          1102
+        ],
+        "text": "mette gli elettrodi della candela e regi-\nstrarli (0,6 mm.). Verificare lo stato dell’i-\nsolante della candela: se si riscontrano\ncrepe o rotture sostituire quest’ultima.\nUsare benzina pura per pulire.",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_0.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          766,
+          509,
+          3009,
+          3071
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3241,
+          1131,
+          5677,
+          1440
+        ],
+        "text": "Si consiglia di non cambiare il tipo\ndi candela montata dalla Ditta.",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3245,
+          1457,
+          5690,
+          2410
+        ],
+        "text": "Si ricorridi che molti inconvenienti al所得税e possono essere evitati con l'uso costante di un tipo adatto di candela. N. B. - Consigliamo i Clienti di fare eseguire dalle Stazioni di Servizio le operazioni elencate qui di seguito.",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3242,
+          2419,
+          5694,
+          3529
+        ],
+        "text": "6) Registrare (0,4 mm.) e pulire le puntine platinate del volano magnete (fig. 16).\n7) Pulire la marmitta e disincrostare il motore come indicato qui di seguito.\nSmontare marmitta, cuffia di raffreddamento, testa del cilindro e cilindro. Pulire la testa del pistone dalle incrostazioni.",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_5.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          1022,
+          3259,
+          2751,
+          3368
+        ],
+        "text": "Fig. 16 - Registrazione punline del ruttore",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_3.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          674,
+          3713,
+          1028,
+          3837
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_27/vespa_manual_27_4.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_27.md"
+  },
+  "vespa_manual_28": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          2834,
+          233,
+          5311,
+          1203
+        ],
+        "text": "# Manutenzione batteria\nPer la manutenzione e la ricarica normale al banco della batteria, seguire le norme riportate sul cartellino di garanzia della medesima.\n\n## Lunga inattività.\nSi consiglia di effettuare le seguenti operazioni:",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          244,
+          250,
+          2711,
+          2022
+        ],
+        "text": "ni e disincrostare le luci del cilindro. Fare attenzione che residui carboniosi non rimangano nell'interno del cilindro. Disincrostare il tubo di scarico della marmitta mediante un filo di ferro ripiegato ad un-cino, oppure con un getto di aria com-pressa immesso dal bocchettone di fissaggio del cilindro, previo riscaldamento del terminale stesso. Tenere comunque il tubo di scarico della marmitta rivolto verso il basso.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2837,
+          1216,
+          5315,
+          2016
+        ],
+        "text": "1) Pulizia generale della moto (pag. 26).\n\n2) Col motore acceso ed a basso regime immettere attraverso il diffusore del carburetore (previo smontaggio della presa d'aria) 60 c.c. di olio Essolube 30.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2858,
+          2033,
+          5325,
+          2830
+        ],
+        "text": "(3) Sollevare da terra le ruote appoggian-\ndo la pedana su due tacchetti di legno in\nmodo che ipneumatico nontocchinoterra.\n4) Vuotare del carburante il serbatoio\ne il carburatore.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_9.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          252,
+          2056,
+          1303,
+          2201
+        ],
+        "text": "Ogni 3000 km.:",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          257,
+          2218,
+          2714,
+          2526
+        ],
+        "text": "Lubrificare il feltro strisciante sulla\ncamma del volano magnete.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          255,
+          2718,
+          2716,
+          3024
+        ],
+        "text": "Lubrificare l'attacco del contachilometri e la relativa trasmissione.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_10.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2857,
+          2863,
+          5325,
+          3171
+        ],
+        "text": "5) Spalmare di grasso antiruggine tutte le parti metalliche non verniciate.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          263,
+          3046,
+          2727,
+          3516
+        ],
+        "text": "In caso di inconvenienti agli ammor-\ntizzatori, si consiglia di rivolgersi alle\nStazioni di Servizio.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2860,
+          3189,
+          5326,
+          3501
+        ],
+        "text": "6) Distaccare i fili che fanno capo alla batteria, pulire gli attacchi ed asciugarli.",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_7.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          4985,
+          3660,
+          5327,
+          3779
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_28/vespa_manual_28_2.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_28.md"
+  },
+  "vespa_manual_29": {
+    "elements": [
+      {
+        "label": "abandon",
+        "bbox": [
+          2196,
+          228,
+          4263,
+          377
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_29/vespa_manual_29_2.png"
+      },
+      {
+        "label": "table",
+        "bbox": [
+          729,
+          401,
+          5761,
+          3426
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_29/vespa_manual_29_0.png",
+        "table": {
+          "tsv": "tables/vespa_manual_29/vespa_manual_29_0.tsv",
+          "html": "tables/vespa_manual_29/vespa_manual_29_0.html",
+          "rows": [
+            [
+              "<table>"
+            ],
+            [
+              "<thead>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<th style=\"text-align: center; font-weight: bold;\">GRUPPO DA LUBRIFICARE</th>"
+            ],
+            [
+              "<th style=\"text-align: center; font-weight: bold;\">LUBRIFICANTI</th>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<th style=\"text-align: left; font-weight: normal;\">Ogni 2000 Km.</th>"
+            ],
+            [
+              "<th style=\"text-align: left; font-weight: normal;\">Ogni 3000 Km.</th>"
+            ],
+            [
+              "<th style=\"text-align: left; font-weight: normal;\">Ogni 6000 Km.</th>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</thead>"
+            ],
+            [
+              "<tbody>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Cambio</td>"
+            ],
+            [
+              "<td rowspan=\"2\" colspan=\"2\"></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Settore cambio</td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Articolazione<br>levette freno</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Sospensione<br>anteriore</td>"
+            ],
+            [
+              "<td>Cavetti dei comandi<br>Feltro del volano</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Motore: ad ogni rifornimento (lubrificazione effettuata<br>dalla miscela)</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td>Trasmissione e rin-<br>vio contachilometri</td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Ammortizzatori<br>anter. e poster.</td>"
+            ],
+            [
+              "<td colspan=\"2\"> solo in caso di inefficienza </td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</tbody>"
+            ],
+            [
+              "</table>"
+            ],
+            [
+              "Essolube 30"
+            ],
+            [
+              "Esso Chassis Grease ‘L.’"
+            ],
+            [
+              "Esso Chassis Grease ‘L.’"
+            ],
+            [
+              "Esso Bearing Grease"
+            ],
+            [
+              "Esso Chassis Grease ‘L’"
+            ],
+            [
+              "Esso Bearing Grease"
+            ],
+            [
+              "Esso Bearing Grease"
+            ],
+            [
+              "Essolube 30"
+            ],
+            [
+              "Esso Univis 54"
+            ]
+          ],
+          "raw_text": "<table>\n  <thead>\n    <tr>\n      <th style=\"text-align: center; font-weight: bold;\">GRUPPO DA LUBRIFICARE</th>\n      <th style=\"text-align: center; font-weight: bold;\">LUBRIFICANTI</th>\n    </tr>\n    <tr>\n      <th style=\"text-align: left; font-weight: normal;\">Ogni 2000 Km.</th>\n      <th style=\"text-align: left; font-weight: normal;\">Ogni 3000 Km.</th>\n      <th style=\"text-align: left; font-weight: normal;\">Ogni 6000 Km.</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Cambio</td>\n      <td rowspan=\"2\" colspan=\"2\"></td>\n    </tr>\n    <tr>\n      <td>Settore cambio</td>\n    </tr>\n    <tr>\n      <td>Articolazione<br>levette freno</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Sospensione<br>anteriore</td>\n      <td>Cavetti dei comandi<br>Feltro del volano</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Motore: ad ogni rifornimento (lubrificazione effettuata<br>dalla miscela)</td>\n      <td></td>\n      <td>Trasmissione e rin-<br>vio contachilometri</td>\n    </tr>\n    <tr>\n      <td>Ammortizzatori<br>anter. e poster.</td>\n      <td colspan=\"2\"> solo in caso di inefficienza </td>\n    </tr>\n  </tbody>\n</table>\n\nEssolube 30\n\nEsso Chassis Grease ‘L.’\n\nEsso Chassis Grease ‘L.’\n\nEsso Bearing Grease\n\nEsso Chassis Grease ‘L’\n\nEsso Bearing Grease\n\nEsso Bearing Grease\n\nEssolube 30\n\nEsso Univis 54"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          738,
+          3633,
+          1078,
+          3757
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_29/vespa_manual_29_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_29.md"
+  },
+  "vespa_manual_3": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          583,
+          33,
+          5670,
+          3586
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_3/vespa_manual_3_0.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          2598,
+          3709,
+          3616,
+          3817
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_3/vespa_manual_3_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_3.md"
+  },
+  "vespa_manual_30": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          406,
+          93,
+          5201,
+          3761
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_30/vespa_manual_30_0.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          2080,
+          3794,
+          3609,
+          3911
+        ],
+        "text": "Fig. 17 - Scheme della lubrification",
+        "crop": "crops/vespa_manual_30/vespa_manual_30_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_30.md"
+  },
+  "vespa_manual_31": {
+    "elements": [
+      {
+        "label": "title",
+        "bbox": [
+          688,
+          375,
+          5685,
+          541
+        ],
+        "text": "RICERCA DEI GUASTI E DELLE IRREGOLARITÀ DI FUNZIONAMENTO",
+        "crop": "crops/vespa_manual_31/vespa_manual_31_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          685,
+          599,
+          5698,
+          831
+        ],
+        "text": "Quando la moto presenti irregolarità di funzionamento, occorre eseguire, i seguenti controlli e provvedere come a lato indicato.",
+        "crop": "crops/vespa_manual_31/vespa_manual_31_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          685,
+          853,
+          5701,
+          1186
+        ],
+        "text": "In caso che, pur avendo attuato i provvedimenti indicati, l'inconveniente persista, consigliamo il cliente\na rivolgersi alle officine delle Agenzie di vendita le quali dispongono dell'attrezzatura necessaria per\nl'appropriata esecuzione di qualsiasi riparazione e messa a punto.",
+        "crop": "crops/vespa_manual_31/vespa_manual_31_1.png"
+      },
+      {
+        "label": "table",
+        "bbox": [
+          695,
+          1212,
+          5686,
+          3670
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_31/vespa_manual_31_0.png",
+        "table": {
+          "tsv": "tables/vespa_manual_31/vespa_manual_31_0.tsv",
+          "html": "tables/vespa_manual_31/vespa_manual_31_0.html",
+          "rows": [
+            [
+              "<table><thead><tr><th>Ricerca e individuazione dell'inconveniente</th><th>Provvedimenti</th><th>Esecuzione</th></tr></thead></table>\""
+            ],
+            [
+              "<table><tr><td>DIFFICOLA D'AVVIAMENTO<br>1 - Alimentazione<br>Moncanza miscela nel serbatoio<br>Miscela che non arriva al carburatore quando il rubinetto è in posizione di aperto, oppure riservo.<br><br>Filtro sul decentatore<br>Filtro sul carburatore<br>Corpo del rubinetto<br>Corpo del carburatore<br>Getto<br>Polverizzatore<br>Tubo fra decentatore e carb.<br><br>Asticino del galleggiante bloccata nella sua sede<br>2 - Carburazione<br>Motore ingolfato</td><td><p>Inserire la riserva. Rifornimento oppena possibile</p><p>a) Tenere l'agitatore premuto in basso sino a fare uscire un po' di miscela</p><p>b) Nell'incertezza del risultato dell'operazione precedente, svitare e togliere il getto. Dal suo alloggio uscira miscela se il circuito di alimentazione è efficiente.</p><p>c) Pulire il getto con aria compressa.</p><p>Smontare e lavare in benzina. Asciugare con un getto di aria compressa.</p><p>Disimpegnarlo</p><p>Vedere pag. 20</p></td><td></td></tr></table>\"}, {\"bbox\": [2099, 2195, 2757, 2301], \"category\": \"Text\", \"text\": \"Vedere pag. 20\"}]"
+            ]
+          ],
+          "raw_text": "<table><thead><tr><th>Ricerca e individuazione dell'inconveniente</th><th>Provvedimenti</th><th>Esecuzione</th></tr></thead></table>\"\n\n<table><tr><td>DIFFICOLA D'AVVIAMENTO<br>1 - Alimentazione<br>Moncanza miscela nel serbatoio<br>Miscela che non arriva al carburatore quando il rubinetto è in posizione di aperto, oppure riservo.<br><br>Filtro sul decentatore<br>Filtro sul carburatore<br>Corpo del rubinetto<br>Corpo del carburatore<br>Getto<br>Polverizzatore<br>Tubo fra decentatore e carb.<br><br>Asticino del galleggiante bloccata nella sua sede<br>2 - Carburazione<br>Motore ingolfato</td><td><p>Inserire la riserva. Rifornimento oppena possibile</p><p>a) Tenere l'agitatore premuto in basso sino a fare uscire un po' di miscela</p><p>b) Nell'incertezza del risultato dell'operazione precedente, svitare e togliere il getto. Dal suo alloggio uscira miscela se il circuito di alimentazione è efficiente.</p><p>c) Pulire il getto con aria compressa.</p><p>Smontare e lavare in benzina. Asciugare con un getto di aria compressa.</p><p>Disimpegnarlo</p><p>Vedere pag. 20</p></td><td></td></tr></table>\"}, {\"bbox\": [2099, 2195, 2757, 2301], \"category\": \"Text\", \"text\": \"Vedere pag. 20\"}]"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          673,
+          3683,
+          1015,
+          3806
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_31/vespa_manual_31_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_31.md"
+  },
+  "vespa_manual_32": {
+    "elements": [
+      {
+        "label": "table",
+        "bbox": [
+          256,
+          351,
+          5358,
+          3666
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_32/vespa_manual_32_0.png",
+        "table": {
+          "tsv": "tables/vespa_manual_32/vespa_manual_32_0.tsv",
+          "html": "tables/vespa_manual_32/vespa_manual_32_0.html",
+          "rows": [
+            [
+              "<table>"
+            ],
+            [
+              "<thead>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<th>Ricerca e individuazione dell'inconveniente</th>"
+            ],
+            [
+              "<th>Provvedimenti</th>"
+            ],
+            [
+              "<th>Esecuzione</th>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</thead>"
+            ],
+            [
+              "<tbody>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Agitatore bloccato in basso<br/>"
+            ],
+            [
+              "Galleggiante forato<br/>"
+            ],
+            [
+              "Filtro aria otturoto o sporco<br/>"
+            ],
+            [
+              "Porzellanizzatore aria fisso in posizione di chiuso.<br/>"
+            ],
+            [
+              "Carburatore montato in posizione errata"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Disimpegnarlo<br/>"
+            ],
+            [
+              "Sostituire *<br/>"
+            ],
+            [
+              "Vedere pag. 27, n. 1<br/>"
+            ],
+            [
+              "Sbloccare<br/>"
+            ],
+            [
+              "Portare la vaschetta in posizione verticale"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>3 - Accensione</strong>"
+            ],
+            [
+              "<br/><br/>"
+            ],
+            [
+              "<strong>Candela sporca</strong>"
+            ],
+            [
+              "<br/>"
+            ],
+            [
+              "Isolante della candela rotto<br/>"
+            ],
+            [
+              "Puntine del ruttore sporche<br/>"
+            ],
+            [
+              "Puntine del ruttore mal registrate<br/>"
+            ],
+            [
+              "Puntine del ruttore consumate o bucherellate<br/>"
+            ],
+            [
+              "Fasatura irregolare"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Distaccare il cavo dalla candela e controllare se azionando lo levo di avviamento, scocca la scintilla fra l'estremità del cavo e la massa.<br/>"
+            ],
+            [
+              "Pulire e registrare la distanza (mm. 0.6) fra gli elettrodi (ved. pag. 28)<br/>"
+            ],
+            [
+              "Sostituire la candela (ved. pag. 28)<br/>"
+            ],
+            [
+              "Pulire con apposite limette o carti abrasivi *<br/>"
+            ],
+            [
+              "Correggere l'intervallo o mm. 0.4 *<br/>"
+            ],
+            [
+              "Sostituire *<br/>"
+            ],
+            [
+              "Correggere *"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>* Agenzie di vendita</td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>IRREGOLARITÀ VARIE DI FUNZIONAMENTO</strong>"
+            ],
+            [
+              "<br/><br/>"
+            ],
+            [
+              "<strong>1 - Scorso rendimento</strong>"
+            ],
+            [
+              "<br/>"
+            ],
+            [
+              "Marmitto incrostato<br/>"
+            ],
+            [
+              "Raccordo di ommissione allentato"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Pulire (ved. pag. 28)<br/>"
+            ],
+            [
+              "Sostituire la guarnizione fra raccordo e cilindro<br/>"
+            ],
+            [
+              "Serrare i dadi sui prigionieri del cilindro."
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Luce di scarico ostruito da incrostazioni<br/>"
+            ],
+            [
+              "Guarnizione fra cilindro e carte inefficiente"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Disincrostare cilindro, testo e pistone *<br/>"
+            ],
+            [
+              "Sostituire *"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>2 - Scarsa compressione</strong>"
+            ],
+            [
+              "<br/>"
+            ],
+            [
+              "<strong>Candela non tene avvitato sulla testa del cilindro</strong>"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Stringere con chiave da 21"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</tbody>"
+            ],
+            [
+              "</table>"
+            ]
+          ],
+          "raw_text": "<table>\n  <thead>\n    <tr>\n      <th>Ricerca e individuazione dell'inconveniente</th>\n      <th>Provvedimenti</th>\n      <th>Esecuzione</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>\n        Agitatore bloccato in basso<br/>\n        Galleggiante forato<br/>\n        Filtro aria otturoto o sporco<br/>\n        Porzellanizzatore aria fisso in posizione di chiuso.<br/>\n        Carburatore montato in posizione errata\n      </td>\n      <td>\n        Disimpegnarlo<br/>\n        Sostituire *<br/>\n        Vedere pag. 27, n. 1<br/>\n        Sbloccare<br/>\n        Portare la vaschetta in posizione verticale\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <strong>3 - Accensione</strong>\n        <br/><br/>\n        <strong>Candela sporca</strong>\n        <br/>\n        Isolante della candela rotto<br/>\n        Puntine del ruttore sporche<br/>\n        Puntine del ruttore mal registrate<br/>\n        Puntine del ruttore consumate o bucherellate<br/>\n        Fasatura irregolare\n      </td>\n      <td>\n        Distaccare il cavo dalla candela e controllare se azionando lo levo di avviamento, scocca la scintilla fra l'estremità del cavo e la massa.<br/>\n        Pulire e registrare la distanza (mm. 0.6) fra gli elettrodi (ved. pag. 28)<br/>\n        Sostituire la candela (ved. pag. 28)<br/>\n        Pulire con apposite limette o carti abrasivi *<br/>\n        Correggere l'intervallo o mm. 0.4 *<br/>\n        Sostituire *<br/>\n        Correggere *\n      </td>\n      <td>* Agenzie di vendita</td>\n    </tr>\n    <tr>\n      <td>\n        <strong>IRREGOLARITÀ VARIE DI FUNZIONAMENTO</strong>\n        <br/><br/>\n        <strong>1 - Scorso rendimento</strong>\n        <br/>\n        Marmitto incrostato<br/>\n        Raccordo di ommissione allentato\n      </td>\n      <td>\n        Pulire (ved. pag. 28)<br/>\n        Sostituire la guarnizione fra raccordo e cilindro<br/>\n        Serrare i dadi sui prigionieri del cilindro.\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        Luce di scarico ostruito da incrostazioni<br/>\n        Guarnizione fra cilindro e carte inefficiente\n      </td>\n      <td>\n        Disincrostare cilindro, testo e pistone *<br/>\n        Sostituire *\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <strong>2 - Scarsa compressione</strong>\n        <br/>\n        <strong>Candela non tene avvitato sulla testa del cilindro</strong>\n      </td>\n      <td>\n        Stringere con chiave da 21\n      </td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          4968,
+          3687,
+          5334,
+          3816
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_32/vespa_manual_32_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_32.md"
+  },
+  "vespa_manual_33": {
+    "elements": [
+      {
+        "label": "table",
+        "bbox": [
+          709,
+          337,
+          5750,
+          3624
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_33/vespa_manual_33_0.png",
+        "table": {
+          "tsv": "tables/vespa_manual_33/vespa_manual_33_0.tsv",
+          "html": "tables/vespa_manual_33/vespa_manual_33_0.html",
+          "rows": [
+            [
+              "<table><thead><tr><th>Ricerca e individuazione dell'inconveniente</th><th>Provvedimenti</th><th>Esecuzione</th></tr></thead><tbody><tr><td><strong>Errato accopplamento testa-cilindro</strong><br>Guarnizione di romo inefficiente<br>Fasce elastiche incollate</td><td>Piazzore bene la testa nell'apposito alloggiamento sulla sommità del cilindro. Stringere fortemente ed uniformemente i dadi.<br>Sostituire<br>Pulire le fasce e le gole del pistone *</td><td><em>* Agenzie di vendita</em></td></tr><tr><td><strong>3 - Scoppi allo scarico e nel carburatore</strong><br>Candela incrostata o con elettrodi troppo distanti<br>Formazione di perline sull'isolante<br>Pre-accensione</td><td>Sostit. o pulire contr. la distanza tra gli etettr. (0.6)**<br>Pulire<br>Controllare l'esattezza del punto di accensione *</td><td><em>** Usare spaziolino metallico o cartosmerigliato.</em></td></tr><tr><td>Vite di fermo del condensatore allentata<br>Puntina del ruttore allentata<br>Insufficiente afflusso di miscela al carburatore</td><td>*</td><td></td></tr><tr><td><strong>4 - Cattivo funzionamento frizione</strong><br>a) Innesto brusco<br>Dischi bombati in acciaio male orientati<br>Ingranaggi del cambio non sufficient. lubrific.<br>b) Slittamento<br>Molle scariche<br>Dischi con taselli di sughero logorati o bruciati<br>c) Disinnesto incompleto<br>Giuoco eccessivo al cavo di comando<br>Curvatura eccessiva dei dischi bombati</td><td>Mont. con la convessità rivolta verso gli scodellini delle molle *</td><td></td></tr><tr><td><strong>5 - Disinnesto spontaneo delle marme</strong><br>Cavi comando cambio mole regolati</td><td>Ristabilire il livello. e controllare l'avvitamento del tappo nel foro di scarico (ved. fig. 15)<br>Sostituire *</td><td></td></tr><tr><td>Sostituire i dischi e le molle *</td><td></td><td></td></tr><tr><td>Registrare *</td><td></td><td></td></tr><tr><td>Sostituire *</td><td></td><td></td></tr><tr><td>Registrare *</td><td></td><td></td></tr></tbody></table>"
+            ]
+          ],
+          "raw_text": "<table><thead><tr><th>Ricerca e individuazione dell'inconveniente</th><th>Provvedimenti</th><th>Esecuzione</th></tr></thead><tbody><tr><td><strong>Errato accopplamento testa-cilindro</strong><br>Guarnizione di romo inefficiente<br>Fasce elastiche incollate</td><td>Piazzore bene la testa nell'apposito alloggiamento sulla sommità del cilindro. Stringere fortemente ed uniformemente i dadi.<br>Sostituire<br>Pulire le fasce e le gole del pistone *</td><td><em>* Agenzie di vendita</em></td></tr><tr><td><strong>3 - Scoppi allo scarico e nel carburatore</strong><br>Candela incrostata o con elettrodi troppo distanti<br>Formazione di perline sull'isolante<br>Pre-accensione</td><td>Sostit. o pulire contr. la distanza tra gli etettr. (0.6)**<br>Pulire<br>Controllare l'esattezza del punto di accensione *</td><td><em>** Usare spaziolino metallico o cartosmerigliato.</em></td></tr><tr><td>Vite di fermo del condensatore allentata<br>Puntina del ruttore allentata<br>Insufficiente afflusso di miscela al carburatore</td><td>*</td><td></td></tr><tr><td><strong>4 - Cattivo funzionamento frizione</strong><br>a) Innesto brusco<br>Dischi bombati in acciaio male orientati<br>Ingranaggi del cambio non sufficient. lubrific.<br>b) Slittamento<br>Molle scariche<br>Dischi con taselli di sughero logorati o bruciati<br>c) Disinnesto incompleto<br>Giuoco eccessivo al cavo di comando<br>Curvatura eccessiva dei dischi bombati</td><td>Mont. con la convessità rivolta verso gli scodellini delle molle *</td><td></td></tr><tr><td><strong>5 - Disinnesto spontaneo delle marme</strong><br>Cavi comando cambio mole regolati</td><td>Ristabilire il livello. e controllare l'avvitamento del tappo nel foro di scarico (ved. fig. 15)<br>Sostituire *</td><td></td></tr><tr><td>Sostituire i dischi e le molle *</td><td></td><td></td></tr><tr><td>Registrare *</td><td></td><td></td></tr><tr><td>Sostituire *</td><td></td><td></td></tr><tr><td>Registrare *</td><td></td><td></td></tr></tbody></table>"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          691,
+          3649,
+          1036,
+          3769
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_33/vespa_manual_33_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_33.md"
+  },
+  "vespa_manual_34": {
+    "elements": [
+      {
+        "label": "table",
+        "bbox": [
+          317,
+          370,
+          5345,
+          3641
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_34/vespa_manual_34_1.png",
+        "table": {
+          "tsv": "tables/vespa_manual_34/vespa_manual_34_1.tsv",
+          "html": "tables/vespa_manual_34/vespa_manual_34_1.html",
+          "rows": [
+            [
+              "<table>"
+            ],
+            [
+              "<thead>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<th>Ricerca e individuazione dell'inconveniente</th>"
+            ],
+            [
+              "<th>Provvedimenti</th>"
+            ],
+            [
+              "<th>Esecuzione</th>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</thead>"
+            ],
+            [
+              "<tbody>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Settore comando cambio allentato sul cartel</td>"
+            ],
+            [
+              "<td>Avvitare a fondo le viti</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Molla del settore smarrita, rotta o scarica</td>"
+            ],
+            [
+              "<td>Rimpiazzare o sostituire</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Giuoco eccessivo oppure errato orientamento della levetta interna comando cambio</td>"
+            ],
+            [
+              "<td>Sostituire *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Bracci della crociera smussati</td>"
+            ],
+            [
+              "<td>Sostituire *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Risalti interni degli ingranogli smussati</td>"
+            ],
+            [
+              "<td>Sostituire *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td><b>6 - Mancato innesto del gruppo messa in moto</b></td>"
+            ],
+            [
+              "<td><b>Rivolgersi alle Agenzie di vendita</b></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td><b>7 - Consumo elevato</b></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>I - Livello miscelo troppo alto nel carbureatore</td>"
+            ],
+            [
+              "<td>Sbloccare.</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>a) Agitatore bloccato in basso</td>"
+            ],
+            [
+              "<td>Sostituire *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>b) Galleggiante forato</td>"
+            ],
+            [
+              "<td>Sostituire</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>c) Scarso tenuta dell'ostino del galleggiante</td>"
+            ],
+            [
+              "<td>Pulire o sostituire l'astino ed il coperchio voschetto</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>II - Filtro aria otturato o sporco parzializzato o aria fisso in posizione di chiuso, o non completamente aperto</td>"
+            ],
+            [
+              "<td>Lavare con benzino puro, asciugare con aria compressa. Immergerlo in un bagno benzina-olio al 30%</td>"
+            ],
+            [
+              "<td>* Agenzie di vendita</td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td>Sbloccare. Lubrificare la levetta sul retro della scatola del filtro</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>III - Alterato il diam. del foro del getto massimo</td>"
+            ],
+            [
+              "<td>Sostituirelo con getto regolamentare</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>IV - Accensione ritardata</td>"
+            ],
+            [
+              "<td>Mettere in fase *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>V - Scarso compressione</td>"
+            ],
+            [
+              "<td>Vedere paragrafo n. 2</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td><b>8 - Difettoso funzionamento comand</b></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Cavetti ossidati nelle guaine</td>"
+            ],
+            [
+              "<td>Lubrificare o eventualmente, sostituire *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Eccessivo giuoco</td>"
+            ],
+            [
+              "<td>Registrare *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td><b>9 - Indurimento sterzo</b></td>"
+            ],
+            [
+              "<td>Allentare ghiera superiore cuscinetto superiore *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td>Sostituire le sedi inferiori del cuscinetti *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td><b>10 - Eccessivo giuoco sterzo</b></td>"
+            ],
+            [
+              "<td>Stringere lo ghiera superiore cuscin. superiore *</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</tbody>"
+            ],
+            [
+              "</table>"
+            ]
+          ],
+          "raw_text": "<table>\n  <thead>\n    <tr>\n      <th>Ricerca e individuazione dell'inconveniente</th>\n      <th>Provvedimenti</th>\n      <th>Esecuzione</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Settore comando cambio allentato sul cartel</td>\n      <td>Avvitare a fondo le viti</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Molla del settore smarrita, rotta o scarica</td>\n      <td>Rimpiazzare o sostituire</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Giuoco eccessivo oppure errato orientamento della levetta interna comando cambio</td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Bracci della crociera smussati</td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Risalti interni degli ingranogli smussati</td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td><b>6 - Mancato innesto del gruppo messa in moto</b></td>\n      <td><b>Rivolgersi alle Agenzie di vendita</b></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td><b>7 - Consumo elevato</b></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>I - Livello miscelo troppo alto nel carbureatore</td>\n      <td>Sbloccare.</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>a) Agitatore bloccato in basso</td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>b) Galleggiante forato</td>\n      <td>Sostituire</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>c) Scarso tenuta dell'ostino del galleggiante</td>\n      <td>Pulire o sostituire l'astino ed il coperchio voschetto</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>II - Filtro aria otturato o sporco parzializzato o aria fisso in posizione di chiuso, o non completamente aperto</td>\n      <td>Lavare con benzino puro, asciugare con aria compressa. Immergerlo in un bagno benzina-olio al 30%</td>\n      <td>* Agenzie di vendita</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Sbloccare. Lubrificare la levetta sul retro della scatola del filtro</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>III - Alterato il diam. del foro del getto massimo</td>\n      <td>Sostituirelo con getto regolamentare</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>IV - Accensione ritardata</td>\n      <td>Mettere in fase *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>V - Scarso compressione</td>\n      <td>Vedere paragrafo n. 2</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td><b>8 - Difettoso funzionamento comand</b></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Cavetti ossidati nelle guaine</td>\n      <td>Lubrificare o eventualmente, sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Eccessivo giuoco</td>\n      <td>Registrare *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td><b>9 - Indurimento sterzo</b></td>\n      <td>Allentare ghiera superiore cuscinetto superiore *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Sostituire le sedi inferiori del cuscinetti *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td><b>10 - Eccessivo giuoco sterzo</b></td>\n      <td>Stringere lo ghiera superiore cuscin. superiore *</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          4963,
+          3668,
+          5306,
+          3784
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_34/vespa_manual_34_0.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_34.md"
+  },
+  "vespa_manual_35": {
+    "elements": [
+      {
+        "label": "table",
+        "bbox": [
+          642,
+          301,
+          5659,
+          2607
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_35/vespa_manual_35_0.png",
+        "table": {
+          "tsv": "tables/vespa_manual_35/vespa_manual_35_0.tsv",
+          "html": "tables/vespa_manual_35/vespa_manual_35_0.html",
+          "rows": [
+            [
+              "<table>"
+            ],
+            [
+              "<thead>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<th>Ricerca e individuazione dell'inconveniente</th>"
+            ],
+            [
+              "<th>Provvedimenti</th>"
+            ],
+            [
+              "<th>Esecuzione</th>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</thead>"
+            ],
+            [
+              "<tbody>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>11 - Frenatura insufficiente</strong><br>"
+            ],
+            [
+              "Corsa eccessiva del pedale o leva<br>"
+            ],
+            [
+              "Ceppi logorati: impregnati di olio<br>"
+            ],
+            [
+              "Ceppi e tamburi rigati"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Registrare (Vedere fig. 14 o pag. 25)<br>"
+            ],
+            [
+              "Sostituire; lavare con benzina ed osciugare all'aria<br>"
+            ],
+            [
+              "Consultare le Agenzie di vendita circa la perdita di olio.<br>"
+            ],
+            [
+              "Sostituire."
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>12 - Inefficienza sospensioni elastiche</strong><br>"
+            ],
+            [
+              "Rumorosità<br>"
+            ],
+            [
+              "Inefficienza<br>"
+            ],
+            [
+              "Difficoltà di rotazione asse ruota"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Rivolgersi alle Agenzie di vendita"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "<strong>13 - Rumorosità del motore</strong><br>"
+            ],
+            [
+              "<strong>14 - Inefficienza Implantazione elettrica</strong><br>"
+            ],
+            [
+              "Terminali dei cavi distaccati o male allocciah"
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td>"
+            ],
+            [
+              "Rivolgersi alle Agenzie di vendita<br>"
+            ],
+            [
+              "Riallocciare correttamente (ved. fig. 7) o rimpiozzare le viti. Persistendo l'inconveniente occorre rivolgersi alle Agenzie di vendita.<br>"
+            ],
+            [
+              "Regolare correttamente il proiettore (pag. 15)."
+            ],
+            [
+              "</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "<tr>"
+            ],
+            [
+              "<td>Errato orientamento dei fasci luminosi del proiettore.</td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "<td></td>"
+            ],
+            [
+              "</tr>"
+            ],
+            [
+              "</tbody>"
+            ],
+            [
+              "</table>"
+            ]
+          ],
+          "raw_text": "<table>\n  <thead>\n    <tr>\n      <th>Ricerca e individuazione dell'inconveniente</th>\n      <th>Provvedimenti</th>\n      <th>Esecuzione</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>\n        <strong>11 - Frenatura insufficiente</strong><br>\n        Corsa eccessiva del pedale o leva<br>\n        Ceppi logorati: impregnati di olio<br>\n        Ceppi e tamburi rigati\n      </td>\n      <td>\n        Registrare (Vedere fig. 14 o pag. 25)<br>\n        Sostituire; lavare con benzina ed osciugare all'aria<br>\n        Consultare le Agenzie di vendita circa la perdita di olio.<br>\n        Sostituire.\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <strong>12 - Inefficienza sospensioni elastiche</strong><br>\n        Rumorosità<br>\n        Inefficienza<br>\n        Difficoltà di rotazione asse ruota\n      </td>\n      <td>\n        Rivolgersi alle Agenzie di vendita\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <strong>13 - Rumorosità del motore</strong><br>\n        <strong>14 - Inefficienza Implantazione elettrica</strong><br>\n        Terminali dei cavi distaccati o male allocciah\n      </td>\n      <td>\n        Rivolgersi alle Agenzie di vendita<br>\n        Riallocciare correttamente (ved. fig. 7) o rimpiozzare le viti. Persistendo l'inconveniente occorre rivolgersi alle Agenzie di vendita.<br>\n        Regolare correttamente il proiettore (pag. 15).\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Errato orientamento dei fasci luminosi del proiettore.</td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+        }
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          676,
+          3685,
+          1018,
+          3801
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_35/vespa_manual_35_1.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_35.md"
+  },
+  "vespa_manual_4": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          541,
+          444,
+          5263,
+          3310
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_4/vespa_manual_4_1.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          2272,
+          3409,
+          3459,
+          3521
+        ],
+        "text": "Fig. 2 - Commandi delle moto",
+        "crop": "crops/vespa_manual_4/vespa_manual_4_2.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5093,
+          3705,
+          5364,
+          3834
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_4/vespa_manual_4_0.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_4.md"
+  },
+  "vespa_manual_5": {
+    "elements": [
+      {
+        "label": "abandon",
+        "bbox": [
+          1908,
+          315,
+          4361,
+          493
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          634,
+          658,
+          3060,
+          1617
+        ],
+        "text": "Sul motore e sul telaio di ogni Vespa,\nnelle posizioni indicate nelle figg. 3 e\n4, sono stampigliate le rispettive ma-\nper l'identificazione, costituite da un\nprefisso e da un numero. I prefissi ed\ni numeri suddetti servono ad individuare",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3193,
+          662,
+          5623,
+          1625
+        ],
+        "text": "la Vespa agli effetti di Legge, e sono riportati sul certificato di origine, sulla busta di collaudo e sul libretto di circolazione della Vespa stessa. Essi devono essere sempre indicati nelle richieste di parti di ricambio.",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_1.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          1100,
+          1991,
+          2599,
+          3273
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_3.png"
+      },
+      {
+        "label": "figure",
+        "bbox": [
+          3641,
+          2083,
+          5108,
+          3322
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_2.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          1182,
+          3402,
+          2545,
+          3511
+        ],
+        "text": "Fig. 3 - Stempigliature sul motore",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_7.png"
+      },
+      {
+        "label": "figure_caption",
+        "bbox": [
+          3731,
+          3412,
+          5050,
+          3518
+        ],
+        "text": "Fig. 4 - Stempigliature sul teleio",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_4.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          620,
+          3705,
+          903,
+          3828
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_5/vespa_manual_5_5.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_5.md"
+  },
+  "vespa_manual_6": {
+    "elements": [
+      {
+        "label": "figure",
+        "bbox": [
+          284,
+          81,
+          5863,
+          3762
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_6/vespa_manual_6_0.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_6.md"
+  },
+  "vespa_manual_7": {
+    "elements": [
+      {
+        "label": "abandon",
+        "bbox": [
+          1264,
+          245,
+          2440,
+          398
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_8.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          3321,
+          246,
+          5468,
+          384
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3182,
+          489,
+          5609,
+          1546
+        ],
+        "text": "<table>\n  <tbody>\n    <tr>\n      <td>Interasse ruote</td>\n      <td>1165 mm.</td>\n    </tr>\n    <tr>\n      <td>Larghezza max sul manubrio</td>\n      <td>770 mm.</td>\n    </tr>\n    <tr>\n      <td>Lunghezza max</td>\n      <td>1700 mm.</td>\n    </tr>\n    <tr>\n      <td>Altezza max</td>\n      <td>1040 mm.</td>\n    </tr>\n    <tr>\n      <td>Altezza minima pedana</td>\n      <td>220 mm.</td>\n    </tr>\n    <tr>\n      <td>Raggio di volta</td>\n      <td>1500 mm.</td>\n    </tr>\n    <tr>\n      <td>Peso totale a vuoto</td>\n      <td>92 Kg.</td>\n    </tr>\n  </tbody>\n</table>",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          631,
+          498,
+          2765,
+          638
+        ],
+        "text": "Consumo a velocità economica:",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          623,
+          650,
+          3060,
+          1543
+        ],
+        "text": "It. 2,2 ogni 100 Km.\nVelocità max . . . . 80 Km/h\nPortata . . . . Pilota passeggero\ne 10 Kg. bagaglio\nAutonomia . . . . 370 Km.",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_4.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2528,
+          1667,
+          3691,
+          1853
+        ],
+        "text": "MOTORE",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          628,
+          1993,
+          3058,
+          2465
+        ],
+        "text": "Ciclo: A due tempi con distribuzione\na luci incrociate e pistone con deflettore.",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3175,
+          1997,
+          5603,
+          3451
+        ],
+        "text": "Accensione. A mezzo di una bobina A. T., applicata esternamente al motore, il cui primario è alimentato da apposita bobina interna del volano.\n\n- Candela tipo Marelli CW 225 D. oppure tipo AC 45 L.\n\nAnticipo accensione: 28°±1° prima del P.M.S.\n\nLubriticazione: eseguita dall'olio della",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_6.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          623,
+          2523,
+          2731,
+          3458
+        ],
+        "text": "N°. Cilindri: 1, orizzontale\n\nAlesaggio : mm. 57\n\nCorsa : mm. 57\n\nCilindrata : cmc. 145,6\n\nRapporto di compressione 1/6,5",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_9.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          631,
+          3632,
+          909,
+          3752
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_3.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_7.md"
+  },
+  "vespa_manual_8": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          2990,
+          286,
+          5005,
+          445
+        ],
+        "text": "elastico, ingranaggi del cambio.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_9.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          417,
+          297,
+          2849,
+          763
+        ],
+        "text": "miscela per gli accoppiamenti pistone-cilindro e per spinotto-biella-albero mo-tore-cuscinetti di banco.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2988,
+          499,
+          5411,
+          812
+        ],
+        "text": "Frizione: a dischi multipli in acciaio\ncon tasselli di sughero.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_12.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          424,
+          781,
+          2849,
+          1092
+        ],
+        "text": "Frizione e organi del cambio lavorano\nin bagno d'olio.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_8.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2992,
+          824,
+          5418,
+          1296
+        ],
+        "text": "Comando a mezzo leva sull'estremità sinistra del manubrio e trasmissione flessibile registrabile.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_10.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          426,
+          1262,
+          2846,
+          1566
+        ],
+        "text": "Alimentazione: a gravità con miscela\nbenzina-olio.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2993,
+          1397,
+          5417,
+          1707
+        ],
+        "text": "Cambio: a 3 velocità con ingranaggi sempre in presa.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_14.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          421,
+          1589,
+          2856,
+          2223
+        ],
+        "text": "Carburatore a vaschetta. - Serbatoio di capacità 8,2 lt. e dispositivo di riserva. Rubinetto a 3 vie (chiuso, aperto e riserva) e decantatore della miscela.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2994,
+          1717,
+          5417,
+          2181
+        ],
+        "text": "Comando a manopola girevole abbinato\nalla leva della frizione e disposto sul-\nl'estremità sinistra del manubrio.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_13.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          2993,
+          2278,
+          5415,
+          2581
+        ],
+        "text": "Rapporto di trasmissione motore -\nruota:",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_11.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          422,
+          2408,
+          2860,
+          2716
+        ],
+        "text": "Raffreddamento: realizzato a qualsiasi velocità da un ventilatore centrifugo.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3486,
+          2621,
+          4933,
+          3067
+        ],
+        "text": "<table><tr><td>1ª velocità</td><td>1:12,2</td></tr><tr><td>2ª velocità</td><td>1:7,46</td></tr><tr><td>3ª velocità</td><td>1:4,73</td></tr></table>",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          423,
+          2869,
+          2859,
+          3508
+        ],
+        "text": "Trasmissione: il motore è collegato al braccio oscillante della sospensione posteriore e comanda direttamente la ruota attraverso frizione, ingranaggio",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3001,
+          3182,
+          5428,
+          3493
+        ],
+        "text": "Avviamento: a pedale con leva sulla destra della moto.",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_1.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          5143,
+          3673,
+          5421,
+          3784
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_8/vespa_manual_8_6.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_8.md"
+  },
+  "vespa_manual_9": {
+    "elements": [
+      {
+        "label": "plain text",
+        "bbox": [
+          616,
+          277,
+          3021,
+          573
+        ],
+        "text": "Marmitta di scarico: del tipo combinato ad espansione e ad assorbimento.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_5.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3156,
+          279,
+          5565,
+          1396
+        ],
+        "text": "AVVERTENZA: si raccomanda di non manomettere o alterare la marmitta di scarico e la presa d'aria ma di mante- nerle in perfetta efficienza: ciò allo scopo di evitare una inutile e dannosa rumorosità e per non incorrere nelle san- zioni previste dalla Legge.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_0.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          620,
+          633,
+          3019,
+          922
+        ],
+        "text": "Presa d'aria: installata all'interno della carrozzeria.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_10.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          615,
+          946,
+          3024,
+          1380
+        ],
+        "text": "Polmone di silenziamento con condottore di aspirazione tangenziale e con filtro inumidito dalla miscela",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_9.png"
+      },
+      {
+        "label": "title",
+        "bbox": [
+          2576,
+          1775,
+          3592,
+          1958
+        ],
+        "text": "TELAIO",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_7.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          614,
+          2251,
+          3021,
+          2712
+        ],
+        "text": "Carrozzeria portante: a guscio, in lamiera di acciaio stampata a forma aperta e carenata.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_1.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3152,
+          2253,
+          5562,
+          2876
+        ],
+        "text": "brio è collegato con sistema a morsetto al tubo sterzo sul quale è fulcrato il morsetto oscillante porta-ruota anteriore.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_4.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          614,
+          2780,
+          3026,
+          3243
+        ],
+        "text": "Manubrio : con supporto elastico cen-\ntrale, comando del gas con dispositivo\ndi irreversibilità.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_2.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          3158,
+          2997,
+          5559,
+          3466
+        ],
+        "text": "La sospenzione anteriore è realizzata mediante molla conica elicoidale ed ammortizzatore idraulico a doppio effetto.",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_3.png"
+      },
+      {
+        "label": "plain text",
+        "bbox": [
+          616,
+          3312,
+          3010,
+          3459
+        ],
+        "text": "Sterzo; sospensioni e ruote; il manu-",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_6.png"
+      },
+      {
+        "label": "abandon",
+        "bbox": [
+          623,
+          3634,
+          955,
+          3747
+        ],
+        "text": "",
+        "crop": "crops/vespa_manual_9/vespa_manual_9_8.png"
+      }
+    ],
+    "document_markdown": "outputs/layout_documents/vespa_manual_9.md"
+  }
+}

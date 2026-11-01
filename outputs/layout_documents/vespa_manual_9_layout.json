@@ -1,0 +1,123 @@
+[
+  {
+    "label": "plain text",
+    "bbox": [
+      616,
+      277,
+      3021,
+      573
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_5.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3156,
+      279,
+      5565,
+      1396
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_0.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      620,
+      633,
+      3019,
+      922
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_10.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      615,
+      946,
+      3024,
+      1380
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_9.png"
+  },
+  {
+    "label": "title",
+    "bbox": [
+      2576,
+      1775,
+      3592,
+      1958
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_7.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      614,
+      2251,
+      3021,
+      2712
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_1.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3152,
+      2253,
+      5562,
+      2876
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_4.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      614,
+      2780,
+      3026,
+      3243
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_2.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3158,
+      2997,
+      5559,
+      3466
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_3.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      616,
+      3312,
+      3010,
+      3459
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_6.png"
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      623,
+      3634,
+      955,
+      3747
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_9/vespa_manual_9_8.png"
+  }
+]

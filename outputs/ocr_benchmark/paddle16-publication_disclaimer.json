@@ -1,0 +1,52 @@
+{
+  "backend": "paddle16",
+  "endpoint": "http://127.0.0.1:8002/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+  "prompt": "OCR:",
+  "request_config": {
+    "model": "paddleocr-vl-1.6",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.5057273219936178,
+  "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di opportare in qualunque momento, senza inpegnarsi ed aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o l'ornature di accessori, che essa ritezza convenienti per scopo di miglioramento per qualsiasi esigenza di corattere costruttivo o commercle.",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di opportare in qualunque momento, senza inpegnarsi ed aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o l'ornature di accessori, che essa ritezza convenienti per scopo di miglioramento per qualsiasi esigenza di corattere costruttivo o commercle."
+        }
+      }
+    ],
+    "created": 1793448009,
+    "model": "paddleocr-vl-1.6",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 1263,
+      "total_tokens": 1403,
+      "prompt_tokens_details": {
+        "cached_tokens": 1262
+      }
+    },
+    "id": "chatcmpl-02Pco9JeGHZV8baQz049d6Gx1151UmYU",
+    "timings": {
+      "cache_n": 1262,
+      "prompt_n": 1,
+      "prompt_ms": 3.268,
+      "prompt_per_token_ms": 3.268,
+      "prompt_per_second": 305.99755201958385,
+      "predicted_n": 140,
+      "predicted_ms": 448.874,
+      "predicted_per_token_ms": 3.2293093525179857,
+      "predicted_per_second": 309.66373637145387
+    }
+  }
+}

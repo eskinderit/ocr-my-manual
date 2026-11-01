@@ -1,0 +1,1 @@
+"""Optional evaluation and legacy utilities; not needed by main.py."""

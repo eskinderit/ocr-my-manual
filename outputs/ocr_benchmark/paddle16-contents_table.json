@@ -1,0 +1,52 @@
+{
+  "backend": "paddle16",
+  "endpoint": "http://127.0.0.1:8002/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_7.png",
+  "prompt": "Table Recognition:",
+  "request_config": {
+    "model": "paddleocr-vl-1.6",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 1.4070314600030542,
+  "text": "<fcel>Presentazione<fcel>pag.<fcel>3<fcel>Impianto elettrico<fcel>pag.<fcel>13<nl><fcel>Schema comandi<fcel>5<fcel>Accessori<fcel>17<ecel><fcel>17<nl><fcel>Dati d'identificazione<fcel>6<fcel>Norme per l'uso<fcel>19<ecel><fcel>19<nl><fcel>Prestazioni e caratt. principali<fcel>8<fcel>Manutenzione<fcel>26<ecel><ecel><nl><fcel>Motore: descrizione<fcel>8<fcel>Tabella della lubrificazione<fcel>30<ecel><ecel><nl><fcel>Telaio: descrizione<fcel>10<fcel>Ricerca guasti e irregolarità<fcel>32<ecel><ecel><nl>",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<fcel>Presentazione<fcel>pag.<fcel>3<fcel>Impianto elettrico<fcel>pag.<fcel>13<nl><fcel>Schema comandi<fcel>5<fcel>Accessori<fcel>17<ecel><fcel>17<nl><fcel>Dati d'identificazione<fcel>6<fcel>Norme per l'uso<fcel>19<ecel><fcel>19<nl><fcel>Prestazioni e caratt. principali<fcel>8<fcel>Manutenzione<fcel>26<ecel><ecel><nl><fcel>Motore: descrizione<fcel>8<fcel>Tabella della lubrificazione<fcel>30<ecel><ecel><nl><fcel>Telaio: descrizione<fcel>10<fcel>Ricerca guasti e irregolarità<fcel>32<ecel><ecel><nl>"
+        }
+      }
+    ],
+    "created": 1793448018,
+    "model": "paddleocr-vl-1.6",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 1228,
+      "total_tokens": 1365,
+      "prompt_tokens_details": {
+        "cached_tokens": 5
+      }
+    },
+    "id": "chatcmpl-v7oHIV0NKhy7NKHw6d6o5CXNvPHk2ERD",
+    "timings": {
+      "cache_n": 5,
+      "prompt_n": 1223,
+      "prompt_ms": 900.421,
+      "prompt_per_token_ms": 0.7362395748160262,
+      "prompt_per_second": 1358.2535280718685,
+      "predicted_n": 137,
+      "predicted_ms": 450.032,
+      "predicted_per_token_ms": 3.3090588235294116,
+      "predicted_per_second": 302.20073239236325
+    }
+  }
+}

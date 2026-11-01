@@ -1,0 +1,1400 @@
+{
+  "reference": {
+    "version": 1,
+    "created": "2026-10-31",
+    "method": "Manually transcribed from the original crop images before benchmark generation. Historical spelling and numbers preserved. Paragraph, specifications and carter caption independently image-reviewed by a second agent without access to OCR outputs. Purposive diagnostic sample, not random or held-out; includes known failures and already-good controls.",
+    "samples": [
+      {
+        "id": "cover_logo",
+        "page": "vespa_manual_0",
+        "element": 2,
+        "kind": "logo",
+        "reference": "Vespa 150",
+        "notes": "Decorative flourish before 150 is not text; image reads 150, not 1500."
+      },
+      {
+        "id": "publication_disclaimer",
+        "page": "vespa_manual_1",
+        "element": 2,
+        "kind": "text",
+        "reference": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando\nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente\nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o\nper qualsiasi esigenza di carattere costruttivo o commerciale."
+      },
+      {
+        "id": "warranty",
+        "page": "vespa_manual_1",
+        "element": 4,
+        "kind": "text",
+        "reference": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non\ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-\ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-\nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio."
+      },
+      {
+        "id": "fuel_warning",
+        "page": "vespa_manual_1",
+        "element": 5,
+        "kind": "text",
+        "reference": "Si raccomanda l'uso di miscela carburante composta di benzina normale di\n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su\nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi."
+      },
+      {
+        "id": "engine_specifications",
+        "page": "vespa_manual_7",
+        "element": 8,
+        "kind": "specifications",
+        "reference": "N°. Cilindri : 1, orizzontale\nAlesaggio : mm. 57\nCorsa : mm. 57\nCilindrata : cmc. 145,6\nRapporto di compressione 1/6,5",
+        "numbers": [
+          "1",
+          "57",
+          "57",
+          "145,6",
+          "1/6,5"
+        ],
+        "notes": "Raised circle after N ambiguous between degree and ordinal; excluded by content normalization."
+      },
+      {
+        "id": "rear_suspension",
+        "page": "vespa_manual_10",
+        "element": 0,
+        "kind": "text",
+        "reference": "La sospensione posteriore, a braccio\noscillante porta motore e ruota, è\nmunita di molla biconica elicoidale a\nflessibilità variabile e di ammortizza-\ntore idraulico a doppio effetto coas-\nsiale."
+      },
+      {
+        "id": "wheel_dimensions",
+        "page": "vespa_manual_10",
+        "element": 4,
+        "kind": "text",
+        "reference": "Le ruote intercambiabili, hanno cer-\nchioni stampati in lamiera di acciaio,\ndi Ø 8\", sui quali sono montati pne-\numatici 3.50-8\".",
+        "numbers": [
+          "8",
+          "3.50-8"
+        ]
+      },
+      {
+        "id": "fuel_tap_caption",
+        "page": "vespa_manual_19",
+        "element": 5,
+        "kind": "caption",
+        "reference": "Fig. 10 - Posizioni del rubinetto miscela",
+        "numbers": [
+          "10"
+        ]
+      },
+      {
+        "id": "maintenance_list",
+        "page": "vespa_manual_26",
+        "element": 4,
+        "kind": "text",
+        "reference": "1) Smontare il filtro aria e pulirlo agi-\ntandolo in bagno di benzina-olio al 30%.\n2) Verificare il livello dell'olio nella\nscatola del cambio.",
+        "numbers": [
+          "1",
+          "30",
+          "2"
+        ]
+      },
+      {
+        "id": "oil_level_caption",
+        "page": "vespa_manual_26",
+        "element": 7,
+        "kind": "caption",
+        "reference": "Fig. 16 - Livello olio nel carter",
+        "numbers": [
+          "16"
+        ]
+      },
+      {
+        "id": "contents_table",
+        "page": "vespa_manual_1",
+        "element": 7,
+        "kind": "table",
+        "rows": [
+          [
+            "Presentazione",
+            "pag.",
+            "3",
+            "Impianto elettrico",
+            "pag.",
+            "13"
+          ],
+          [
+            "Schema comandi",
+            "»",
+            "5",
+            "Accessori",
+            "»",
+            "17"
+          ],
+          [
+            "Dati d'identificazione",
+            "»",
+            "6",
+            "Norme per l'uso",
+            "»",
+            "19"
+          ],
+          [
+            "Prestazioni e caratt. principali",
+            "»",
+            "8",
+            "Manutenzione",
+            "»",
+            "26"
+          ],
+          [
+            "Motore: descrizione",
+            "»",
+            "8",
+            "Tabella della lubrificazione",
+            "»",
+            "30"
+          ],
+          [
+            "Telaio: descrizione",
+            "»",
+            "10",
+            "Ricerca guasti e irregolarità",
+            "»",
+            "32"
+          ]
+        ],
+        "notes": "Leaders are decorative. Six rows with two three-column sections; ditto marks are real cells."
+      },
+      {
+        "id": "dimensions_table",
+        "page": "vespa_manual_7",
+        "element": 2,
+        "kind": "table",
+        "rows": [
+          [
+            "Interasse ruote",
+            "1165 mm."
+          ],
+          [
+            "Larghezza max sul manubrio",
+            "770 mm."
+          ],
+          [
+            "Lunghezza max",
+            "1700 mm."
+          ],
+          [
+            "Altezza max",
+            "1040 mm."
+          ],
+          [
+            "Altezza minima pedana",
+            "220 mm."
+          ],
+          [
+            "Raggio di volta",
+            "1500 mm."
+          ],
+          [
+            "Peso totale a vuoto",
+            "92 Kg."
+          ]
+        ],
+        "notes": "Seven rows, two columns; leaders are decorative."
+      }
+    ]
+  },
+  "reference_sha256": "01b2dcd20117617d9e1567bc638c7ff9f03c25f2d9bbdd30c4c23c804e1ccd34",
+  "baseline_sha256": "a43003f8f4e0e531424d7275caf3caf1cdfca84694853c0a9be315c2bdb5af15",
+  "models": {
+    "prepared_date": "2026-10-31",
+    "runtime": {
+      "executable": "vendor/llama.cpp/build/bin/llama-server",
+      "version": "0.4.0-dev",
+      "build": 124,
+      "commit": "e71b805",
+      "gpu": "NVIDIA RTX A5000 Laptop GPU",
+      "gpu_total_mib": 16384,
+      "gpu_used_mib_after_both_first_requests": 4794,
+      "python_client": "/home/ada8671/anaconda3/bin/python3.12",
+      "python_dependencies": "standard library only",
+      "shared_server_args": [
+        "--host",
+        "127.0.0.1",
+        "-ngl",
+        "99",
+        "-c",
+        "8192",
+        "-np",
+        "1",
+        "-fa",
+        "on",
+        "--temp",
+        "0",
+        "--jinja"
+      ],
+      "request_config": {
+        "max_tokens": 2048,
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 42,
+        "stream": false
+      }
+    },
+    "total_downloaded_weight_bytes": 3285888928,
+    "smoke_test": {
+      "image": "outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+      "width": 4715,
+      "height": 386,
+      "mode": "RGB",
+      "client_preprocessing": "none: unchanged PNG sent as base64 data URL",
+      "cold_prompt_cache": true,
+      "server_warmup": true,
+      "scope": "Single crop smoke test, not an aggregate quality benchmark"
+    },
+    "backends": {
+      "lighton3": {
+        "upstream_repository": "lightonai/LightOnOCR-3-1B",
+        "upstream_revision_observed": "23d544085c886bbdace647bcfab91203299417e2",
+        "upstream_created_at": "2026-10-07T09:25:46.000Z",
+        "upstream_hf_model_type": "mistral3",
+        "gguf_repository": "prithivMLmods/LightOnOCR-3-1B-GGUF",
+        "gguf_revision": "ff5c331ec2cfee9de1c8054c21ccf88b8c5b0faa",
+        "official_gguf": false,
+        "conversion_source_exact_revision": null,
+        "decoder_architecture": "qwen3",
+        "projector_type": "lightonocr",
+        "files": [
+          {
+            "name": "LightOnOCR-3-1B.Q8_0.gguf",
+            "bytes": 639443584,
+            "quantization": "Q8_0",
+            "sha256": "2cf9771aaf236a1c25f389a344510c9ad4daa863e5fdd82651cf7d7834fede1c"
+          },
+          {
+            "name": "LightOnOCR-3-1B.mmproj-bf16.gguf",
+            "bytes": 828905728,
+            "quantization": "BF16",
+            "sha256": "86cd7d80e69e5c00402d3f80137375a534f73bb67e29f29731d1eaaca674afb0"
+          }
+        ],
+        "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+        "model_alias": "lightonocr-3-1b",
+        "server_terminal_id": "87cbe2d1-e15d-49c6-85de-9c4a536628cc",
+        "prompt": "",
+        "other_prompt_modes": [
+          "grounding"
+        ],
+        "vision_metadata": {
+          "image_size": 1540,
+          "patch_size": 14,
+          "spatial_merge_size": 2
+        },
+        "server_log": "models/ocr_benchmark/lighton3-server.log",
+        "first_response": "models/ocr_benchmark/lighton3-first-response.json",
+        "first_request": {
+          "elapsed_seconds": 0.8235959590019775,
+          "prompt_tokens": 289,
+          "completion_tokens": 140,
+          "prompt_ms": 246.084,
+          "generation_ms": 509.613,
+          "finish_reason": "stop"
+        },
+        "warnings": [
+          "Vision warmup reports unsupported CUDA IM2COL f32 operator; native backend fallback executes successfully.",
+          "Native loader overrides non-control token type for </s>."
+        ]
+      },
+      "paddle16": {
+        "upstream_repository": "PaddlePaddle/PaddleOCR-VL-1.6",
+        "upstream_revision_observed": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "upstream_created_at": "2026-05-27T06:27:27.000Z",
+        "model_card_release_date": "2026-05-28",
+        "technical_report_date": "2026-06-03",
+        "gguf_repository": "PaddlePaddle/PaddleOCR-VL-1.6-GGUF",
+        "gguf_revision": "511b09642bb324401f15f97cc23bc67e8f0a291d",
+        "official_gguf": true,
+        "decoder_architecture": "paddleocr",
+        "projector_type": "paddleocr",
+        "files": [
+          {
+            "name": "PaddleOCR-VL-1.6-GGUF.gguf",
+            "bytes": 935769056,
+            "quantization": "BF16",
+            "sha256": "f3ae46ec885050acf4b3d31944431e1fd90d50664fb09126af4a3c050ba14ee8"
+          },
+          {
+            "name": "PaddleOCR-VL-1.6-GGUF-mmproj.gguf",
+            "bytes": 881770560,
+            "quantization": "BF16",
+            "sha256": "204d757d7610d9b3faab10d506d69e5b244e32bf765e2bab2d0167e65e0a058a"
+          }
+        ],
+        "endpoint": "http://127.0.0.1:8002/v1/chat/completions",
+        "model_alias": "paddleocr-vl-1.6",
+        "server_terminal_id": "d5ed7f67-c285-4430-81db-adac9d38141b",
+        "prompt": "OCR:",
+        "other_prompt_modes": [
+          "Formula Recognition:",
+          "Table Recognition:",
+          "Chart Recognition:",
+          "Seal Recognition:",
+          "Spotting:"
+        ],
+        "vision_metadata": {
+          "image_size": 1001,
+          "patch_size": 14,
+          "image_min_pixels": 112896,
+          "image_max_pixels": 1003520
+        },
+        "server_log": "models/ocr_benchmark/paddle16-server.log",
+        "first_response": "models/ocr_benchmark/paddle16-first-response.json",
+        "first_request": {
+          "elapsed_seconds": 1.5616676659992663,
+          "prompt_tokens": 1263,
+          "completion_tokens": 140,
+          "prompt_ms": 1053.528,
+          "generation_ms": 455.511,
+          "finish_reason": "stop"
+        },
+        "warnings": [
+          "Native loader reports empty token at index 96148; inference succeeds.",
+          "The official GGUF records version 1.6 and a 1.5 base-model lineage; files match the official 1.6 repository hashes.",
+          "Spotting mode requires different image_max_pixels configuration per official card; current server is configured for OCR, not Spotting."
+        ]
+      }
+    }
+  },
+  "records": {
+    "existing_dots_output": [
+      {
+        "id": "cover_logo",
+        "kind": "logo",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_3.png",
+        "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+        "text": "Vasco da Gamas\n1500",
+        "scores": {
+          "char_errors": 12,
+          "char_count": 9,
+          "content_char_errors": 12,
+          "content_char_count": 9,
+          "word_errors": 4,
+          "word_count": 2,
+          "cer": 1.3333333333333333,
+          "content_cer": 1.3333333333333333,
+          "wer": 2.0
+        }
+      },
+      {
+        "id": "publication_disclaimer",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_2.png",
+        "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+        "text": "Le descrizioni ed illustrazioni fornite alla presente pubblicazione s'intendono non Impegnative; la P IAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo quel descritto ed illustrato, di opportare la qualunque momento, senza inpegarsi ed aggiungevole tempestivamente questo pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale.",
+        "scores": {
+          "char_errors": 20,
+          "char_count": 518,
+          "content_char_errors": 19,
+          "content_char_count": 510,
+          "word_errors": 10,
+          "word_count": 69,
+          "cer": 0.03861003861003861,
+          "content_cer": 0.03725490196078431,
+          "wer": 0.14492753623188406
+        }
+      },
+      {
+        "id": "warranty",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_1.png",
+        "image_sha256": "fd00ff3fa23bbc4ff657335dae7ab077eb31e850ab85b386590c3f791d073261",
+        "text": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non\ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-\ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-\nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 308,
+          "content_char_errors": 0,
+          "content_char_count": 305,
+          "word_errors": 0,
+          "word_count": 44,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "fuel_warning",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_0.png",
+        "image_sha256": "b13c572401b4cf7285940187564df614cb83fb54969391d8eec95ba48770069c",
+        "text": "Si raccomanda l'uso di miscela carburante composta di benzina normale di\n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su\nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 235,
+          "content_char_errors": 0,
+          "content_char_count": 232,
+          "word_errors": 0,
+          "word_count": 40,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "engine_specifications",
+        "kind": "specifications",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_9.png",
+        "image_sha256": "c53215ddd721526401db3a5f2199d04b9ce986c94cac9b9944651792fdac5e2e",
+        "text": "N°. Cilindri: 1, orizzontale\n\nAlesaggio : mm. 57\n\nCorsa : mm. 57\n\nCilindrata : cmc. 145,6\n\nRapporto di compressione 1/6,5",
+        "scores": {
+          "char_errors": 1,
+          "char_count": 118,
+          "content_char_errors": 0,
+          "content_char_count": 104,
+          "word_errors": 0,
+          "word_count": 20,
+          "cer": 0.00847457627118644,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ],
+          "numbers_predicted": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ]
+        }
+      },
+      {
+        "id": "rear_suspension",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_2.png",
+        "image_sha256": "c7928a9039fadbb34541788b28456c3379d196c8595303ab06161a544b94a9b0",
+        "text": "La sospensione posteriore, a braccio oscillante porta motore e ruota, è munita di molla biconica elicoidale a flessibilità variabile e di ammortizzatore idraulico a doppio effetto coassiale.",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 190,
+          "content_char_errors": 0,
+          "content_char_count": 187,
+          "word_errors": 0,
+          "word_count": 27,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "wheel_dimensions",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_3.png",
+        "image_sha256": "754f307171eb8dd7afefe61ac7d00f4de5700120de33f3ee35d628d0bdbb11ce",
+        "text": "Le ruote intercambiabili, hanno cer-\nchioni stampati in lamiera di acciaio,\ndi Ø 8\", sui quali sono montati pne-\numatici 3.50-8\".",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 125,
+          "content_char_errors": 0,
+          "content_char_count": 119,
+          "word_errors": 0,
+          "word_count": 21,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "8",
+            "3.50-8"
+          ],
+          "numbers_predicted": [
+            "8",
+            "3.50-8"
+          ]
+        }
+      },
+      {
+        "id": "fuel_tap_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_6.png",
+        "image_sha256": "35dadc305a0f983e52aaf5cadb79f3e7d427262075f87a161a500dc51e85b1a6",
+        "text": "Fig. 10 - Posizioni del rubinello miscela",
+        "scores": {
+          "char_errors": 2,
+          "char_count": 41,
+          "content_char_errors": 2,
+          "content_char_count": 38,
+          "word_errors": 1,
+          "word_count": 6,
+          "cer": 0.04878048780487805,
+          "content_cer": 0.05263157894736842,
+          "wer": 0.16666666666666666,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "10"
+          ],
+          "numbers_predicted": [
+            "10"
+          ]
+        }
+      },
+      {
+        "id": "maintenance_list",
+        "kind": "text",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_4.png",
+        "image_sha256": "0bf5430c7e7e1c6c17b3f21a0fcbd8284d080ca0c15b0d4e7c4e3a4e669849d8",
+        "text": "1) Smontare il filtro aria e pulirlo agitandolo in bagno di benzina-olio al 30%.\n\n2) Verificare il livello dell'olio nella scatola del cambio.",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 141,
+          "content_char_errors": 0,
+          "content_char_count": 136,
+          "word_errors": 0,
+          "word_count": 25,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "30",
+            "2"
+          ],
+          "numbers_predicted": [
+            "1",
+            "30",
+            "2"
+          ]
+        }
+      },
+      {
+        "id": "oil_level_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_3.png",
+        "image_sha256": "5d4ab2e3cd24195d8cc05988623f201fb430748364a61444d12466708cda6e7c",
+        "text": "Fig. 15 - Livello olio nel cartoncino.",
+        "scores": {
+          "char_errors": 8,
+          "char_count": 33,
+          "content_char_errors": 7,
+          "content_char_count": 30,
+          "word_errors": 2,
+          "word_count": 6,
+          "cer": 0.24242424242424243,
+          "content_cer": 0.23333333333333334,
+          "wer": 0.3333333333333333,
+          "numbers_exact": false,
+          "numbers_expected": [
+            "16"
+          ],
+          "numbers_predicted": [
+            "15"
+          ]
+        }
+      },
+      {
+        "id": "contents_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_7.png",
+        "image_sha256": "b0012403c8a9cc334cc4b7ae9884b010a5e4960237eab33b1804bbf82ad2573e",
+        "text": "<table><tr><td>Presentazione</td><td>pag.</td><td>3</td><td>Impianto elettrico</td><td>pag.</td><td>13</td></tr><tr><td>Schema comandi</td><td>»</td><td>5</td><td>Accessori</td><td>»</td><td>17</td></tr><tr><td>Dati d'identificazione</td><td>»</td><td>6</td><td>Norme per l'uso</td><td>»</td><td>19</td></tr><tr><td>Prestazioni e caratt. principali</td><td>»</td><td>8</td><td>Manutenzione</td><td>»</td><td>26</td></tr><tr><td>Motore: descrizione</td><td>»</td><td>8</td><td>Tabella della lubrificazione</td><td>»</td><td>30</td></tr><tr><td>Telaio: descrizione</td><td>»</td><td>10</td><td>Riçerca guasti e irregolarità</td><td>»</td><td>32</td></tr></table>",
+        "scores": {
+          "cell_matches": 35,
+          "cell_count": 36,
+          "predicted_cell_count": 36,
+          "cell_accuracy": 0.9722222222222222,
+          "shape_exact": true,
+          "parsed_rows": [
+            [
+              "Presentazione",
+              "pag.",
+              "3",
+              "Impianto elettrico",
+              "pag.",
+              "13"
+            ],
+            [
+              "Schema comandi",
+              "»",
+              "5",
+              "Accessori",
+              "»",
+              "17"
+            ],
+            [
+              "Dati d'identificazione",
+              "»",
+              "6",
+              "Norme per l'uso",
+              "»",
+              "19"
+            ],
+            [
+              "Prestazioni e caratt. principali",
+              "»",
+              "8",
+              "Manutenzione",
+              "»",
+              "26"
+            ],
+            [
+              "Motore: descrizione",
+              "»",
+              "8",
+              "Tabella della lubrificazione",
+              "»",
+              "30"
+            ],
+            [
+              "Telaio: descrizione",
+              "»",
+              "10",
+              "Riçerca guasti e irregolarità",
+              "»",
+              "32"
+            ]
+          ],
+          "parse_success": true,
+          "text_content_cer": 0.0036101083032490976
+        }
+      },
+      {
+        "id": "dimensions_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_0.png",
+        "image_sha256": "9949f569141afb8bdba90a19a8ca53beac611610014788a497197acc6ebb79a9",
+        "text": "<table>\n  <tbody>\n    <tr>\n      <td>Interasse ruote</td>\n      <td>1165 mm.</td>\n    </tr>\n    <tr>\n      <td>Larghezza max sul manubrio</td>\n      <td>770 mm.</td>\n    </tr>\n    <tr>\n      <td>Lunghezza max</td>\n      <td>1700 mm.</td>\n    </tr>\n    <tr>\n      <td>Altezza max</td>\n      <td>1040 mm.</td>\n    </tr>\n    <tr>\n      <td>Altezza minima pedana</td>\n      <td>220 mm.</td>\n    </tr>\n    <tr>\n      <td>Raggio di volta</td>\n      <td>1500 mm.</td>\n    </tr>\n    <tr>\n      <td>Peso totale a vuoto</td>\n      <td>92 Kg.</td>\n    </tr>\n  </tbody>\n</table>",
+        "scores": {
+          "cell_matches": 14,
+          "cell_count": 14,
+          "predicted_cell_count": 14,
+          "cell_accuracy": 1.0,
+          "shape_exact": true,
+          "parsed_rows": [
+            [
+              "Interasse ruote",
+              "1165 mm."
+            ],
+            [
+              "Larghezza max sul manubrio",
+              "770 mm."
+            ],
+            [
+              "Lunghezza max",
+              "1700 mm."
+            ],
+            [
+              "Altezza max",
+              "1040 mm."
+            ],
+            [
+              "Altezza minima pedana",
+              "220 mm."
+            ],
+            [
+              "Raggio di volta",
+              "1500 mm."
+            ],
+            [
+              "Peso totale a vuoto",
+              "92 Kg."
+            ]
+          ],
+          "parse_success": true,
+          "text_content_cer": 0.0
+        }
+      }
+    ],
+    "lighton3": [
+      {
+        "id": "cover_logo",
+        "kind": "logo",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_3.png",
+        "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+        "text": "Coral 150\n",
+        "elapsed_seconds": 0.7228792440000689,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 5,
+          "char_count": 9,
+          "content_char_errors": 5,
+          "content_char_count": 9,
+          "word_errors": 1,
+          "word_count": 2,
+          "cer": 0.5555555555555556,
+          "content_cer": 0.5555555555555556,
+          "wer": 0.5
+        }
+      },
+      {
+        "id": "publication_disclaimer",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_2.png",
+        "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+        "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando  \nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente  \nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o  \nper qualsiasi esigenza di carattere costruttivo o commerciale.\n",
+        "elapsed_seconds": 0.629914336001093,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 518,
+          "content_char_errors": 0,
+          "content_char_count": 510,
+          "word_errors": 0,
+          "word_count": 69,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "warranty",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_1.png",
+        "image_sha256": "fd00ff3fa23bbc4ff657335dae7ab077eb31e850ab85b386590c3f791d073261",
+        "text": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non  \ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-  \ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-  \nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.\n",
+        "elapsed_seconds": 0.5167508980011917,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 308,
+          "content_char_errors": 0,
+          "content_char_count": 305,
+          "word_errors": 0,
+          "word_count": 44,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "fuel_warning",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_0.png",
+        "image_sha256": "b13c572401b4cf7285940187564df614cb83fb54969391d8eec95ba48770069c",
+        "text": "Si raccomanda l’uso di miscela carburante composta di benzina normale di  \n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su  \nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.\n",
+        "elapsed_seconds": 0.4065182949998416,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 235,
+          "content_char_errors": 0,
+          "content_char_count": 232,
+          "word_errors": 0,
+          "word_count": 40,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "engine_specifications",
+        "kind": "specifications",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_9.png",
+        "image_sha256": "c53215ddd721526401db3a5f2199d04b9ce986c94cac9b9944651792fdac5e2e",
+        "text": "N°. Cilindri: 1, orizzontale  \nAlesaggio : mm. 57  \nCorsa : mm. 57  \nCilindrata : cmc. 145,6  \nRapporto di compressione 1/6,5\n",
+        "elapsed_seconds": 0.7753722250054125,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 1,
+          "char_count": 118,
+          "content_char_errors": 0,
+          "content_char_count": 104,
+          "word_errors": 0,
+          "word_count": 20,
+          "cer": 0.00847457627118644,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ],
+          "numbers_predicted": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ]
+        }
+      },
+      {
+        "id": "rear_suspension",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_2.png",
+        "image_sha256": "c7928a9039fadbb34541788b28456c3379d196c8595303ab06161a544b94a9b0",
+        "text": "La sospensione posteriore, a braccio  \noscillante porta motore e ruota, è  \nmunita di molla biconica elicoidale a  \nflessibilità variabile e di ammortizza-  \ntore idraulico a doppio effetto coas-  \nsiale.\n",
+        "elapsed_seconds": 0.8306837620039005,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 190,
+          "content_char_errors": 0,
+          "content_char_count": 187,
+          "word_errors": 0,
+          "word_count": 27,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "wheel_dimensions",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_3.png",
+        "image_sha256": "754f307171eb8dd7afefe61ac7d00f4de5700120de33f3ee35d628d0bdbb11ce",
+        "text": "Le ruote intercambiabili, hanno cer-  \nchioni stampati in lamiera di acciaio,  \ndi Ø 8\", sui quali sono montati pne-  \numatici 3.50-8\".\n",
+        "elapsed_seconds": 0.5585962400000426,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 125,
+          "content_char_errors": 0,
+          "content_char_count": 119,
+          "word_errors": 0,
+          "word_count": 21,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "8",
+            "3.50-8"
+          ],
+          "numbers_predicted": [
+            "8",
+            "3.50-8"
+          ]
+        }
+      },
+      {
+        "id": "fuel_tap_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_6.png",
+        "image_sha256": "35dadc305a0f983e52aaf5cadb79f3e7d427262075f87a161a500dc51e85b1a6",
+        "text": "Fig. 10 - Posizioni del rubinetto miscela\n",
+        "elapsed_seconds": 0.1769367759989109,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 41,
+          "content_char_errors": 0,
+          "content_char_count": 38,
+          "word_errors": 0,
+          "word_count": 6,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "10"
+          ],
+          "numbers_predicted": [
+            "10"
+          ]
+        }
+      },
+      {
+        "id": "maintenance_list",
+        "kind": "text",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_4.png",
+        "image_sha256": "0bf5430c7e7e1c6c17b3f21a0fcbd8284d080ca0c15b0d4e7c4e3a4e669849d8",
+        "text": "1) Smontare il filtro aria e pulirlo agi-  \ntandolo in bagno di benzina-olio al 30%.  \n2) Verificare il livello dell'olio nella  \nscatola del cambio.\n",
+        "elapsed_seconds": 0.47070131600048626,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 141,
+          "content_char_errors": 0,
+          "content_char_count": 136,
+          "word_errors": 0,
+          "word_count": 25,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "30",
+            "2"
+          ],
+          "numbers_predicted": [
+            "1",
+            "30",
+            "2"
+          ]
+        }
+      },
+      {
+        "id": "oil_level_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_3.png",
+        "image_sha256": "5d4ab2e3cd24195d8cc05988623f201fb430748364a61444d12466708cda6e7c",
+        "text": "Fig. 15 - Livello olio nel carter\n",
+        "elapsed_seconds": 0.18313384799694177,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 1,
+          "char_count": 33,
+          "content_char_errors": 1,
+          "content_char_count": 30,
+          "word_errors": 1,
+          "word_count": 6,
+          "cer": 0.030303030303030304,
+          "content_cer": 0.03333333333333333,
+          "wer": 0.16666666666666666,
+          "numbers_exact": false,
+          "numbers_expected": [
+            "16"
+          ],
+          "numbers_predicted": [
+            "15"
+          ]
+        }
+      },
+      {
+        "id": "contents_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_7.png",
+        "image_sha256": "b0012403c8a9cc334cc4b7ae9884b010a5e4960237eab33b1804bbf82ad2573e",
+        "text": "Presentazione . . . . pag. 3 Impianto elettrico . . . . pag. 13  \nSchema comandi . . . . » 5 Accessori . . . . » 17  \nDati d'identificazione . . . » 6 Norme per l'uso . . . . » 19  \nPrestazioni e caratt. principali » 8 Manutenzione . . . . » 26  \nMotore: descrizione . . . » 8 Tabella della lubrificazione . » 30  \nTelaio: descrizione . . . » 10 Ricerca guasti e irregolarità . » 32\n",
+        "elapsed_seconds": 0.8183625199962989,
+        "finish_reason": "stop",
+        "scores": {
+          "cell_matches": 0,
+          "cell_count": 36,
+          "predicted_cell_count": 0,
+          "cell_accuracy": 0.0,
+          "shape_exact": false,
+          "parsed_rows": [],
+          "parse_success": false,
+          "text_content_cer": 0.0
+        }
+      },
+      {
+        "id": "dimensions_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_0.png",
+        "image_sha256": "9949f569141afb8bdba90a19a8ca53beac611610014788a497197acc6ebb79a9",
+        "text": "Interasse ruote . . . . . 1165 mm.  \nLarghezza max sul manubrio 770 mm.  \nLunghezza max . . . . . 1700 mm.  \nAltezza max . . . . . 1040 mm.  \nAltezza minima pedana . 220 mm.  \nRaggio di volta . . . . . 1500 mm.  \nPeso totale a vuoto . . . . 92 Kg.\n",
+        "elapsed_seconds": 0.9685748679985409,
+        "finish_reason": "stop",
+        "scores": {
+          "cell_matches": 0,
+          "cell_count": 14,
+          "predicted_cell_count": 0,
+          "cell_accuracy": 0.0,
+          "shape_exact": false,
+          "parsed_rows": [],
+          "parse_success": false,
+          "text_content_cer": 0.0
+        }
+      }
+    ],
+    "paddle16": [
+      {
+        "id": "cover_logo",
+        "kind": "logo",
+        "crop": "crops/vespa_manual_0/vespa_manual_0_3.png",
+        "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+        "text": "Lapa\n150",
+        "elapsed_seconds": 1.007937556001707,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 3,
+          "char_count": 9,
+          "content_char_errors": 3,
+          "content_char_count": 9,
+          "word_errors": 1,
+          "word_count": 2,
+          "cer": 0.3333333333333333,
+          "content_cer": 0.3333333333333333,
+          "wer": 0.5
+        }
+      },
+      {
+        "id": "publication_disclaimer",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_2.png",
+        "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+        "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di opportare in qualunque momento, senza inpegnarsi ed aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o l'ornature di accessori, che essa ritezza convenienti per scopo di miglioramento per qualsiasi esigenza di corattere costruttivo o commercle.",
+        "elapsed_seconds": 0.5057273219936178,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 13,
+          "char_count": 518,
+          "content_char_errors": 13,
+          "content_char_count": 510,
+          "word_errors": 9,
+          "word_count": 69,
+          "cer": 0.025096525096525095,
+          "content_cer": 0.025490196078431372,
+          "wer": 0.13043478260869565
+        }
+      },
+      {
+        "id": "warranty",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_1.png",
+        "image_sha256": "fd00ff3fa23bbc4ff657335dae7ab077eb31e850ab85b386590c3f791d073261",
+        "text": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non decadano le condizioni di garanzia previste dal contratto di vendita, rivol-\ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Servizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.",
+        "elapsed_seconds": 1.2057261719965027,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 308,
+          "content_char_errors": 0,
+          "content_char_count": 305,
+          "word_errors": 0,
+          "word_count": 44,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0
+        }
+      },
+      {
+        "id": "fuel_warning",
+        "kind": "text",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_0.png",
+        "image_sha256": "b13c572401b4cf7285940187564df614cb83fb54969391d8eec95ba48770069c",
+        "text": "Si raccomanda l'uso di miscela carburante composta di benzina normale di \\(1^{a}\\) qualità ed olio della marca, della graduzione e nella quantità prescritta su questo opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.",
+        "elapsed_seconds": 1.2452067409976735,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 9,
+          "char_count": 235,
+          "content_char_errors": 3,
+          "content_char_count": 232,
+          "word_errors": 3,
+          "word_count": 40,
+          "cer": 0.03829787234042553,
+          "content_cer": 0.01293103448275862,
+          "wer": 0.075
+        }
+      },
+      {
+        "id": "engine_specifications",
+        "kind": "specifications",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_9.png",
+        "image_sha256": "c53215ddd721526401db3a5f2199d04b9ce986c94cac9b9944651792fdac5e2e",
+        "text": "Nº. Cilindri: 1, orizzontale\nAlesaggio: mm. 57\nCorsa: mm. 57\nCilindrata: cmc. 145,6\nRapporto di compressione 1/6,5",
+        "elapsed_seconds": 1.1592643730036798,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 5,
+          "char_count": 118,
+          "content_char_errors": 1,
+          "content_char_count": 104,
+          "word_errors": 1,
+          "word_count": 20,
+          "cer": 0.0423728813559322,
+          "content_cer": 0.009615384615384616,
+          "wer": 0.05,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ],
+          "numbers_predicted": [
+            "1",
+            "57",
+            "57",
+            "145,6",
+            "1/6,5"
+          ]
+        }
+      },
+      {
+        "id": "rear_suspension",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_2.png",
+        "image_sha256": "c7928a9039fadbb34541788b28456c3379d196c8595303ab06161a544b94a9b0",
+        "text": "La sospensione posteriore, a braccio oscillante porta motore e ruota, è munita di molla biconica elicoidale a flessibilità variabile e di ammortizzare tore idraulico a doppio effetto coasiale.",
+        "elapsed_seconds": 1.226923900001566,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 4,
+          "char_count": 190,
+          "content_char_errors": 4,
+          "content_char_count": 187,
+          "word_errors": 3,
+          "word_count": 27,
+          "cer": 0.021052631578947368,
+          "content_cer": 0.0213903743315508,
+          "wer": 0.1111111111111111
+        }
+      },
+      {
+        "id": "wheel_dimensions",
+        "kind": "text",
+        "crop": "crops/vespa_manual_10/vespa_manual_10_3.png",
+        "image_sha256": "754f307171eb8dd7afefe61ac7d00f4de5700120de33f3ee35d628d0bdbb11ce",
+        "text": "Le ruote intercambiabili, hanno cerchioni stampati in lamiera di acciaio, di Ø 8\", sui quali sono montati pneumatici 3.50-8\".",
+        "elapsed_seconds": 1.0974230179999722,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 125,
+          "content_char_errors": 0,
+          "content_char_count": 119,
+          "word_errors": 0,
+          "word_count": 21,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "8",
+            "3.50-8"
+          ],
+          "numbers_predicted": [
+            "8",
+            "3.50-8"
+          ]
+        }
+      },
+      {
+        "id": "fuel_tap_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_19/vespa_manual_19_6.png",
+        "image_sha256": "35dadc305a0f983e52aaf5cadb79f3e7d427262075f87a161a500dc51e85b1a6",
+        "text": "Fig. 10 - Posizioni del rubinetto miscela",
+        "elapsed_seconds": 0.15418128900637385,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 41,
+          "content_char_errors": 0,
+          "content_char_count": 38,
+          "word_errors": 0,
+          "word_count": 6,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "10"
+          ],
+          "numbers_predicted": [
+            "10"
+          ]
+        }
+      },
+      {
+        "id": "maintenance_list",
+        "kind": "text",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_4.png",
+        "image_sha256": "0bf5430c7e7e1c6c17b3f21a0fcbd8284d080ca0c15b0d4e7c4e3a4e669849d8",
+        "text": "1) Smontare il filtro aria e pulirlo agitandolo in bagno di benzina-olio al 30%.\n2) Verificare il livello dell'olio nella scatola del cambio.",
+        "elapsed_seconds": 1.1635056160012027,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 0,
+          "char_count": 141,
+          "content_char_errors": 0,
+          "content_char_count": 136,
+          "word_errors": 0,
+          "word_count": 25,
+          "cer": 0.0,
+          "content_cer": 0.0,
+          "wer": 0.0,
+          "numbers_exact": true,
+          "numbers_expected": [
+            "1",
+            "30",
+            "2"
+          ],
+          "numbers_predicted": [
+            "1",
+            "30",
+            "2"
+          ]
+        }
+      },
+      {
+        "id": "oil_level_caption",
+        "kind": "caption",
+        "crop": "crops/vespa_manual_26/vespa_manual_26_3.png",
+        "image_sha256": "5d4ab2e3cd24195d8cc05988623f201fb430748364a61444d12466708cda6e7c",
+        "text": "Fig. 15 - Livello olio nel carter",
+        "elapsed_seconds": 0.12501923100353451,
+        "finish_reason": "stop",
+        "scores": {
+          "char_errors": 1,
+          "char_count": 33,
+          "content_char_errors": 1,
+          "content_char_count": 30,
+          "word_errors": 1,
+          "word_count": 6,
+          "cer": 0.030303030303030304,
+          "content_cer": 0.03333333333333333,
+          "wer": 0.16666666666666666,
+          "numbers_exact": false,
+          "numbers_expected": [
+            "16"
+          ],
+          "numbers_predicted": [
+            "15"
+          ]
+        }
+      },
+      {
+        "id": "contents_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_1/vespa_manual_1_7.png",
+        "image_sha256": "b0012403c8a9cc334cc4b7ae9884b010a5e4960237eab33b1804bbf82ad2573e",
+        "text": "<fcel>Presentazione<fcel>pag.<fcel>3<fcel>Impianto elettrico<fcel>pag.<fcel>13<nl><fcel>Schema comandi<fcel>5<fcel>Accessori<fcel>17<ecel><fcel>17<nl><fcel>Dati d'identificazione<fcel>6<fcel>Norme per l'uso<fcel>19<ecel><fcel>19<nl><fcel>Prestazioni e caratt. principali<fcel>8<fcel>Manutenzione<fcel>26<ecel><ecel><nl><fcel>Motore: descrizione<fcel>8<fcel>Tabella della lubrificazione<fcel>30<ecel><ecel><nl><fcel>Telaio: descrizione<fcel>10<fcel>Ricerca guasti e irregolarità<fcel>32<ecel><ecel><nl>",
+        "elapsed_seconds": 1.4070314600030542,
+        "finish_reason": "stop",
+        "scores": {
+          "cell_matches": 13,
+          "cell_count": 36,
+          "predicted_cell_count": 36,
+          "cell_accuracy": 0.3611111111111111,
+          "shape_exact": true,
+          "parsed_rows": [
+            [
+              "Presentazione",
+              "pag.",
+              "3",
+              "Impianto elettrico",
+              "pag.",
+              "13"
+            ],
+            [
+              "Schema comandi",
+              "5",
+              "Accessori",
+              "17",
+              "",
+              "17"
+            ],
+            [
+              "Dati d'identificazione",
+              "6",
+              "Norme per l'uso",
+              "19",
+              "",
+              "19"
+            ],
+            [
+              "Prestazioni e caratt. principali",
+              "8",
+              "Manutenzione",
+              "26",
+              "",
+              ""
+            ],
+            [
+              "Motore: descrizione",
+              "8",
+              "Tabella della lubrificazione",
+              "30",
+              "",
+              ""
+            ],
+            [
+              "Telaio: descrizione",
+              "10",
+              "Ricerca guasti e irregolarità",
+              "32",
+              "",
+              ""
+            ]
+          ],
+          "parse_success": true,
+          "text_content_cer": 0.021660649819494584
+        }
+      },
+      {
+        "id": "dimensions_table",
+        "kind": "table",
+        "crop": "crops/vespa_manual_7/vespa_manual_7_0.png",
+        "image_sha256": "9949f569141afb8bdba90a19a8ca53beac611610014788a497197acc6ebb79a9",
+        "text": "<fcel>Interasse ruote<fcel>1165 mm.<nl><fcel>Larghezza max sul manubrio<fcel>770 mm.<nl><fcel>Lunghezza max<fcel>1700 mm.<nl><fcel>Altezza max<fcel>1040 mm.<nl><fcel>Altezza minima pedona<fcel>220 mm.<nl><fcel>Raggio di volta<fcel>1500 mm.<nl><fcel>Peso totale a vuoto<fcel>92 Kg.<nl>",
+        "elapsed_seconds": 1.308877087001747,
+        "finish_reason": "stop",
+        "scores": {
+          "cell_matches": 13,
+          "cell_count": 14,
+          "predicted_cell_count": 14,
+          "cell_accuracy": 0.9285714285714286,
+          "shape_exact": true,
+          "parsed_rows": [
+            [
+              "Interasse ruote",
+              "1165 mm."
+            ],
+            [
+              "Larghezza max sul manubrio",
+              "770 mm."
+            ],
+            [
+              "Lunghezza max",
+              "1700 mm."
+            ],
+            [
+              "Altezza max",
+              "1040 mm."
+            ],
+            [
+              "Altezza minima pedona",
+              "220 mm."
+            ],
+            [
+              "Raggio di volta",
+              "1500 mm."
+            ],
+            [
+              "Peso totale a vuoto",
+              "92 Kg."
+            ]
+          ],
+          "parse_success": true,
+          "text_content_cer": 0.0056179775280898875
+        }
+      }
+    ]
+  },
+  "summary": {
+    "existing_dots_output": {
+      "samples": 12,
+      "failures": 0,
+      "cer": 0.025029103608847497,
+      "content_cer": 0.023952095808383235,
+      "wer": 0.06538461538461539,
+      "macro_content_cer": 0.16565531475748194,
+      "table_cell_accuracy": 0.98,
+      "table_shapes_exact": 2,
+      "numeric_crops_exact": 4,
+      "numeric_crops_checked": 5,
+      "median_seconds": null
+    },
+    "lighton3": {
+      "samples": 12,
+      "failures": 0,
+      "cer": 0.004074505238649592,
+      "content_cer": 0.003592814371257485,
+      "wer": 0.007692307692307693,
+      "macro_content_cer": 0.05888888888888889,
+      "table_cell_accuracy": 0.0,
+      "table_shapes_exact": 0,
+      "numeric_crops_exact": 4,
+      "numeric_crops_checked": 5,
+      "median_seconds": 0.5942552880005678
+    },
+    "paddle16": {
+      "samples": 12,
+      "failures": 0,
+      "cer": 0.02037252619324796,
+      "content_cer": 0.014970059880239521,
+      "wer": 0.06923076923076923,
+      "macro_content_cer": 0.043609365617479204,
+      "table_cell_accuracy": 0.52,
+      "table_shapes_exact": 2,
+      "numeric_crops_exact": 4,
+      "numeric_crops_checked": 5,
+      "median_seconds": 1.1613849945024413
+    }
+  }
+}

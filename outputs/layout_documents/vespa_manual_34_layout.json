@@ -1,0 +1,27 @@
+[
+  {
+    "label": "table",
+    "bbox": [
+      317,
+      370,
+      5345,
+      3641
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_34/vespa_manual_34_1.png",
+    "table": {
+      "error": "no OCR model available"
+    }
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      4963,
+      3668,
+      5306,
+      3784
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_34/vespa_manual_34_0.png"
+  }
+]

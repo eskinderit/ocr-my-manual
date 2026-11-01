@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "gguf_repository": "mradermacher/Qwen3-VL-4B-Instruct-GGUF",
+  "gguf_revision": "d41f9f8c74871726f466396779ef60c1fe166639",
+  "decoder": {
+    "filename": "Qwen3-VL-4B-Instruct.Q8_0.gguf",
+    "bytes": 4280406624,
+    "sha256": "c4b185587694794aa9b4f754fae12d6c2f9544d8d729f846e7c5ac19d780e29e"
+  },
+  "projector": {
+    "filename": "Qwen3-VL-4B-Instruct.mmproj-f16.gguf",
+    "bytes": 836180256,
+    "sha256": "5d5e698305f6e092c682d3e8e8deb1db88915e69a7dd66c0279e7ce810bfee48"
+  },
+  "prompt_method": "Neutral text-transcription instructions only; no expected words, brand names, filenames or document context in the model messages.",
+  "purpose": "Full-cover and isolated-logo diagnostic, not an aggregate manual accuracy benchmark"
+}

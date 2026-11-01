@@ -1,0 +1,4 @@
+# Optional legacy OpenAI-compatible client scripts
+-r ../requirements.txt
+openai>=1.0
+psutil>=5.9

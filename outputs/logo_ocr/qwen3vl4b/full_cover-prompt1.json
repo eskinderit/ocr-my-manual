@@ -1,0 +1,51 @@
+{
+  "model": "qwen3vl4b",
+  "image": "imgs/vespa_manual_0.png",
+  "image_sha256": "21673b1e3150c54c72bc695702fac1c7d1ce5b6300aaf79eb128af15508e16d3",
+  "prompt": "Transcribe all visible text in this image exactly as written. Preserve the original language. Output only the transcription, no explanation.",
+  "request_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "max_tokens": 2048
+  },
+  "elapsed_seconds": 4.370642659001052,
+  "text": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE",
+  "finish_reason": "stop",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "mod. 1956\nPIAGGIO\nVespa\n150\nUSO E MANUTENZIONE"
+        }
+      }
+    ],
+    "created": 1793450369,
+    "model": "qwen3vl4b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 4063,
+      "total_tokens": 4094,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-J0rpd7DgKcd8WJg8E6Jp77M6uuMrNJil",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 4063,
+      "prompt_ms": 3571.136,
+      "prompt_per_token_ms": 0.8789406842234802,
+      "prompt_per_second": 1137.7332031039982,
+      "predicted_n": 31,
+      "predicted_ms": 493.312,
+      "predicted_per_token_ms": 16.443733333333334,
+      "predicted_per_second": 60.81344058121432
+    }
+  }
+}

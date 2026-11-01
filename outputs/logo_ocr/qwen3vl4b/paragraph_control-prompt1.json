@@ -1,0 +1,51 @@
+{
+  "model": "qwen3vl4b",
+  "image": "outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+  "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+  "prompt": "Transcribe all visible text in this image exactly as written. Preserve the original language. Output only the transcription, no explanation.",
+  "request_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "max_tokens": 2048
+  },
+  "elapsed_seconds": 3.5438022110015153,
+  "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale.",
+  "finish_reason": "stop",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando le caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente questa pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o per qualsiasi esigenza di carattere costruttivo o commerciale."
+        }
+      }
+    ],
+    "created": 1793450376,
+    "model": "qwen3vl4b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 1799,
+      "total_tokens": 1934,
+      "prompt_tokens_details": {
+        "cached_tokens": 4
+      }
+    },
+    "id": "chatcmpl-nHFYY0ahStXBrZ7btvWjWzaZvQFuikuH",
+    "timings": {
+      "cache_n": 4,
+      "prompt_n": 1795,
+      "prompt_ms": 1190.527,
+      "prompt_per_token_ms": 0.6632462395543176,
+      "prompt_per_second": 1507.7356498424647,
+      "predicted_n": 135,
+      "predicted_ms": 2088.19,
+      "predicted_per_token_ms": 15.583507462686567,
+      "predicted_per_second": 64.17040594965017
+    }
+  }
+}

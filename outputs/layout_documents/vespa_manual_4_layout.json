@@ -1,0 +1,35 @@
+[
+  {
+    "label": "figure",
+    "bbox": [
+      541,
+      444,
+      5263,
+      3310
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_4/vespa_manual_4_1.png"
+  },
+  {
+    "label": "figure_caption",
+    "bbox": [
+      2272,
+      3409,
+      3459,
+      3521
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_4/vespa_manual_4_2.png"
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      5093,
+      3705,
+      5364,
+      3834
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_4/vespa_manual_4_0.png"
+  }
+]

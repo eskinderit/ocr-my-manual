@@ -1,0 +1,51 @@
+{
+  "model": "qwen3vl4b",
+  "image": "outputs/crops/vespa_manual_0/vespa_manual_0_3.png",
+  "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+  "prompt": "Read the lettering in the image, including stylized lettering. Return only the visible text, with no commentary.",
+  "request_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "max_tokens": 2048
+  },
+  "elapsed_seconds": 0.24473523399978875,
+  "text": "Vespa 150",
+  "finish_reason": "stop",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Vespa 150"
+        }
+      }
+    ],
+    "created": 1793450373,
+    "model": "qwen3vl4b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 8,
+      "prompt_tokens": 2661,
+      "total_tokens": 2669,
+      "prompt_tokens_details": {
+        "cached_tokens": 2632
+      }
+    },
+    "id": "chatcmpl-Thd68ZGsYr94crrox7uKzpFvCyfuymtT",
+    "timings": {
+      "cache_n": 2632,
+      "prompt_n": 29,
+      "prompt_ms": 23.172,
+      "prompt_per_token_ms": 0.7990344827586207,
+      "prompt_per_second": 1251.5104436388744,
+      "predicted_n": 8,
+      "predicted_ms": 116.03,
+      "predicted_per_token_ms": 16.575714285714287,
+      "predicted_per_second": 60.329225200379206
+    }
+  }
+}

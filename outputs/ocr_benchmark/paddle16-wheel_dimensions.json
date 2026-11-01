@@ -1,0 +1,52 @@
+{
+  "backend": "paddle16",
+  "endpoint": "http://127.0.0.1:8002/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_10/vespa_manual_10_3.png",
+  "prompt": "OCR:",
+  "request_config": {
+    "model": "paddleocr-vl-1.6",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 1.0974230179999722,
+  "text": "Le ruote intercambiabili, hanno cerchioni stampati in lamiera di acciaio, di Ø 8\", sui quali sono montati pneumatici 3.50-8\".",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Le ruote intercambiabili, hanno cerchioni stampati in lamiera di acciaio, di Ø 8\", sui quali sono montati pneumatici 3.50-8\"."
+        }
+      }
+    ],
+    "created": 1793448015,
+    "model": "paddleocr-vl-1.6",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 1237,
+      "total_tokens": 1281,
+      "prompt_tokens_details": {
+        "cached_tokens": 5
+      }
+    },
+    "id": "chatcmpl-5t51Ak6SrpFf1VHZxXX1m8uLnhmcZKxV",
+    "timings": {
+      "cache_n": 5,
+      "prompt_n": 1232,
+      "prompt_ms": 910.182,
+      "prompt_per_token_ms": 0.7387840909090909,
+      "prompt_per_second": 1353.5754387584022,
+      "predicted_n": 44,
+      "predicted_ms": 143.901,
+      "predicted_per_token_ms": 3.3465348837209303,
+      "predicted_per_second": 298.8165474875087
+    }
+  }
+}

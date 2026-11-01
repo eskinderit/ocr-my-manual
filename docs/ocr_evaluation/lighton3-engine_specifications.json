@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_7/vespa_manual_7_9.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.7753722250054125,
+  "text": "N°. Cilindri: 1, orizzontale  \nAlesaggio : mm. 57  \nCorsa : mm. 57  \nCilindrata : cmc. 145,6  \nRapporto di compressione 1/6,5\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "N°. Cilindri: 1, orizzontale  \nAlesaggio : mm. 57  \nCorsa : mm. 57  \nCilindrata : cmc. 145,6  \nRapporto di compressione 1/6,5\n"
+        }
+      }
+    ],
+    "created": 1793448003,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 1389,
+      "total_tokens": 1453,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-XoYh3ISVmacUC8r0aG72O0phP4ITPEUi",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 1381,
+      "prompt_ms": 454.859,
+      "prompt_per_token_ms": 0.3293692976104272,
+      "prompt_per_second": 3036.1056942920773,
+      "predicted_n": 64,
+      "predicted_ms": 256.725,
+      "predicted_per_token_ms": 4.075,
+      "predicted_per_second": 245.39877300613495
+    }
+  }
+}

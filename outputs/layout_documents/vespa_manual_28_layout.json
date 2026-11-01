@@ -1,0 +1,123 @@
+[
+  {
+    "label": "plain text",
+    "bbox": [
+      2834,
+      233,
+      5311,
+      1203
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_1.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      244,
+      250,
+      2711,
+      2022
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_0.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2837,
+      1216,
+      5315,
+      2016
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_4.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2858,
+      2033,
+      5325,
+      2830
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_9.png"
+  },
+  {
+    "label": "title",
+    "bbox": [
+      252,
+      2056,
+      1303,
+      2201
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_5.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      257,
+      2218,
+      2714,
+      2526
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_3.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      255,
+      2718,
+      2716,
+      3024
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_10.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2857,
+      2863,
+      5325,
+      3171
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_6.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      263,
+      3046,
+      2727,
+      3516
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_8.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2860,
+      3189,
+      5326,
+      3501
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_7.png"
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      4985,
+      3660,
+      5327,
+      3779
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_28/vespa_manual_28_2.png"
+  }
+]

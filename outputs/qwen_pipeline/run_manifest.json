@@ -1,0 +1,57 @@
+{
+  "detector": {
+    "model": "juliozhao/DocLayout-YOLO-DocStructBench",
+    "cached_revision": "8c3299a30b8ff29a1503c4431b035b93220f7b11",
+    "checkpoint": "doclayout_yolo_docstructbench_imgsz1024.pt",
+    "image_size": 1024,
+    "confidence": 0.25,
+    "deduplication_iou": 0.2,
+    "device": "cpu",
+    "fresh_source_pages": 36,
+    "regions_after_deduplication": 239
+  },
+  "ocr": {
+    "model": "Qwen3-VL-4B-Instruct",
+    "quantization": "Q8_0",
+    "decoder_sha256": "c4b185587694794aa9b4f754fae12d6c2f9544d8d729f846e7c5ac19d780e29e",
+    "projector_sha256": "5d5e698305f6e092c682d3e8e8deb1db88915e69a7dd66c0279e7ce810bfee48",
+    "community_weights_revision": "d41f9f8c74871726f466396779ef60c1fe166639",
+    "runtime": "llama.cpp 0.4.0-dev b124 e71b805",
+    "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "maximum_text_output_tokens": 4096,
+    "maximum_table_output_tokens": 6144,
+    "final_pages": 36,
+    "final_ocr_regions": 222,
+    "final_tables": 6,
+    "preserved_figure_crops": 17,
+    "final_request_failures": 0,
+    "late_table_repairs": {
+      "viewer_pages": [33, 34, 35, 36],
+      "model": "qwen3vl4b",
+      "maximum_input_side": 2600,
+      "columns": 3,
+      "row_counts_including_headers": [22, 23, 10, 7],
+      "audit": "table_repairs.json",
+      "method": "Explicit three-column OCR prompt; validate all rows before replacement; preserve previous tables and raw responses. Original detector crops are unchanged.",
+      "renderer_fix": "Natural-height rows with no hidden cell overflow; visible source-resolution-scaled grid rules; preserved column widths.",
+      "limitations": "These are still model transcriptions. Some section rows remain grouped, and spelling/word omissions remain; validation establishes renderable structure, not exact cell accuracy."
+    },
+    "table_retry": "The large troubleshooting table on vespa_manual_31.png hit context/output limits and repeated merged rows. Its original crop is preserved; a Lanczos maximum-side-1800 retry input and no-merged-cells prompt produced a normally stopped simplified three-column table. The transform is recorded in the output element and raw request audit. Rows and brace annotations are not faithfully reconstructed.",
+    "context_size": 8192,
+    "method": "All detected non-figure regions, including titles and abandon, are transcribed by Qwen. Tables use an HTML-table prompt. No Tesseract or old OCR fallback. Figures remain unchanged crops.",
+    "raw_evidence": "ocr_audit.json"
+  },
+  "preserved_baseline": {
+    "path": "outputs/layouts_with_texts.json",
+    "sha256": "a43003f8f4e0e531424d7275caf3caf1cdfca84694853c0a9be315c2bdb5af15"
+  },
+  "caveats": [
+    "This is an automated OCR output, not a fully corrected manual.",
+    "Detection and OCR can omit or misread text. The fresh cover crop reads Vespa 150 correctly but its emblem transcription omits the small P.",
+    "Normal stop and HTML table completion checks do not establish transcription accuracy.",
+    "The table on source page vespa_manual_31.png uses a simplified structure after retry; exact row relationships and brace annotations need review."
+  ]
+}

@@ -1,0 +1,2662 @@
+{
+  "date": "2026-10-31",
+  "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu": "11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz",
+  "logical_cpus": 16,
+  "host_ram_mib": 64006.44140625,
+  "gpu_baseline": {
+    "name": "NVIDIA RTX A5000 Laptop GPU",
+    "total_mib": 16384,
+    "used_mib": 18,
+    "driver": "580.178.04"
+  },
+  "method": "250ms wait between samples plus nvidia-smi overhead. RSS sums benchmark Python and descendants; shared mappings may be counted more than once. VRAM is whole-device used memory, not allocator high-water mark.",
+  "configuration": {
+    "detector_device": "cpu",
+    "imgsz": 1024,
+    "confidence": 0.25,
+    "dedup_iou": 0.2,
+    "ocr": "Qwen3-VL-4B-Instruct Q8_0 + f16 projector",
+    "context": 8192,
+    "slots": 1,
+    "gpu_layers": 99,
+    "flash_attention": true
+  },
+  "ocr_requests": [
+    {
+      "case": "cover_logo",
+      "crop": "vespa_manual_0/vespa_manual_0_2.png",
+      "image_size": [
+        2287,
+        1179
+      ],
+      "image_sha256": "d3691094bcaf9a5d3a78c7715ca7cacfc3ff15034937b2165561f4285e61b5b7",
+      "measurement": {
+        "wall_seconds": 2.2440576020017033,
+        "sample_count": 9,
+        "peak_process_tree_rss_mib": 1213.12890625,
+        "peak_device_used_mib": 6915,
+        "samples": [
+          {
+            "time_seconds": 0.00998659001197666,
+            "rss_mib": 880.65625,
+            "gpu_used_mib": 6659
+          },
+          {
+            "time_seconds": 0.28565183200407773,
+            "rss_mib": 1150.98828125,
+            "gpu_used_mib": 6857
+          },
+          {
+            "time_seconds": 0.5632262290018843,
+            "rss_mib": 1150.9921875,
+            "gpu_used_mib": 6857
+          },
+          {
+            "time_seconds": 0.8405845810048049,
+            "rss_mib": 1151.00390625,
+            "gpu_used_mib": 6857
+          },
+          {
+            "time_seconds": 1.1186244140117196,
+            "rss_mib": 1151.00390625,
+            "gpu_used_mib": 6857
+          },
+          {
+            "time_seconds": 1.3957199260039488,
+            "rss_mib": 1213.0234375,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.6732207790046232,
+            "rss_mib": 1213.11328125,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.9501911670085974,
+            "rss_mib": 1213.12890625,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 2.2256028590054484,
+            "rss_mib": 1213.12890625,
+            "gpu_used_mib": 6915
+          }
+        ]
+      },
+      "result": {
+        "backend": "qwen3vl4b",
+        "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+        "image": "/home/ada8671/Desktop/ocr-my-manual/outputs/qwen_pipeline/crops/vespa_manual_0/vespa_manual_0_2.png",
+        "prompt": "Transcribe all visible lettering, including single letters inside emblems, stylized words, dates and numbers. Preserve the original language and spelling. Output only visible text. Do not describe the image. If the content is tabular, output a complete HTML table preserving rows, columns and all cells. Do not invent text.",
+        "request_config": {
+          "model": "qwen3vl4b",
+          "max_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "stream": false,
+          "seed": 42
+        },
+        "elapsed_seconds": 2.2398380119993817,
+        "text": "Vespa 150",
+        "response": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "Vespa 150"
+              }
+            }
+          ],
+          "created": 1793467454,
+          "model": "qwen3vl4b",
+          "system_fingerprint": "b124-e71b805",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 8,
+            "prompt_tokens": 2702,
+            "total_tokens": 2710,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-uuNkSAZN1rPy7F3DYHfSwFDOl3KyXv51",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 2702,
+            "prompt_ms": 2039.444,
+            "prompt_per_token_ms": 0.7547905255366395,
+            "prompt_per_second": 1324.8708961854309,
+            "predicted_n": 8,
+            "predicted_ms": 114.377,
+            "predicted_per_token_ms": 16.33957142857143,
+            "predicted_per_second": 61.201115608907386
+          }
+        }
+      }
+    },
+    {
+      "case": "body_text",
+      "crop": "vespa_manual_1/vespa_manual_1_2.png",
+      "image_size": [
+        4715,
+        386
+      ],
+      "image_sha256": "6fa0d3b8f804b17e27a309117de0ffd897c170460f4bc800042df44cc93588ee",
+      "measurement": {
+        "wall_seconds": 3.5991214599926025,
+        "sample_count": 14,
+        "peak_process_tree_rss_mib": 1638.21875,
+        "peak_device_used_mib": 6915,
+        "samples": [
+          {
+            "time_seconds": 0.007382372990832664,
+            "rss_mib": 1111.33203125,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 0.283093451987952,
+            "rss_mib": 1552.64453125,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 0.5571715289988788,
+            "rss_mib": 1618.234375,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 0.8307863629888743,
+            "rss_mib": 1618.234375,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.1084516019909643,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.3833694369968725,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.659160069990321,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 1.9364686319895554,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 2.2118299569992814,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 2.4916001449892065,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 2.7679375109873945,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 3.0438273189938627,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 3.321275422000326,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 3.595955607990618,
+            "rss_mib": 1638.21875,
+            "gpu_used_mib": 6915
+          }
+        ]
+      },
+      "result": {
+        "backend": "qwen3vl4b",
+        "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+        "image": "/home/ada8671/Desktop/ocr-my-manual/outputs/qwen_pipeline/crops/vespa_manual_1/vespa_manual_1_2.png",
+        "prompt": "Transcribe all visible lettering, including single letters inside emblems, stylized words, dates and numbers. Preserve the original language and spelling. Output only visible text. Do not describe the image. If the content is tabular, output a complete HTML table preserving rows, columns and all cells. Do not invent text.",
+        "request_config": {
+          "model": "qwen3vl4b",
+          "max_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "stream": false,
+          "seed": 42
+        },
+        "elapsed_seconds": 3.5982751800038386,
+        "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando\nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente\nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o\nper qualsiasi esigenza di carattere costruttivo o commerciale.",
+        "response": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando\nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente\nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o\nper qualsiasi esigenza di carattere costruttivo o commerciale."
+              }
+            }
+          ],
+          "created": 1793467458,
+          "model": "qwen3vl4b",
+          "system_fingerprint": "b124-e71b805",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 139,
+            "prompt_tokens": 1839,
+            "total_tokens": 1978,
+            "prompt_tokens_details": {
+              "cached_tokens": 4
+            }
+          },
+          "id": "chatcmpl-9spNv1b8RufIF63HYysTd1YsmlbAtjLC",
+          "timings": {
+            "cache_n": 4,
+            "prompt_n": 1835,
+            "prompt_ms": 1183.513,
+            "prompt_per_token_ms": 0.64496621253406,
+            "prompt_per_second": 1550.4688161431266,
+            "predicted_n": 139,
+            "predicted_ms": 2135.105,
+            "predicted_per_token_ms": 15.47177536231884,
+            "predicted_per_second": 64.63382362928287
+          }
+        }
+      }
+    },
+    {
+      "case": "lubrication_table",
+      "crop": "vespa_manual_29/vespa_manual_29_1.png",
+      "image_size": [
+        5032,
+        3025
+      ],
+      "image_sha256": "341282522e1f65553d1dbf6a2518c2e93810be07762b3a57868cfdeb7951b5f9",
+      "measurement": {
+        "wall_seconds": 14.140771685008076,
+        "sample_count": 52,
+        "peak_process_tree_rss_mib": 2104.109375,
+        "peak_device_used_mib": 7183,
+        "samples": [
+          {
+            "time_seconds": 0.01080286200158298,
+            "rss_mib": 1577.97265625,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 0.2836612750106724,
+            "rss_mib": 1646.515625,
+            "gpu_used_mib": 6915
+          },
+          {
+            "time_seconds": 0.5614568849996431,
+            "rss_mib": 2084.0859375,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 0.8357447300077183,
+            "rss_mib": 2084.08984375,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 1.110391927009914,
+            "rss_mib": 2084.09375,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 1.3839294080098625,
+            "rss_mib": 2084.09765625,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 1.6627286660077516,
+            "rss_mib": 2084.09765625,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 1.9418193380115554,
+            "rss_mib": 2084.09765625,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 2.2177694370038807,
+            "rss_mib": 2084.1015625,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 2.49725968700659,
+            "rss_mib": 2084.10546875,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 2.771688439010177,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 3.046467181004118,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7181
+          },
+          {
+            "time_seconds": 3.321428659997764,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 3.5972061089996714,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 3.874587390004308,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 4.155272543008323,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 4.432155333997798,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 4.710805663999054,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 4.989601706998656,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 5.266559289011639,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 5.544643016997725,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 5.8236140930093825,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 6.100525235000532,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 6.378266808998887,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 6.655495587008772,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 6.934102444007294,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 7.212072367008659,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 7.489470282002003,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 7.766848665007274,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 8.04553803500312,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 8.323534020004445,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 8.600275467004394,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 8.877454631001456,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 9.15425391800818,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 9.431450169009622,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 9.707055256003514,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 9.98393828800181,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 10.25941348100605,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 10.535714044002816,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 10.811030625001877,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 11.08827538600599,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 11.363326185004553,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 11.639021128998138,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 11.914776898003765,
+            "rss_mib": 2104.10546875,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 12.19289418500557,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 12.467832687005284,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 12.746016344011878,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 13.026567930006422,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 13.305895140001667,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 13.580971949006198,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 13.857593927998096,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 14.132900550001068,
+            "rss_mib": 2104.109375,
+            "gpu_used_mib": 7183
+          }
+        ]
+      },
+      "result": {
+        "backend": "qwen3vl4b",
+        "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+        "image": "/home/ada8671/Desktop/ocr-my-manual/outputs/qwen_pipeline/crops/vespa_manual_29/vespa_manual_29_1.png",
+        "prompt": "Transcribe this table exactly in its original language as a complete HTML table. Preserve row and column relationships, empty cells, ditto marks, numbers and units. Use rowspan and colspan where needed. Use only table, tr, th and td tags; no style attributes, CSS, explanations or code fences. Keep markup compact.",
+        "request_config": {
+          "model": "qwen3vl4b",
+          "max_tokens": 6144,
+          "temperature": 0,
+          "top_p": 1,
+          "stream": false,
+          "seed": 42
+        },
+        "elapsed_seconds": 14.137096906008082,
+        "text": "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; font-size: 12px; border: 1px solid black; width: 100%; text-align: center;\">\n  <thead>\n    <tr>\n      <th colspan=\"3\" style=\"text-align: center; font-weight: bold;\">GRUPPO DA LUBRIFICARE</th>\n      <th rowspan=\"2\" style=\"text-align: center; font-weight: bold;\">LUBRIFICANTI</th>\n    </tr>\n    <tr>\n      <th>Ogni 2000 Km.</th>\n      <th>Ogni 3000 Km.</th>\n      <th>Ogni 6000 Km.</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Cambio</td>\n      <td></td>\n      <td></td>\n      <td>Essolube 30</td>\n    </tr>\n    <tr>\n      <td>Settore cambio</td>\n      <td></td>\n      <td></td>\n      <td>Esso Chassis Grease “L.”</td>\n    </tr>\n    <tr>\n      <td>Articolazione levette freno</td>\n      <td></td>\n      <td></td>\n      <td>Esso Chassis Grease “L.”</td>\n    </tr>\n    <tr>\n      <td>Sospensione anteriore</td>\n      <td></td>\n      <td></td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Cavetti dei comandi</td>\n      <td></td>\n      <td>Esso Chassis Grease «L»</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Felcro del volano</td>\n      <td></td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td></td>\n      <td>Trasmissione e rinvio contachilometri</td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Motore: ad ogni rifornimento (lubrificazione effettuata dalla miscela)</td>\n      <td>Essolube 30</td>\n    </tr>\n    <tr>\n      <td>Ammortizzatori anter. e poster.</td>\n      <td colspan=\"2\">solo in caso di inefficienza</td>\n      <td>Esso Univis 54</td>\n    </tr>\n  </tbody>\n</table>",
+        "response": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; font-size: 12px; border: 1px solid black; width: 100%; text-align: center;\">\n  <thead>\n    <tr>\n      <th colspan=\"3\" style=\"text-align: center; font-weight: bold;\">GRUPPO DA LUBRIFICARE</th>\n      <th rowspan=\"2\" style=\"text-align: center; font-weight: bold;\">LUBRIFICANTI</th>\n    </tr>\n    <tr>\n      <th>Ogni 2000 Km.</th>\n      <th>Ogni 3000 Km.</th>\n      <th>Ogni 6000 Km.</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Cambio</td>\n      <td></td>\n      <td></td>\n      <td>Essolube 30</td>\n    </tr>\n    <tr>\n      <td>Settore cambio</td>\n      <td></td>\n      <td></td>\n      <td>Esso Chassis Grease “L.”</td>\n    </tr>\n    <tr>\n      <td>Articolazione levette freno</td>\n      <td></td>\n      <td></td>\n      <td>Esso Chassis Grease “L.”</td>\n    </tr>\n    <tr>\n      <td>Sospensione anteriore</td>\n      <td></td>\n      <td></td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Cavetti dei comandi</td>\n      <td></td>\n      <td>Esso Chassis Grease «L»</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>Felcro del volano</td>\n      <td></td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td></td>\n      <td>Trasmissione e rinvio contachilometri</td>\n      <td>Esso Bearing Grease</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Motore: ad ogni rifornimento (lubrificazione effettuata dalla miscela)</td>\n      <td>Essolube 30</td>\n    </tr>\n    <tr>\n      <td>Ammortizzatori anter. e poster.</td>\n      <td colspan=\"2\">solo in caso di inefficienza</td>\n      <td>Esso Univis 54</td>\n    </tr>\n  </tbody>\n</table>"
+              }
+            }
+          ],
+          "created": 1793467472,
+          "model": "qwen3vl4b",
+          "system_fingerprint": "b124-e71b805",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 619,
+            "prompt_tokens": 4093,
+            "total_tokens": 4712,
+            "prompt_tokens_details": {
+              "cached_tokens": 4
+            }
+          },
+          "id": "chatcmpl-QKxps66WmLEI5xVfop4CZdjF2Bvq1HV2",
+          "timings": {
+            "cache_n": 4,
+            "prompt_n": 4089,
+            "prompt_ms": 3434.789,
+            "prompt_per_token_ms": 0.8400070921985816,
+            "prompt_per_second": 1190.466139259209,
+            "predicted_n": 619,
+            "predicted_ms": 10257.984,
+            "predicted_per_token_ms": 16.598679611650486,
+            "predicted_per_second": 60.24575589121605
+          }
+        }
+      }
+    },
+    {
+      "case": "troubleshooting_table",
+      "crop": "vespa_manual_32/vespa_manual_32_0.png",
+      "image_size": [
+        5102,
+        3315
+      ],
+      "image_sha256": "bbebca6c10a7e3afb626636e1cefab480d1a76f4a0b577bcd57720bd83ce1a63",
+      "measurement": {
+        "wall_seconds": 23.88808430399513,
+        "sample_count": 87,
+        "peak_process_tree_rss_mib": 2822.62109375,
+        "peak_device_used_mib": 7185,
+        "samples": [
+          {
+            "time_seconds": 0.010076799997477792,
+            "rss_mib": 1953.0234375,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 0.2853083669906482,
+            "rss_mib": 2146.5078125,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 0.5624109369964572,
+            "rss_mib": 2665.1015625,
+            "gpu_used_mib": 7183
+          },
+          {
+            "time_seconds": 0.8403142419992946,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 1.1140110359992832,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 1.3895413459977135,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 1.6623244779912056,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 1.935923715995159,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 2.2087274419900496,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 2.4830541659903247,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 2.7593746880011167,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 3.033929900993826,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 3.3085094909911277,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 3.584059864995652,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 3.8577127359894803,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 4.132222920001368,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 4.41066259299987,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 4.687568591994932,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 4.962920049991226,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 5.242207415998564,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 5.521472243999597,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 5.797278979996918,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 6.07416857399221,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 6.35132867199718,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 6.627610052993987,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 6.905254953002441,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 7.182104873994831,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 7.459695297991857,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 7.739138354998431,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 8.0156068590004,
+            "rss_mib": 2822.6171875,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 8.293432042992208,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 8.571088639990194,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 8.848304144994472,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 9.128302979996079,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 9.406548041995848,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 9.682375606993446,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 9.960045982996235,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 10.23730824199447,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 10.514399080988369,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 10.790893928991864,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 11.067619253997691,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 11.344533204988693,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 11.620644980997895,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 11.896000173001084,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 12.173148169997148,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 12.450534732997767,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 12.726976656995248,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 13.005519988990272,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 13.28207900399866,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 13.562516366000636,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 13.841483452997636,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 14.118728139990708,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 14.395327877995442,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 14.671462569996947,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 14.948009284998989,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 15.225461071997415,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 15.501880405994598,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 15.778605579995201,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 16.054555796989007,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 16.33054821898986,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 16.60732012699009,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 16.886480033994303,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 17.16377982198901,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 17.43988656999136,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 17.71619117699447,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 17.992659907002235,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 18.270185952991596,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 18.54737130898866,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 18.82575143199938,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 19.10512325700256,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 19.38280784599192,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 19.660549895997974,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 19.939427099001477,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 20.21556022299046,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 20.492057865994866,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 20.769678238997585,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 21.04718579299515,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 21.32509995000146,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 21.600486810988514,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 21.877133577989298,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 22.153951360989595,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 22.43083607299195,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 22.707543230993906,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 22.98630314899492,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 23.266075979991,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 23.54391983599635,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          },
+          {
+            "time_seconds": 23.821696507002343,
+            "rss_mib": 2822.62109375,
+            "gpu_used_mib": 7185
+          }
+        ]
+      },
+      "result": {
+        "backend": "qwen3vl4b",
+        "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+        "image": "/home/ada8671/Desktop/ocr-my-manual/outputs/qwen_pipeline/crops/vespa_manual_32/vespa_manual_32_0.png",
+        "prompt": "Transcribe this table exactly in its original language as a complete HTML table. Preserve row and column relationships, empty cells, ditto marks, numbers and units. Use rowspan and colspan where needed. Use only table, tr, th and td tags; no style attributes, CSS, explanations or code fences. Keep markup compact.",
+        "request_config": {
+          "model": "qwen3vl4b",
+          "max_tokens": 6144,
+          "temperature": 0,
+          "top_p": 1,
+          "stream": false,
+          "seed": 42
+        },
+        "elapsed_seconds": 23.884005574989715,
+        "text": "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; font-size: 12px; width: 100%; text-align: left;\">\n  <thead>\n    <tr>\n      <th colspan=\"2\">Ricerca e individuazione dell'inconveniente</th>\n      <th>Provvedimenti</th>\n      <th>Esecuzione</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Agitatore bloccato in basso</td>\n      <td></td>\n      <td>Disimpegnarlo</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Galleggiante forato</td>\n      <td></td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Filtro aria otturato o sporco</td>\n      <td></td>\n      <td>Vedere pag. 27, n. 1</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Parzializzatore aria fisso in posizione di chiuso</td>\n      <td></td>\n      <td>Sbloccore</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Carburatore montato in posizione errata</td>\n      <td></td>\n      <td>Portare la vaschetta in posizione verticale</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">3 - Accensione</td>\n      <td></td>\n      <td rowspan=\"2\">Distaccare il cavo dalla candela e controllare se azionando la leva di avviamento. scocca la scintilla fra l'estremità del cavo e la massa. Pulire e registrare la distanza (mm. 0.6) fra gli elettrodi (ved. pag. 28) Sostituire la candela (ved. pag. 28) Pulire con opposte limette o carta abrasiva * Correggere l'intervallo a mm. 0.4 * Sostituire * Correggere *</td>\n      <td rowspan=\"2\">* Agenzie di vendita</td>\n    </tr>\n    <tr>\n      <td>Candela sporca</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Isolante della candela rotto</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore sporche</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore mal registrate</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore consumate o bucherellate</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Fosatura irregolare</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>IRREGOLARITÀ VARIE DI FUNZIONAMENTO</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">1 - Scorno rendimento</td>\n      <td></td>\n      <td rowspan=\"2\">Pulire (ved. pag. 28) Sostituire la guarnizione fra raccordo e cilindro Serrare i dadi sui prigionieri del cilindro. Disincrostare cilindro, testa e pistone * Sostituire *</td>\n      <td rowspan=\"2\"></td>\n    </tr>\n    <tr>\n      <td>Marmitta incrostata</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Raccordo di ammissione allentato</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">Luce di scarico ostruita da incrostazioni</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Guarnizione fra cilindro e carter inefficiente</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>2 - Scarsa compressione</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Candela non bene avvitata sulla testa del cilindro</td>\n      <td></td>\n      <td>Stringere con chiave da 21</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>",
+        "response": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; font-size: 12px; width: 100%; text-align: left;\">\n  <thead>\n    <tr>\n      <th colspan=\"2\">Ricerca e individuazione dell'inconveniente</th>\n      <th>Provvedimenti</th>\n      <th>Esecuzione</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Agitatore bloccato in basso</td>\n      <td></td>\n      <td>Disimpegnarlo</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Galleggiante forato</td>\n      <td></td>\n      <td>Sostituire *</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Filtro aria otturato o sporco</td>\n      <td></td>\n      <td>Vedere pag. 27, n. 1</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Parzializzatore aria fisso in posizione di chiuso</td>\n      <td></td>\n      <td>Sbloccore</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Carburatore montato in posizione errata</td>\n      <td></td>\n      <td>Portare la vaschetta in posizione verticale</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">3 - Accensione</td>\n      <td></td>\n      <td rowspan=\"2\">Distaccare il cavo dalla candela e controllare se azionando la leva di avviamento. scocca la scintilla fra l'estremità del cavo e la massa. Pulire e registrare la distanza (mm. 0.6) fra gli elettrodi (ved. pag. 28) Sostituire la candela (ved. pag. 28) Pulire con opposte limette o carta abrasiva * Correggere l'intervallo a mm. 0.4 * Sostituire * Correggere *</td>\n      <td rowspan=\"2\">* Agenzie di vendita</td>\n    </tr>\n    <tr>\n      <td>Candela sporca</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Isolante della candela rotto</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore sporche</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore mal registrate</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Puntine del ruttore consumate o bucherellate</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Fosatura irregolare</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>IRREGOLARITÀ VARIE DI FUNZIONAMENTO</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">1 - Scorno rendimento</td>\n      <td></td>\n      <td rowspan=\"2\">Pulire (ved. pag. 28) Sostituire la guarnizione fra raccordo e cilindro Serrare i dadi sui prigionieri del cilindro. Disincrostare cilindro, testa e pistone * Sostituire *</td>\n      <td rowspan=\"2\"></td>\n    </tr>\n    <tr>\n      <td>Marmitta incrostata</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Raccordo di ammissione allentato</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\">Luce di scarico ostruita da incrostazioni</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Guarnizione fra cilindro e carter inefficiente</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>2 - Scarsa compressione</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>Candela non bene avvitata sulla testa del cilindro</td>\n      <td></td>\n      <td>Stringere con chiave da 21</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+              }
+            }
+          ],
+          "created": 1793467496,
+          "model": "qwen3vl4b",
+          "system_fingerprint": "b124-e71b805",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 1184,
+            "prompt_tokens": 4104,
+            "total_tokens": 5288,
+            "prompt_tokens_details": {
+              "cached_tokens": 4
+            }
+          },
+          "id": "chatcmpl-efB59081NrSv7YjqpdDmQnohNzVsz1av",
+          "timings": {
+            "cache_n": 4,
+            "prompt_n": 4100,
+            "prompt_ms": 3450.714,
+            "prompt_per_token_ms": 0.8416375609756097,
+            "prompt_per_second": 1188.1598996613454,
+            "predicted_n": 1184,
+            "predicted_ms": 19747.701,
+            "predicted_per_token_ms": 16.692900253592562,
+            "predicted_per_second": 59.905707504888795
+          }
+        }
+      }
+    }
+  ],
+  "detection": {
+    "wall_seconds": 68.68220356298843,
+    "sample_count": 243,
+    "peak_process_tree_rss_mib": 1646.3125,
+    "peak_device_used_mib": 18,
+    "samples": [
+      {
+        "time_seconds": 0.008237587986513972,
+        "rss_mib": 33.6796875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 0.28370138599711936,
+        "rss_mib": 192.765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 0.5640449309867108,
+        "rss_mib": 487.19140625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 0.8402646469912725,
+        "rss_mib": 530.20703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 1.1173844329896383,
+        "rss_mib": 549.50390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 1.394491865998134,
+        "rss_mib": 580.3671875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 1.6697068019857397,
+        "rss_mib": 609.44140625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 1.9450321049953345,
+        "rss_mib": 691.9453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 2.2204143309936626,
+        "rss_mib": 707.765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 2.497026635988732,
+        "rss_mib": 736.98046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 2.771652296985849,
+        "rss_mib": 767.421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 3.0484797659883043,
+        "rss_mib": 768.39453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 3.3240573139919434,
+        "rss_mib": 768.41015625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 3.5997640879941173,
+        "rss_mib": 908.875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 3.875544919996173,
+        "rss_mib": 908.875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 4.153149787991424,
+        "rss_mib": 908.875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 4.429350768987206,
+        "rss_mib": 908.875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 4.714078534991131,
+        "rss_mib": 1016.6875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 5.010925293987384,
+        "rss_mib": 1033.80859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 5.29320294498757,
+        "rss_mib": 1039.01171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 5.57525879899913,
+        "rss_mib": 1143.87890625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 5.8502689369925065,
+        "rss_mib": 1308.13671875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 6.138819411993609,
+        "rss_mib": 1380.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 6.43191232800018,
+        "rss_mib": 1380.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 6.71777976899466,
+        "rss_mib": 1380.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 6.997770341986325,
+        "rss_mib": 1348.18359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 7.272211227988009,
+        "rss_mib": 1522.64453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 7.54985159599164,
+        "rss_mib": 1636.14453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 7.826868465999723,
+        "rss_mib": 1636.1484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 8.104966687998967,
+        "rss_mib": 1636.1484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 8.385934095989796,
+        "rss_mib": 1636.1484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 8.669151410998893,
+        "rss_mib": 1636.1484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 8.953417104989057,
+        "rss_mib": 1393.0390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 9.23073683999246,
+        "rss_mib": 1632.00390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 9.5074423099868,
+        "rss_mib": 1632.00390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 9.78836668599979,
+        "rss_mib": 1632.015625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 10.080519959999947,
+        "rss_mib": 1632.015625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 10.37479362198792,
+        "rss_mib": 1632.015625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 10.65813255799003,
+        "rss_mib": 1520.625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 10.934456031987793,
+        "rss_mib": 1632.4921875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 11.210658916999819,
+        "rss_mib": 1632.4921875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 11.505905533995247,
+        "rss_mib": 1632.49609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 11.792517335998127,
+        "rss_mib": 1632.49609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 12.087661084995489,
+        "rss_mib": 1632.50390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 12.367173254999216,
+        "rss_mib": 1486.99609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 12.646367816996644,
+        "rss_mib": 1624.34765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 12.922125817000051,
+        "rss_mib": 1624.3515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 13.204726001989911,
+        "rss_mib": 1624.3515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 13.49086792099115,
+        "rss_mib": 1624.3515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 13.773945604989422,
+        "rss_mib": 1624.3515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 14.053298423998058,
+        "rss_mib": 1337.046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 14.3301434499881,
+        "rss_mib": 1623.60546875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 14.606533662998118,
+        "rss_mib": 1623.60546875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 14.892677290990832,
+        "rss_mib": 1623.60546875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 15.187332583998796,
+        "rss_mib": 1623.60546875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 15.487574736995157,
+        "rss_mib": 1623.60546875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 15.78124268699321,
+        "rss_mib": 1623.609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 16.055680035991827,
+        "rss_mib": 1632.984375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 16.33126007099054,
+        "rss_mib": 1632.984375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 16.613975281987223,
+        "rss_mib": 1632.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 16.908852850989206,
+        "rss_mib": 1632.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 17.193220138986362,
+        "rss_mib": 1632.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 17.47526992499479,
+        "rss_mib": 1632.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 17.751566332997754,
+        "rss_mib": 1561.6796875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 18.026364145000116,
+        "rss_mib": 1624.64453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 18.301489972989657,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 18.583958081988385,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 18.876502391998656,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 19.16499982199457,
+        "rss_mib": 1337.96484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 19.44308959999762,
+        "rss_mib": 1625.80078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 19.718274108992773,
+        "rss_mib": 1625.80078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 20.004636556986952,
+        "rss_mib": 1625.8046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 20.30363552799099,
+        "rss_mib": 1625.8046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 20.603577711997787,
+        "rss_mib": 1625.80859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 20.895810149988392,
+        "rss_mib": 1430.57421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 21.170187420997536,
+        "rss_mib": 1630.94921875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 21.446945401999983,
+        "rss_mib": 1630.94921875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 21.732304969991674,
+        "rss_mib": 1630.953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 22.02457807699102,
+        "rss_mib": 1630.953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 22.310393761988962,
+        "rss_mib": 1630.97265625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 22.586454954987857,
+        "rss_mib": 1606.79296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 22.861661838993314,
+        "rss_mib": 1634.51171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 23.13683850999223,
+        "rss_mib": 1634.515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 23.415546594987973,
+        "rss_mib": 1634.515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 23.70977231299912,
+        "rss_mib": 1634.515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 23.999121187996934,
+        "rss_mib": 1634.515625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 24.278814947989304,
+        "rss_mib": 1537.7265625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 24.555442144992412,
+        "rss_mib": 1616.9765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 24.83026082199649,
+        "rss_mib": 1616.9765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 25.108615524994093,
+        "rss_mib": 1616.9765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 25.3918087699858,
+        "rss_mib": 1616.9765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 25.681826050989912,
+        "rss_mib": 1616.9765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 25.965328293998027,
+        "rss_mib": 1534.30859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 26.245238323986996,
+        "rss_mib": 1646.08203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 26.52113900599943,
+        "rss_mib": 1646.08203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 26.80503133899765,
+        "rss_mib": 1646.08203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 27.09985852999671,
+        "rss_mib": 1646.08203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 27.393999925989192,
+        "rss_mib": 1646.08203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 27.67723979699076,
+        "rss_mib": 1646.0859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 27.952878752999823,
+        "rss_mib": 1633.890625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 28.230529725988163,
+        "rss_mib": 1633.89453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 28.513915281990194,
+        "rss_mib": 1633.89453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 28.808821112994337,
+        "rss_mib": 1633.89453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 29.094004629994743,
+        "rss_mib": 1633.89453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 29.37536756899499,
+        "rss_mib": 1633.89453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 29.65201173099922,
+        "rss_mib": 1616.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 29.929263359998004,
+        "rss_mib": 1616.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 30.213419389998307,
+        "rss_mib": 1616.45703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 30.50223934899259,
+        "rss_mib": 1616.45703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 30.787268345986377,
+        "rss_mib": 1616.45703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 31.070910028996877,
+        "rss_mib": 1616.4609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 31.345985640989966,
+        "rss_mib": 1646.30859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 31.621433700987836,
+        "rss_mib": 1646.30859375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 31.89865492399258,
+        "rss_mib": 1646.3125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 32.203748303989414,
+        "rss_mib": 1646.3125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 32.501489054993726,
+        "rss_mib": 1646.3125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 32.79715501298779,
+        "rss_mib": 1416.7578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 33.07642134799971,
+        "rss_mib": 1607.3359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 33.35461698099971,
+        "rss_mib": 1607.3359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 33.63932635099627,
+        "rss_mib": 1607.3359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 33.942395202990156,
+        "rss_mib": 1607.3359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 34.22778503599693,
+        "rss_mib": 1607.3359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 34.509224273992004,
+        "rss_mib": 1607.33984375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 34.7845481409895,
+        "rss_mib": 1629.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 35.062322952988325,
+        "rss_mib": 1634.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 35.33788400799676,
+        "rss_mib": 1634.4296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 35.618755228992086,
+        "rss_mib": 1634.4296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 35.904720953985816,
+        "rss_mib": 1634.4296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 36.19221960399591,
+        "rss_mib": 1634.4296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 36.47598984799697,
+        "rss_mib": 1523.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 36.75297118899471,
+        "rss_mib": 1635.68359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 37.030320341989864,
+        "rss_mib": 1635.68359375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 37.33317361898662,
+        "rss_mib": 1635.6953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 37.62396795999666,
+        "rss_mib": 1635.6953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 37.92114521098847,
+        "rss_mib": 1635.6953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 38.20440558998962,
+        "rss_mib": 1635.6953125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 38.48097753399634,
+        "rss_mib": 1609.84765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 38.756633989993134,
+        "rss_mib": 1624.87109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 39.03360258799512,
+        "rss_mib": 1624.87109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 39.315304746996844,
+        "rss_mib": 1624.87109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 39.60592681299022,
+        "rss_mib": 1624.87109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 39.89930537399778,
+        "rss_mib": 1624.87109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 40.18844218199956,
+        "rss_mib": 1521.70703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 40.46458139899187,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 40.74208101599652,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 41.023766268990585,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 41.30864178399497,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 41.602453273997526,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 41.884818737991736,
+        "rss_mib": 1633.5625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 42.16384723098599,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 42.44119789499382,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 42.727217684994685,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 43.02170373999979,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 43.309900825988734,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 43.59014873999695,
+        "rss_mib": 1615.1640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 43.87036966398591,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 44.148255109990714,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 44.42303497099783,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 44.706829808987095,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 44.99232393299462,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 45.28588880698953,
+        "rss_mib": 1645.171875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 45.567436212993925,
+        "rss_mib": 1434.14453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 45.844348197992076,
+        "rss_mib": 1605.81640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 46.12078623598791,
+        "rss_mib": 1605.8203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 46.39902330399491,
+        "rss_mib": 1605.8203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 46.68399916499038,
+        "rss_mib": 1605.8203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 46.97328040499997,
+        "rss_mib": 1605.8203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 47.255264270992484,
+        "rss_mib": 1505.59765625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 47.53257461899193,
+        "rss_mib": 1633.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 47.809399509991636,
+        "rss_mib": 1633.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 48.093875458987895,
+        "rss_mib": 1633.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 48.38928184499673,
+        "rss_mib": 1633.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 48.67804412599071,
+        "rss_mib": 1633.453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 48.96606424899073,
+        "rss_mib": 1633.45703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 49.24391824299528,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 49.51884366599552,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 49.805794741987484,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 50.099485249986174,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 50.385245854995446,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 50.665632793999976,
+        "rss_mib": 1624.62109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 50.94352936799987,
+        "rss_mib": 1512.4921875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 51.21847948899085,
+        "rss_mib": 1626.30078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 51.494638319985825,
+        "rss_mib": 1626.30078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 51.77524865299347,
+        "rss_mib": 1626.30078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 52.06082263299322,
+        "rss_mib": 1626.30078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 52.348029958986444,
+        "rss_mib": 1626.30078125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 52.63323046499863,
+        "rss_mib": 1438.84375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 52.91088588099228,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 53.188193753987434,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 53.470501404997776,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 53.768565800986835,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 54.05173829499108,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 54.332740900994395,
+        "rss_mib": 1633.42578125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 54.61090380398673,
+        "rss_mib": 1510.25,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 54.888116517991875,
+        "rss_mib": 1623.97265625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 55.165311099990504,
+        "rss_mib": 1623.98046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 55.45396267499018,
+        "rss_mib": 1623.984375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 55.73917384499509,
+        "rss_mib": 1623.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 56.02587932799361,
+        "rss_mib": 1623.98828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 56.30852747199242,
+        "rss_mib": 1344.23046875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 56.58757616599905,
+        "rss_mib": 1632.06640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 56.865417911991244,
+        "rss_mib": 1632.06640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 57.15381006899406,
+        "rss_mib": 1632.06640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 57.44677906599827,
+        "rss_mib": 1632.06640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 57.733824024995556,
+        "rss_mib": 1632.06640625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 58.0130501120002,
+        "rss_mib": 1632.0703125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 58.28923004999524,
+        "rss_mib": 1543.6875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 58.568051326990826,
+        "rss_mib": 1632.34375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 58.84385466299136,
+        "rss_mib": 1632.34375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 59.124581408992526,
+        "rss_mib": 1632.34375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 59.40804365598888,
+        "rss_mib": 1632.34375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 59.69738018499629,
+        "rss_mib": 1632.34375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 59.98580183000013,
+        "rss_mib": 1336.52734375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 60.26217306198669,
+        "rss_mib": 1624.3671875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 60.541479783991235,
+        "rss_mib": 1624.3671875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 60.82431660499424,
+        "rss_mib": 1624.37109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 61.117304113999126,
+        "rss_mib": 1624.37109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 61.40236904799531,
+        "rss_mib": 1624.37109375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 61.68219463698915,
+        "rss_mib": 1624.40625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 61.96088477098965,
+        "rss_mib": 1477.79296875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 62.23819238199212,
+        "rss_mib": 1624.64453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 62.51550702098757,
+        "rss_mib": 1624.64453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 62.801518777996534,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 63.09350717999041,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 63.39069891499821,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 63.67375040799379,
+        "rss_mib": 1624.6484375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 63.952102766997996,
+        "rss_mib": 1632.8203125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 64.22870562199387,
+        "rss_mib": 1632.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 64.5225986459991,
+        "rss_mib": 1632.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 64.81515741499607,
+        "rss_mib": 1632.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 65.10361848799221,
+        "rss_mib": 1632.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 65.38527449298999,
+        "rss_mib": 1632.82421875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 65.66446778998943,
+        "rss_mib": 1583.38671875,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 65.94242631799716,
+        "rss_mib": 1632.375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 66.220962537991,
+        "rss_mib": 1632.3828125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 66.50391424899863,
+        "rss_mib": 1632.37890625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 66.80176407498948,
+        "rss_mib": 1632.37890625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 67.09340561598947,
+        "rss_mib": 1632.37890625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 67.37094724699273,
+        "rss_mib": 1629.4609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 67.6474822149903,
+        "rss_mib": 1629.4609375,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 67.92485300899716,
+        "rss_mib": 1104.39453125,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 68.20082653498685,
+        "rss_mib": 1093.41015625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 68.47997476399178,
+        "rss_mib": 1093.4140625,
+        "gpu_used_mib": 18
+      }
+    ],
+    "pages": 36,
+    "boxes": 239,
+    "page_images": [
+      {
+        "name": "vespa_manual_0.png",
+        "size": [
+          4016,
+          2806
+        ]
+      },
+      {
+        "name": "vespa_manual_1.png",
+        "size": [
+          5991,
+          4217
+        ]
+      },
+      {
+        "name": "vespa_manual_10.png",
+        "size": [
+          5983,
+          4208
+        ]
+      },
+      {
+        "name": "vespa_manual_11.png",
+        "size": [
+          6000,
+          4208
+        ]
+      },
+      {
+        "name": "vespa_manual_12.png",
+        "size": [
+          6000,
+          4217
+        ]
+      },
+      {
+        "name": "vespa_manual_13.png",
+        "size": [
+          5983,
+          4200
+        ]
+      },
+      {
+        "name": "vespa_manual_14.png",
+        "size": [
+          5991,
+          4250
+        ]
+      },
+      {
+        "name": "vespa_manual_15.png",
+        "size": [
+          5991,
+          4242
+        ]
+      },
+      {
+        "name": "vespa_manual_16.png",
+        "size": [
+          5991,
+          4233
+        ]
+      },
+      {
+        "name": "vespa_manual_17.png",
+        "size": [
+          5991,
+          4192
+        ]
+      },
+      {
+        "name": "vespa_manual_18.png",
+        "size": [
+          6000,
+          4275
+        ]
+      },
+      {
+        "name": "vespa_manual_19.png",
+        "size": [
+          6000,
+          4167
+        ]
+      },
+      {
+        "name": "vespa_manual_2.png",
+        "size": [
+          6000,
+          4192
+        ]
+      },
+      {
+        "name": "vespa_manual_20.png",
+        "size": [
+          6000,
+          4250
+        ]
+      },
+      {
+        "name": "vespa_manual_21.png",
+        "size": [
+          5991,
+          4175
+        ]
+      },
+      {
+        "name": "vespa_manual_22.png",
+        "size": [
+          6000,
+          4250
+        ]
+      },
+      {
+        "name": "vespa_manual_23.png",
+        "size": [
+          5983,
+          4175
+        ]
+      },
+      {
+        "name": "vespa_manual_24.png",
+        "size": [
+          5991,
+          4258
+        ]
+      },
+      {
+        "name": "vespa_manual_25.png",
+        "size": [
+          5991,
+          4208
+        ]
+      },
+      {
+        "name": "vespa_manual_26.png",
+        "size": [
+          5983,
+          4225
+        ]
+      },
+      {
+        "name": "vespa_manual_27.png",
+        "size": [
+          5991,
+          4242
+        ]
+      },
+      {
+        "name": "vespa_manual_28.png",
+        "size": [
+          5991,
+          4158
+        ]
+      },
+      {
+        "name": "vespa_manual_29.png",
+        "size": [
+          6000,
+          4225
+        ]
+      },
+      {
+        "name": "vespa_manual_3.png",
+        "size": [
+          5983,
+          4167
+        ]
+      },
+      {
+        "name": "vespa_manual_30.png",
+        "size": [
+          5991,
+          4258
+        ]
+      },
+      {
+        "name": "vespa_manual_31.png",
+        "size": [
+          6000,
+          4225
+        ]
+      },
+      {
+        "name": "vespa_manual_32.png",
+        "size": [
+          5991,
+          4250
+        ]
+      },
+      {
+        "name": "vespa_manual_33.png",
+        "size": [
+          6000,
+          4233
+        ]
+      },
+      {
+        "name": "vespa_manual_34.png",
+        "size": [
+          6008,
+          4175
+        ]
+      },
+      {
+        "name": "vespa_manual_35.png",
+        "size": [
+          5991,
+          4200
+        ]
+      },
+      {
+        "name": "vespa_manual_4.png",
+        "size": [
+          5991,
+          4208
+        ]
+      },
+      {
+        "name": "vespa_manual_5.png",
+        "size": [
+          5991,
+          4217
+        ]
+      },
+      {
+        "name": "vespa_manual_6.png",
+        "size": [
+          6000,
+          4200
+        ]
+      },
+      {
+        "name": "vespa_manual_7.png",
+        "size": [
+          6008,
+          4200
+        ]
+      },
+      {
+        "name": "vespa_manual_8.png",
+        "size": [
+          5991,
+          4192
+        ]
+      },
+      {
+        "name": "vespa_manual_9.png",
+        "size": [
+          6008,
+          4167
+        ]
+      }
+    ]
+  },
+  "startup": {
+    "wall_seconds": 3.033764808991691,
+    "sample_count": 11,
+    "peak_process_tree_rss_mib": 4428.87109375,
+    "peak_device_used_mib": 6659,
+    "samples": [
+      {
+        "time_seconds": 0.007775152989779599,
+        "rss_mib": 27.390625,
+        "gpu_used_mib": 18
+      },
+      {
+        "time_seconds": 0.2873623339983169,
+        "rss_mib": 344.41015625,
+        "gpu_used_mib": 183
+      },
+      {
+        "time_seconds": 0.5619205800030613,
+        "rss_mib": 346.51953125,
+        "gpu_used_mib": 183
+      },
+      {
+        "time_seconds": 0.8375636059936369,
+        "rss_mib": 567.1328125,
+        "gpu_used_mib": 183
+      },
+      {
+        "time_seconds": 1.114160974000697,
+        "rss_mib": 4428.83984375,
+        "gpu_used_mib": 4261
+      },
+      {
+        "time_seconds": 1.3954660229937872,
+        "rss_mib": 4428.84375,
+        "gpu_used_mib": 4261
+      },
+      {
+        "time_seconds": 1.6761479249980766,
+        "rss_mib": 4428.87109375,
+        "gpu_used_mib": 4261
+      },
+      {
+        "time_seconds": 1.9585999639966758,
+        "rss_mib": 4428.87109375,
+        "gpu_used_mib": 4261
+      },
+      {
+        "time_seconds": 2.239337484992575,
+        "rss_mib": 807.47265625,
+        "gpu_used_mib": 5529
+      },
+      {
+        "time_seconds": 2.5181585169921163,
+        "rss_mib": 865.171875,
+        "gpu_used_mib": 6327
+      },
+      {
+        "time_seconds": 2.795746092990157,
+        "rss_mib": 877.11328125,
+        "gpu_used_mib": 6659
+      }
+    ]
+  },
+  "gpu_after_shutdown": {
+    "name": "NVIDIA RTX A5000 Laptop GPU",
+    "total_mib": 16384,
+    "used_mib": 18,
+    "driver": "580.178.04"
+  }
+}

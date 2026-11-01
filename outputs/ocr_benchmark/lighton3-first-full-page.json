@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/imgs/vespa_manual_0.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 1.3008294989995193,
+  "text": "mod. 1956\n\nP  \nPIAGGIO\n\nCappad  \n_150\n\nUSO E MANUTENZIONE\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "mod. 1956\n\nP  \nPIAGGIO\n\nCappad  \n_150\n\nUSO E MANUTENZIONE\n"
+        }
+      }
+    ],
+    "created": 1793449816,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 2159,
+      "total_tokens": 2194,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-rwxpKYLjcRW4POChPabrPmW8SCVCu2am",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 2159,
+      "prompt_ms": 987.581,
+      "prompt_per_token_ms": 0.45742519685039373,
+      "prompt_per_second": 2186.149794295354,
+      "predicted_n": 35,
+      "predicted_ms": 146.172,
+      "predicted_per_token_ms": 4.299176470588235,
+      "predicted_per_second": 232.60268724516325
+    }
+  }
+}

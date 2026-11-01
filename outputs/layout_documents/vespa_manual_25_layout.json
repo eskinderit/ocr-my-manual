@@ -1,0 +1,123 @@
+[
+  {
+    "label": "plain text",
+    "bbox": [
+      3238,
+      263,
+      5663,
+      738
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_8.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      680,
+      264,
+      3104,
+      740
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_3.png"
+  },
+  {
+    "label": "title",
+    "bbox": [
+      2171,
+      814,
+      4179,
+      998
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_7.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3245,
+      1060,
+      5662,
+      1800
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_2.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      691,
+      1066,
+      3113,
+      2387
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_0.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3248,
+      1817,
+      5662,
+      2534
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_5.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      695,
+      2408,
+      3117,
+      3291
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_1.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3256,
+      2549,
+      5662,
+      3130
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_10.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3269,
+      3172,
+      5667,
+      3462
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_4.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      698,
+      3320,
+      3121,
+      3463
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_6.png"
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      698,
+      3647,
+      1040,
+      3767
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_25/vespa_manual_25_9.png"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_19/vespa_manual_19_6.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.1769367759989109,
+  "text": "Fig. 10 - Posizioni del rubinetto miscela\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Fig. 10 - Posizioni del rubinetto miscela\n"
+        }
+      }
+    ],
+    "created": 1793448005,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 234,
+      "total_tokens": 250,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-r4TmXQUniUUUYSCzac1YwgLrM8WcaL90",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 226,
+      "prompt_ms": 64.451,
+      "prompt_per_token_ms": 0.2851814159292035,
+      "prompt_per_second": 3506.539851980575,
+      "predicted_n": 16,
+      "predicted_ms": 56.102,
+      "predicted_per_token_ms": 3.740133333333333,
+      "predicted_per_second": 267.3701472318278
+    }
+  }
+}

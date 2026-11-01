@@ -1,0 +1,38 @@
+[
+  {
+    "label": "abandon",
+    "bbox": [
+      2196,
+      228,
+      4263,
+      377
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_29/vespa_manual_29_2.png"
+  },
+  {
+    "label": "table",
+    "bbox": [
+      729,
+      401,
+      5761,
+      3426
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_29/vespa_manual_29_0.png",
+    "table": {
+      "error": "no OCR model available"
+    }
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      738,
+      3633,
+      1078,
+      3757
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_29/vespa_manual_29_1.png"
+  }
+]

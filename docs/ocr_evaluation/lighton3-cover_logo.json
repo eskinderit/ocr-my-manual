@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_0/vespa_manual_0_3.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.7228792440000689,
+  "text": "Coral 150\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Coral 150\n"
+        }
+      }
+    ],
+    "created": 1793448001,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 8,
+      "prompt_tokens": 1638,
+      "total_tokens": 1646,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-CeAaJnD2uhK96R58ZysNkgkxoXY0HgYh",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 1630,
+      "prompt_ms": 584.482,
+      "prompt_per_token_ms": 0.35857791411042944,
+      "prompt_per_second": 2788.7941801458387,
+      "predicted_n": 8,
+      "predicted_ms": 31.792,
+      "predicted_per_token_ms": 4.541714285714286,
+      "predicted_per_second": 220.1811776547559
+    }
+  }
+}

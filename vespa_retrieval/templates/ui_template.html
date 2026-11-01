@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>ocr-my-manual · Document Studio</title>
+  <style>
+    /* Sync Studio's dark editor surfaces + its warm timeline/playhead accent.
+       System fallbacks keep this self-contained and usable offline. */
+    :root { color-scheme:dark; --bg:#0d1013; --pane:#171b20; --navy:#11171d; --raised:#1c232b; --line:#30363d; --muted:#9aa8b7; --text:#dce2e9; --accent:#f0b184; --blue:#85bdec; --purple:#b7a3ff; }
+    * { box-sizing:border-box; }
+    body { font:13px 'DM Sans',system-ui,sans-serif; margin:0; background:var(--bg); color:var(--text); height:100vh; height:100dvh; display:flex; flex-direction:column; }
+    button,input { font:inherit; }
+    button { cursor:pointer; color:var(--text); background:#262d35; border:1px solid #3b444f; border-radius:6px; padding:8px 11px; }
+    button:hover { background:#36414d; }
+    button:disabled { opacity:.45; cursor:not-allowed; }
+    button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible,[tabindex]:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+    input[type=checkbox] { accent-color:var(--accent); width:15px; height:15px; flex-shrink:0; }
+    [hidden] { display:none !important; }
+    .skip-link { position:fixed; top:-80px; left:16px; z-index:30; padding:12px; background:var(--accent); color:#21180f; border-radius:5px; }
+    .skip-link:focus { top:12px; }
+    .app-header { min-height:76px; display:flex; gap:18px; align-items:center; padding:14px 24px; border-bottom:1px solid var(--line); background:#14181d; }
+    .brand-mark { width:40px; height:40px; border:1px solid #f0b18455; border-radius:10px; display:grid; place-items:center; background:#f0b18412; color:var(--accent); font-size:24px; font-weight:700; }
+    .brand-name { font:600 19px 'Space Grotesk',system-ui,sans-serif; letter-spacing:-.6px; }
+    .brand-name span { color:var(--accent); }
+    .eyebrow { color:var(--muted); font-size:9px; letter-spacing:1.8px; text-transform:uppercase; margin-top:4px; }
+    .header-divider { width:1px; height:28px; background:var(--line); }
+    .header-caption { color:var(--muted); font-size:12px; }
+    .local-pill { margin-left:auto; white-space:nowrap; display:flex; align-items:center; gap:8px; font-size:11px; color:var(--muted); border:1px solid var(--line); border-radius:20px; padding:8px 12px; }
+    .local-pill i { width:6px; height:6px; border-radius:50%; background:var(--accent); }
+    .app-shell { display:grid; grid-template-columns:272px minmax(0,1fr); flex:1; min-height:0; }
+    #sidebar { background:var(--navy); border-right:1px solid var(--line); min-height:0; overflow:auto; display:flex; flex-direction:column; }
+    .sidebar-section { padding:18px 16px; border-bottom:1px solid var(--line); }
+    .section-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:14px; }
+    h1,h2,h3,h4,p { margin:0; }
+    .section-heading h2,summary { font-size:10px; letter-spacing:1.3px; text-transform:uppercase; font-weight:600; }
+    .count { color:var(--accent); background:#f0b18414; border:1px solid #f0b18430; border-radius:4px; font:11px ui-monospace,monospace; padding:3px 6px; }
+    .search-label { display:block; color:var(--muted); font-size:11px; margin-bottom:8px; }
+    .search-wrap { position:relative; }
+    #page-search { width:100%; min-width:0; background:#0d1218; color:var(--text); border:1px solid #36404b; border-radius:6px; padding:11px 34px 11px 12px; }
+    #page-search::placeholder { color:#8897a7; }
+    #clear-search { position:absolute; right:3px; top:3px; border:0; background:transparent; padding:6px 8px; }
+    .search-info { color:var(--muted); font-size:11px; margin-top:10px; line-height:1.5; }
+    #list { display:flex; flex-direction:column; gap:6px; padding:12px 10px; max-height:36vh; overflow:auto; scrollbar-gutter:stable; }
+    button.img-btn { width:100%; display:grid; grid-template-columns:30px minmax(0,1fr); gap:10px; align-items:center; text-align:left; padding:10px; background:transparent; border-color:transparent; }
+    button.img-btn:hover { background:#20262d; border-color:var(--line); }
+    button.img-btn.active { background:#f0b1840e; border-color:#f0b18465; box-shadow:inset 2px 0 var(--accent); }
+    .page-number { display:grid; place-items:center; width:30px; height:36px; background:#202a35; color:var(--muted); border:1px solid #35404d; border-radius:4px; font:11px ui-monospace,monospace; }
+    .active .page-number { color:var(--accent); background:#f0b18414; border-color:#f0b18455; }
+    .page-name { display:block; font-size:11px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .page-meta { display:block; color:var(--muted); font-size:10px; margin-top:4px; }
+    #empty-search { color:var(--muted); padding:12px 16px; font-size:12px; line-height:1.6; }
+    .toolbar { display:flex; align-items:center; gap:6px; margin-bottom:12px; }
+    .zoom-btn { width:34px; font-size:17px; padding:5px; }
+    #zoom-reset { font-size:11px; }
+    #scale-val { margin-left:auto; color:var(--accent); font:11px ui-monospace,monospace; }
+    .check-row { display:flex; align-items:center; gap:8px; margin-top:12px; font-size:11px; line-height:1.5; cursor:pointer; }
+    .control-note { color:var(--muted); font-size:10px; line-height:1.6; margin-top:12px; }
+    #legend { padding:16px; }
+    #legend summary { cursor:pointer; margin-bottom:12px; }
+    .legend-items { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .legend-item { display:flex; align-items:center; font-size:10px; min-width:0; overflow-wrap:anywhere; }
+    .legend-swatch { display:inline-block; width:9px; height:9px; margin-right:7px; border-radius:2px; flex:0 0 auto; }
+    .sidebar-footer { margin-top:auto; padding:16px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; line-height:1.6; }
+    .main-workspace { min-width:0; min-height:0; display:flex; flex-direction:column; padding:22px; gap:18px; }
+    .workspace-heading { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+    .workspace-heading h1 { font:500 25px 'Space Grotesk',system-ui,sans-serif; letter-spacing:-.8px; }
+    #active-name { color:var(--muted); font-size:11px; margin-top:7px; overflow-wrap:anywhere; }
+    .page-switcher { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+    .page-switcher button { width:34px; height:34px; padding:0; font-size:18px; }
+    #page-position { color:var(--muted); font:11px ui-monospace,monospace; min-width:58px; text-align:center; }
+    .stats { display:flex; flex-wrap:wrap; gap:9px; }
+    .stat { display:flex; align-items:center; gap:7px; background:var(--navy); border:1px solid var(--line); border-radius:5px; padding:8px 11px; color:var(--muted); font-size:11px; }
+    .stat strong { color:var(--text); font:12px ui-monospace,monospace; }
+    .stat:first-child strong { color:var(--accent); }
+    #viewer { flex:1; min-height:0; min-width:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .col { min-width:0; min-height:0; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:var(--pane); display:flex; flex-direction:column; }
+    .panel-header { min-height:55px; display:flex; align-items:center; gap:10px; padding:12px; border-bottom:1px solid var(--line); background:var(--raised); }
+    .panel-number { color:var(--accent); font:10px ui-monospace,monospace; }
+    .panel-header h2 { font-size:12px; font-weight:500; }
+    .panel-header p { color:var(--muted); font-size:9px; margin-top:4px; }
+    .panel-tag { margin-left:auto; color:var(--muted); font-size:8px; letter-spacing:1px; border:1px solid #3b444f; padding:3px 5px; border-radius:3px; }
+    .panel-body { flex:1; min-height:0; min-width:0; display:flex; flex-direction:column; padding:10px; background:repeating-linear-gradient(45deg,#ffffff02 0,#ffffff02 1px,transparent 1px,transparent 9px),var(--navy); }
+    .viewport { overflow:auto; position:relative; flex:1; min-height:0; min-width:0; overscroll-behavior:contain; scrollbar-gutter:stable; }
+    .page-surface { position:relative; overflow:hidden; background:white; color:#111; color-scheme:light; }
+    .content { position:absolute; left:0; top:0; display:block; transform-origin:top left; color:#111; color-scheme:light; }
+    img.page { display:block; width:100%; height:auto; }
+    .overlay { position:absolute; left:0; top:0; pointer-events:none; z-index:4 }
+    .box { position:absolute; border:2px solid rgba(255,0,0,0.9); box-sizing:border-box; background: rgba(255,0,0,0.06); z-index:6 }
+    .element { position:absolute; background:rgba(255,255,255,0.95); border:1px dashed #333; padding:4px; box-sizing:border-box; overflow:auto; font-size:14px; line-height:1.1; z-index:5 }
+    /* Make any rendered table fill the element box */
+    .element > table { width:100% !important; height:100% !important; table-layout:fixed !important; border-collapse:collapse !important; }
+    .element > table th, .element > table td { box-sizing:border-box; padding:4px; word-break:break-word; white-space:normal; border:1px solid #999; }
+    .element.no-bg { background: transparent; }
+    .status-line { color:var(--muted); font-size:11px; line-height:1.5; min-height:17px; }
+    .status-line.error { color:#ffada5; }
+    .mobile-nav { display:none; }
+    @media(min-width:1700px) { .app-shell { grid-template-columns:292px minmax(0,1fr); } .main-workspace { padding:28px; } }
+    @media(max-width:1150px) { .app-shell { grid-template-columns:235px minmax(0,1fr); } .main-workspace { padding:16px; gap:12px; } #viewer { gap:8px; } .panel-tag { display:none; } .panel-header { padding:10px; gap:7px; } .workspace-heading h1 { font-size:22px; } }
+    @media(max-width:900px) { body { height:auto; min-height:100dvh; } .app-shell { flex:1; } #sidebar { max-height:calc(100dvh - 76px); position:sticky; top:0; } #viewer { flex:none; grid-template-columns:1fr; } .col { height:65dvh; min-height:360px; } .panel-tag { display:block; } .workspace-heading { align-items:flex-start; } .page-switcher { gap:4px; } .stats { gap:6px; } }
+    @media(max-width:600px) { .app-header { padding:12px; gap:10px; min-height:68px; } .header-divider,.header-caption,.local-pill { display:none; } .brand-name { font-size:17px; } .mobile-nav { display:block; margin-left:auto; font-size:11px; } .app-shell { display:block; } #sidebar { display:none; position:static; max-height:none; border-right:0; border-bottom:1px solid var(--line); } #sidebar.is-open { display:flex; } #list { max-height:240px; } .main-workspace { padding:16px 12px; } .workspace-heading h1 { font-size:21px; } .stats { gap:6px; } .stat { padding:7px 9px; font-size:10px; } .col { height:70dvh; } }
+    @media(prefers-reduced-motion:no-preference) { button { transition:background .15s,border-color .15s; } }
+  </style>
+</head>
+<body>
+  <a href="#workspace" class="skip-link">Skip to document viewer</a>
+  <header class="app-header">
+    <div class="brand-mark" aria-hidden="true">o↗</div>
+    <div><div class="brand-name">ocr-my-manual<span> / </span>document studio</div><div class="eyebrow">Layout &amp; OCR workspace</div></div>
+    <div class="header-divider" aria-hidden="true"></div><p class="header-caption">Every detail. In place.</p>
+    <div class="local-pill"><i aria-hidden="true"></i> Local-first · original files untouched</div>
+    <button id="toggle-sidebar" class="mobile-nav" aria-expanded="false" aria-controls="sidebar">Pages &amp; tools</button>
+  </header>
+  <div class="app-shell">
+    <aside id="sidebar" aria-label="Pages and display tools">
+      <section class="sidebar-section">
+        <div class="section-heading"><h2 id="pages-heading">Document pages</h2><span id="page-count" class="count">0</span></div>
+        <label for="page-search" class="search-label">Search filenames &amp; OCR text</label>
+        <div class="search-wrap"><input type="search" id="page-search" placeholder="Find a word or page…" aria-controls="list" aria-describedby="search-info" /><button id="clear-search" aria-label="Clear page search" hidden>×</button></div>
+        <p id="search-info" class="search-info" role="status" aria-live="polite"></p>
+      </section>
+      <nav id="list" aria-labelledby="pages-heading"></nav>
+      <p id="empty-search" hidden>No matching pages. Try another word or clear your search.</p>
+      <section class="sidebar-section" aria-labelledby="display-heading">
+        <div class="section-heading"><h2 id="display-heading">Display tools</h2><span aria-hidden="true" style="color:var(--accent)">⌘</span></div>
+        <div class="toolbar" role="group" aria-label="Page zoom">
+          <button id="zoom-out" class="zoom-btn" aria-label="Zoom out" disabled>−</button><button id="zoom-in" class="zoom-btn" aria-label="Zoom in" disabled>+</button><button id="zoom-reset" title="Fit all panels to width" disabled>Fit</button><output id="scale-val" aria-label="Zoom scale">—</output>
+        </div>
+        <label class="check-row"><input type="checkbox" id="show-bg"> Show element backgrounds</label>
+        <label class="check-row"><input type="checkbox" id="show-orig"> Show reconstructed background image</label>
+        <label class="check-row"><input type="checkbox" id="show-abandon"> Show “abandon” elements</label>
+        <label class="check-row"><input type="checkbox" id="binarize"> Denoise + whiten figures</label>
+        <p class="control-note">Zoom applies to all three views. Denoising only processes detected figure crops.</p>
+      </section>
+      <details id="legend" open><summary>Detected classes</summary><div class="legend-items" id="legend-items"></div></details>
+      <footer class="sidebar-footer">SOURCE → LAYOUT → RECONSTRUCTION<br>Inspect OCR without changing the source.</footer>
+    </aside>
+    <main id="workspace" class="main-workspace" tabindex="-1">
+      <div class="workspace-heading"><div><h1>Document workspace</h1><p id="active-name">Select a page to inspect</p></div><div class="page-switcher" role="group" aria-label="Page navigation"><button id="prev-page" aria-label="Previous page" disabled>‹</button><span id="page-position">— / —</span><button id="next-page" aria-label="Next page" disabled>›</button></div></div>
+      <div class="stats" aria-label="Active page statistics"><div class="stat"><strong id="stat-elements">—</strong> elements</div><div class="stat"><strong id="stat-text">—</strong> OCR blocks</div><div class="stat"><strong id="stat-figures">—</strong> figures</div><div class="stat"><strong id="stat-tables">—</strong> tables</div><div class="stat"><strong id="stat-size">—</strong> px</div></div>
+      <div id="viewer" aria-label="Three synchronized document views" aria-busy="false">
+        <section id="col-original" class="col" aria-labelledby="original-heading"><header class="panel-header"><span class="panel-number">01</span><div><h2 id="original-heading">Original</h2><p>Untouched source scan</p></div><span class="panel-tag">SOURCE</span></header><div id="orig-inner" class="panel-body"></div></section>
+        <section id="col-layout" class="col" aria-labelledby="layout-heading"><header class="panel-header"><span class="panel-number">02</span><div><h2 id="layout-heading">Layout</h2><p>Detected bounding boxes</p></div><span class="panel-tag">DETECT</span></header><div id="layout-inner" class="panel-body"></div></section>
+        <section id="col-render" class="col" aria-labelledby="render-heading"><header class="panel-header"><span class="panel-number">03</span><div><h2 id="render-heading">Reconstructed</h2><p>OCR, figures &amp; tables</p></div><span class="panel-tag">RENDER</span></header><div id="render-inner" class="panel-body"></div></section>
+      </div>
+      <p id="viewer-status" class="status-line" role="status" aria-live="polite">Choose a document page to begin.</p>
+    </main>
+  </div>
+  <script>
+  const data = __LAYOUTS_JSON__;
+  const list = document.getElementById('list');
+  const origInner = document.getElementById('orig-inner');
+  const layoutInner = document.getElementById('layout-inner');
+  const renderInner = document.getElementById('render-inner');
+  const viewer = document.getElementById('viewer');
+  const viewerStatus = document.getElementById('viewer-status');
+  const pageButtons = new Map();
+  let currentPage = null;
+  let viewVersion = 0;
+  let currentScale = null;
+  let pageDimensions = null;
+  let fitMode = true;
+
+  function setStatus(message, error = false){
+    viewerStatus.textContent = message;
+    viewerStatus.classList.toggle('error', error);
+  }
+  function fitScale(){
+    if(!pageDimensions) return 1;
+    const widths = Array.from(viewer.querySelectorAll('.viewport'), v=>v.clientWidth).filter(w=>w > 0);
+    return Math.min(1, (widths.length ? Math.min(...widths) : 1) / pageDimensions.width);
+  }
+  function applyScale(s){
+    if(!pageDimensions) return;
+    currentScale = Math.max(0.01, Math.min(4, s));
+    document.getElementById('scale-val').textContent = Math.round(currentScale*100) + '%';
+    // Transforms alone don't change layout dimensions. The clipped surface gives
+    // each viewport exactly the scaled scroll area, without ghost overflow.
+    viewer.querySelectorAll('.content').forEach(c=>{
+      c.style.transform = 'scale(' + currentScale + ')';
+      c.parentElement.style.width = (pageDimensions.width * currentScale) + 'px';
+      c.parentElement.style.height = (pageDimensions.height * currentScale) + 'px';
+    });
+    document.getElementById('zoom-out').disabled = currentScale <= 0.01;
+    document.getElementById('zoom-in').disabled = currentScale >= 4;
+    document.getElementById('zoom-reset').disabled = false;
+  }
+  document.getElementById('zoom-in').onclick = ()=>{ if(currentScale !== null){ fitMode = false; applyScale(currentScale * 1.2); } };
+  document.getElementById('zoom-out').onclick = ()=>{ if(currentScale !== null){ fitMode = false; applyScale(currentScale / 1.2); } };
+  document.getElementById('zoom-reset').onclick = ()=>{ fitMode = true; applyScale(fitScale()); };
+  const refit = ()=>{ if(fitMode && pageDimensions) applyScale(fitScale()); };
+  if(typeof ResizeObserver !== 'undefined'){
+    const resizeObserver = new ResizeObserver(refit);
+    [origInner, layoutInner, renderInner].forEach(node=>resizeObserver.observe(node));
+  } else { window.addEventListener('resize', refit); }
+  const sidebarToggle = document.getElementById('toggle-sidebar');
+  sidebarToggle.onclick = ()=>{
+    const open = document.getElementById('sidebar').classList.toggle('is-open');
+    sidebarToggle.setAttribute('aria-expanded', String(open));
+  };
+
+  // assign a distinct, consistent color to each detected content class (label)
+  const LABEL_PALETTE = ['#e6194b','#3cb44b','#4363d8','#f58231','#911eb4','#42d4f4','#f032e6','#469990','#9A6324','#800000','#808000','#000075','#a9a9a9','#bfef45'];
+  const labelColors = {};
+  let paletteIdx = 0;
+  function labelColor(label){
+    const key = label || 'other';
+    if(!(key in labelColors)){ labelColors[key] = LABEL_PALETTE[paletteIdx % LABEL_PALETTE.length]; paletteIdx++; }
+    return labelColors[key];
+  }
+  function hexToRgba(hex, a){
+    const m = hex.replace('#',''); const r=parseInt(m.substring(0,2),16), g=parseInt(m.substring(2,4),16), b=parseInt(m.substring(4,6),16);
+    return 'rgba('+r+','+g+','+b+','+a+')';
+  }
+  // Fit natural-height rows inside the bbox, without clipping long/merged cells.
+  function styleTableNode(node){
+    const t = node.querySelector('table');
+    if(!t) return;
+    t.style.width='100%'; t.style.height='100%'; t.style.tableLayout='fixed'; t.style.margin='0'; t.style.borderSpacing='0'; t.style.boxSizing='border-box';
+    const rows = Array.from(t.querySelectorAll('tr'));
+    const rowCount = rows.length || 1;
+    rows.forEach(r=>{ r.style.height = 'auto'; r.style.boxSizing='border-box'; });
+    const cells = Array.from(t.querySelectorAll('td,th'));
+    const boxW = parseFloat(node.style.width) || 0;
+    // Source scans are ~6000px wide; 1 source-pixel rules disappear at fit zoom.
+    const rule = Math.max(1, boxW / 400);
+    t.style.borderCollapse = 'collapse'; t.style.border = rule + 'px solid #68717d';
+    cells.forEach(c=>{
+      c.style.boxSizing='border-box'; c.style.padding=Math.max(2, boxW / 450) + 'px';
+      c.style.height='auto'; c.style.overflow='visible'; c.style.verticalAlign='top';
+      c.style.border=rule + 'px solid #68717d';
+      if(c.tagName === 'TH') c.style.backgroundColor='#edf0f2';
+    });
+    // scale the font so cell text fills the bbox instead of staying at the default 14px
+    const boxH = parseFloat(node.style.height) || 0;
+    if(boxH){
+      let fs = Math.max(8, Math.floor((boxH / rowCount) * 0.45));
+      t.style.fontSize = fs + 'px'; t.style.lineHeight = '1.05';
+      // shrink if the rendered content overflows the element box
+      const MIN_FS = 6;
+      function overflows(){
+        return node.scrollHeight > node.clientHeight + 2 || node.scrollWidth > node.clientWidth + 2 ||
+          cells.some(c=>c.scrollHeight > c.clientHeight + 2 || c.scrollWidth > c.clientWidth + 2);
+      }
+      while(overflows() && fs > MIN_FS){
+        fs = Math.max(MIN_FS, Math.floor(fs * 0.9));
+        t.style.fontSize = fs + 'px';
+      }
+    }
+  }
+  // detect OCR text that is actually an HTML table
+  function isTableHtml(s){ return /^\s*<table[\s>]/i.test(s || ''); }
+
+  // collect every label used in the dataset, assign colors in a stable (sorted) order
+  const allLabels = new Set();
+  Object.values(data).forEach(rec=> (rec.elements||[]).forEach(el=> allLabels.add(el.label || 'other')));
+  const sortedLabels = Array.from(allLabels).sort();
+  sortedLabels.forEach(l=> labelColor(l));
+
+  // build the legend in the sidebar
+  const legend = document.getElementById('legend-items');
+  sortedLabels.forEach(l=>{
+    const row = document.createElement('div'); row.className='legend-item';
+    const sw = document.createElement('span'); sw.className='legend-swatch'; sw.style.background = labelColor(l);
+    const lb = document.createElement('span'); lb.textContent = l;
+    row.appendChild(sw); row.appendChild(lb); legend.appendChild(row);
+  });
+
+  function imageSortKey(name){
+    const m = name.match(/(\d+)(?=\.[^.]+$|$)/);
+    return m ? parseInt(m[1], 10) : Number.MAX_SAFE_INTEGER;
+  }
+  function compareImageNames(a,b){
+    const ka = imageSortKey(a);
+    const kb = imageSortKey(b);
+    if(ka !== kb) return ka - kb;
+    return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+  }
+
+  const pageNames = Object.keys(data).sort(compareImageNames);
+  function normalizeSearch(value){
+    return String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+  }
+  function ocrText(rec){
+    return (rec.elements || []).map(el=>[el.text, el.table && (el.table.html_inline || el.table.raw_text)].filter(Boolean).join(' ')).join(' ').replace(/<[^>]*>/g,' ').replace(/&nbsp;|&#160;/gi,' ');
+  }
+  const pageSearchText = new Map(pageNames.map(name=>[name, normalizeSearch(name + ' ' + ocrText(data[name]))]));
+  const searchInput = document.getElementById('page-search');
+  function filterPages(){
+    const query = normalizeSearch(searchInput.value);
+    let count = 0;
+    pageButtons.forEach((btn,name)=>{
+      const matches = !query || pageSearchText.get(name).includes(query);
+      btn.hidden = !matches;
+      if(matches) count++;
+      const meta = btn.querySelector('.page-meta');
+      const text = normalizeSearch(ocrText(data[name]));
+      const pos = query ? text.indexOf(query) : -1;
+      meta.textContent = pos >= 0 ? '…' + text.slice(Math.max(0,pos - 18), pos + query.length + 36) + '…' : (data[name].elements || []).length + ' detected elements';
+    });
+    document.getElementById('clear-search').hidden = !searchInput.value;
+    document.getElementById('empty-search').hidden = count !== 0;
+    document.getElementById('search-info').textContent = query ? count + ' of ' + pageNames.length + ' pages match' : pageNames.length + ' pages · ordered by source page';
+  }
+  searchInput.addEventListener('input', filterPages);
+  searchInput.addEventListener('keydown', event=>{
+    if(event.key === 'Enter'){
+      const match = Array.from(pageButtons).find(([,btn])=>!btn.hidden);
+      if(match) show(match[0]);
+    }
+    if(event.key === 'Escape'){ searchInput.value = ''; filterPages(); }
+  });
+  document.getElementById('clear-search').onclick = ()=>{ searchInput.value = ''; filterPages(); searchInput.focus(); };
+  function makeThumb(name, index){
+    const btn = document.createElement('button'); btn.className='img-btn';
+    btn.title = name;
+    btn.setAttribute('aria-label', 'Page ' + (index + 1) + ': ' + name);
+    const number = document.createElement('span'); number.className='page-number'; number.textContent=String(index+1).padStart(2,'0'); number.setAttribute('aria-hidden','true');
+    const info = document.createElement('span');
+    const title = document.createElement('span'); title.className='page-name'; title.textContent=name;
+    const meta = document.createElement('span'); meta.className='page-meta';
+    info.appendChild(title); info.appendChild(meta); btn.appendChild(number); btn.appendChild(info);
+    btn.onclick = ()=> show(name); pageButtons.set(name, btn); return btn;
+  }
+  list.addEventListener('keydown', event=>{
+    if(!['ArrowDown','ArrowUp','Home','End'].includes(event.key)) return;
+    const buttons = Array.from(pageButtons.values()).filter(btn=>!btn.hidden);
+    const index = buttons.indexOf(document.activeElement);
+    const target = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length-1 : Math.max(0,Math.min(buttons.length-1,index+(event.key==='ArrowDown'?1:-1)));
+    if(buttons[target]){ event.preventDefault(); buttons[target].focus(); }
+  });
+  function updatePageDetails(name){
+    const index = pageNames.indexOf(name);
+    const elements = data[name].elements || [];
+    document.getElementById('active-name').textContent = name;
+    document.getElementById('page-position').textContent = (index+1) + ' / ' + pageNames.length;
+    document.getElementById('prev-page').disabled = index <= 0;
+    document.getElementById('next-page').disabled = index >= pageNames.length-1;
+    document.getElementById('stat-elements').textContent = elements.length;
+    document.getElementById('stat-text').textContent = elements.filter(el=>el.text && el.text.trim() && !isTableHtml(el.text)).length;
+    document.getElementById('stat-figures').textContent = elements.filter(el=>/^(figure|image|picture)$/i.test(el.label || '')).length;
+    document.getElementById('stat-tables').textContent = elements.filter(el=>el.table || isTableHtml(el.text) || /table/i.test(el.label || '')).length;
+    document.getElementById('stat-size').textContent = '—';
+    pageButtons.forEach((btn,page)=>{
+      btn.classList.toggle('active', page===name);
+      if(page===name) btn.setAttribute('aria-current','page'); else btn.removeAttribute('aria-current');
+    });
+  }
+  document.getElementById('prev-page').onclick = ()=>{ const index=pageNames.indexOf(currentPage); if(index>0) show(pageNames[index-1]); };
+  document.getElementById('next-page').onclick = ()=>{ const index=pageNames.indexOf(currentPage); if(index>=0 && index<pageNames.length-1) show(pageNames[index+1]); };
+
+  // --- optional image preprocessing: 3x3 median denoise + background whitening ---
+  const binCache = {};
+  // Estimate the local background (paper) as a large-window mean via an integral image
+  // (O(1) per pixel). Dividing the image by this flattens illumination and pushes the
+  // background to white while keeping the ink's grayscale levels (no hard binarization).
+  function backgroundMean(gray, w, h){
+    const iw = w+1;
+    const integral = new Float64Array(iw*(h+1));
+    for(let y=1;y<=h;y++){
+      let rowSum=0; const base=y*iw, prev=(y-1)*iw;
+      for(let x=1;x<=w;x++){ rowSum += gray[(y-1)*w+(x-1)]; integral[base+x]=integral[prev+x]+rowSum; }
+    }
+    const win = Math.max(31, (Math.floor(Math.min(w,h)/8) | 1));
+    const r = win>>1;
+    const bg = new Float32Array(gray.length);
+    for(let y=0;y<h;y++){
+      const y1=Math.max(0,y-r), y2=Math.min(h-1,y+r); const r1=y1, r2=y2+1;
+      for(let x=0;x<w;x++){
+        const x1=Math.max(0,x-r), x2=Math.min(w-1,x+r); const c1=x1, c2=x2+1;
+        const area=(x2-x1+1)*(y2-y1+1);
+        const sum = integral[r2*iw+c2]-integral[r1*iw+c2]-integral[r2*iw+c1]+integral[r1*iw+c1];
+        bg[y*w+x]=sum/area;
+      }
+    }
+    return bg;
+  }
+  function medianDenoise(src, w, h){
+    const out = new Uint8ClampedArray(src.length);
+    const win = new Uint8Array(9);
+    for(let y=0;y<h;y++){
+      for(let x=0;x<w;x++){
+        let n=0;
+        for(let dy=-1;dy<=1;dy++){
+          const yy=y+dy; if(yy<0||yy>=h) continue;
+          const row=yy*w;
+          for(let dx=-1;dx<=1;dx++){
+            const xx=x+dx; if(xx<0||xx>=w) continue;
+            win[n++]=src[row+xx];
+          }
+        }
+        // insertion sort of the n-sample window
+        for(let a=1;a<n;a++){ const v=win[a]; let b=a-1; while(b>=0&&win[b]>v){ win[b+1]=win[b]; b--; } win[b+1]=v; }
+        out[y*w+x]=win[n>>1];
+      }
+    }
+    return out;
+  }
+  function binarizeToDataURL(img){
+    const key = img.dataset.origSrc || img.src;
+    if(binCache[key]) return binCache[key];
+    const w = img.naturalWidth, h = img.naturalHeight;
+    const canvas = document.createElement('canvas');
+    canvas.width = w; canvas.height = h;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0);
+    const imgData = ctx.getImageData(0,0,w,h);
+    const d = imgData.data;
+    const gray = new Uint8ClampedArray(w*h);
+    for(let i=0,p=0;i<d.length;i+=4,p++) gray[p]=(d[i]*0.299 + d[i+1]*0.587 + d[i+2]*0.114)|0;
+    const den = medianDenoise(gray, w, h);
+    const bg = backgroundMean(den, w, h);
+    for(let p=0,i=0;p<den.length;p++,i+=4){
+      const b = bg[p] < 1 ? 1 : bg[p];
+      let ratio = den[p]/b; if(ratio>1) ratio=1;  // dodge: background -> white, ink stays dark
+      const v = Math.pow(ratio, 1.4) * 255;        // mild gamma keeps ink contrast, preserves grays
+      d[i]=v; d[i+1]=v; d[i+2]=v; d[i+3]=255;
+    }
+    ctx.putImageData(imgData,0,0);
+    const url = canvas.toDataURL('image/png');
+    binCache[key] = url;
+    return url;
+  }
+  function applyBinarize(){
+    const on = document.getElementById('binarize').checked;
+    // only detected figure crops in the reconstructed column are processed
+    document.querySelectorAll('#render-inner img.figure-crop').forEach(img=>{
+      if(!img.dataset.origSrc) img.dataset.origSrc = img.src;
+      if(on){
+        if(!img.complete || !img.naturalWidth){ img.addEventListener('load', applyBinarize, {once:true}); return; }
+        try {
+          const processed = binarizeToDataURL(img);
+          if(img.src !== processed) img.src = processed;
+        } catch(err){
+          setStatus('Figure preprocessing unavailable. Original crops are preserved.', true);
+          console.warn('Figure preprocessing failed', err);
+        }
+      } else {
+        if(img.src !== img.dataset.origSrc) img.src = img.dataset.origSrc;
+      }
+    });
+  }
+  document.getElementById('binarize').onchange = applyBinarize;
+  function applyDisplayOptions(){
+    renderInner.querySelectorAll('.element').forEach(n=>n.classList.toggle('no-bg', !document.getElementById('show-bg').checked));
+    renderInner.querySelectorAll('.render-bg').forEach(i=>i.style.display = document.getElementById('show-orig').checked ? 'block' : 'none');
+    viewer.querySelectorAll('.is-abandon').forEach(n=>n.style.display = document.getElementById('show-abandon').checked ? '' : 'none');
+  }
+  ['show-bg','show-orig','show-abandon'].forEach(id=>document.getElementById(id).onchange = applyDisplayOptions);
+  pageNames.forEach((n,index)=> list.appendChild(makeThumb(n,index)));
+  document.getElementById('page-count').textContent = pageNames.length;
+  filterPages();
+  // auto-select the first page so the viewer is not blank on initial load
+  const firstImage = pageNames[0];
+  if(firstImage) show(firstImage);
+  else setStatus('No document pages are available. Build the site after running OCR.');
+
+  function show(imgName){
+    const rec = data[imgName]; if(!rec) return;
+    const version = ++viewVersion;
+    currentPage = imgName;
+    pageDimensions = null;
+    currentScale = null;
+    fitMode = true;
+    origInner.innerHTML=''; layoutInner.innerHTML=''; renderInner.innerHTML='';
+    updatePageDetails(imgName);
+    viewer.setAttribute('aria-busy','true');
+    setStatus('Loading ' + imgName + '…');
+    ['zoom-in','zoom-out','zoom-reset'].forEach(id=>document.getElementById(id).disabled = true);
+    document.getElementById('scale-val').textContent = '—';
+    if(window.matchMedia('(max-width:600px)').matches && document.getElementById('sidebar').classList.contains('is-open')){
+      document.getElementById('sidebar').classList.remove('is-open');
+      sidebarToggle.setAttribute('aria-expanded','false');
+      document.getElementById('workspace').focus({preventScroll:true});
+    }
+
+    // load images via promises to get natural dimensions without inserting hidden nodes
+    function loadImage(src){
+      return new Promise((res,rej)=>{
+        const i = new Image(); i.className='page'; i.alt = imgName; i.onload = ()=>res(i); i.onerror = ()=>rej(new Error('Could not load ' + src)); i.src = src;
+      });
+    }
+
+    Promise.all([
+      loadImage('originals/'+imgName),
+      loadImage('originals/'+imgName),
+      loadImage('originals/'+imgName)
+    ]).then(([imgA,imgB,imgC])=>{
+      // Ignore older image loads after rapid navigation.
+      if(version !== viewVersion) return;
+      const w = imgA.naturalWidth, h = imgA.naturalHeight;
+      if(!w || !h) throw new Error('Image has no dimensions');
+      pageDimensions = {width:w, height:h};
+      document.getElementById('stat-size').textContent = w + ' × ' + h;
+      function mountContent(viewport, content, target, title){
+        viewport.setAttribute('tabindex','0'); viewport.setAttribute('role','region'); viewport.setAttribute('aria-label',title + ' · ' + imgName + ' (scroll to inspect)');
+        const surface = document.createElement('div'); surface.className='page-surface';
+        surface.appendChild(content); viewport.appendChild(surface); target.appendChild(viewport);
+      }
+
+      const viewportA = document.createElement('div'); viewportA.className='viewport';
+      const contentA = document.createElement('div'); contentA.className='content'; contentA.style.width = w+'px'; contentA.style.height = h+'px';
+      contentA.appendChild(imgA); mountContent(viewportA,contentA,origInner,'Original');
+
+      const viewportB = document.createElement('div'); viewportB.className='viewport';
+      const contentB = document.createElement('div'); contentB.className='content'; contentB.style.width = w+'px'; contentB.style.height = h+'px';
+      contentB.appendChild(imgB);
+      const overlay = document.createElement('div'); overlay.className='overlay'; overlay.style.width = w+'px'; overlay.style.height = h+'px'; overlay.style.left='0'; overlay.style.top='0'; overlay.style.position='absolute';
+      (rec.elements||[]).forEach(el=>{ if(!el.bbox) return; const [x1,y1,x2,y2]=el.bbox; const box=document.createElement('div'); box.className='box'; if((el.label||'')==='abandon') box.classList.add('is-abandon'); const c=labelColor(el.label); box.style.borderColor=c; box.style.backgroundColor=hexToRgba(c,0.08); box.title=el.label||''; box.style.left=x1+'px'; box.style.top=y1+'px'; box.style.width=(x2-x1)+'px'; box.style.height=(y2-y1)+'px'; overlay.appendChild(box); });
+      contentB.appendChild(overlay); mountContent(viewportB,contentB,layoutInner,'Layout');
+
+      const viewportC = document.createElement('div'); viewportC.className='viewport';
+      const contentC = document.createElement('div'); contentC.className='content'; contentC.style.width = w+'px'; contentC.style.height = h+'px';
+      imgC.className = 'page render-bg';
+      contentC.appendChild(imgC); mountContent(viewportC,contentC,renderInner,'Reconstructed');
+
+      // add reconstructed elements into contentC so they scale and size text to bbox
+      // track rendered tables/crops to avoid duplicate OCR renders (same table cropped/ocr'd twice)
+      const renderedTables = new Set();
+      const renderedCrops = new Set();
+      (rec.elements||[]).forEach(el=>{
+        if(!el.bbox) return;
+        const [x1,y1,x2,y2]=el.bbox;
+        const node=document.createElement('div'); node.className='element'; if((el.label||'')==='abandon') node.classList.add('is-abandon'); node.style.left=x1+'px'; node.style.top=y1+'px'; node.style.width=(x2-x1)+'px'; node.style.height=(y2-y1)+'px';
+        const wbox = (x2-x1); const hbox = (y2-y1);
+        // prefer rendering tables or crops when available; only show plain text if no rendered content exists
+        if(el.table && (el.table.html_inline || el.table.raw_text)){
+          // table HTML is embedded in the data so no server fetch is needed
+          const thtml = el.table.html_inline || el.table.raw_text;
+          // skip duplicate tables (same table OCR'd twice)
+          if(renderedTables.has(thtml)) return;
+          renderedTables.add(thtml);
+          contentC.appendChild(node);
+          node.classList.add('table-el');
+          node.style.padding = '0';
+          node.innerHTML = thtml;
+          styleTableNode(node);
+        }
+        else if(el.table && el.table.html){
+          // attempt to fetch pre-extracted table HTML file (copied into docs/tables/)
+          const htmlPath = el.table.html;
+          if(renderedTables.has(htmlPath)) return;
+          renderedTables.add(htmlPath);
+          contentC.appendChild(node);
+          node.classList.add('table-el');
+          node.style.padding = '0';
+          fetch(htmlPath).then(r=>{
+            if(!r.ok) throw new Error('fetch failed');
+            return r.text();
+          }).then(html=>{
+            if(version !== viewVersion) return;
+            node.innerHTML = html;
+            styleTableNode(node);
+          }).catch(()=>{
+            if(version !== viewVersion) return;
+            node.textContent = '[table load failed]';
+          });
+        }
+        else if(el.text && el.text.trim()){
+          if(isTableHtml(el.text)){
+            // OCR returned raw <table> HTML in the text field: render it as a real table
+            node.classList.add('table-el'); node.style.padding = '0';
+            node.innerHTML = el.text;
+            contentC.appendChild(node);
+            styleTableNode(node);
+            return;
+          }
+          node.style.whiteSpace = 'pre-wrap'; node.style.overflow = 'hidden';
+          node.textContent = el.text;
+          let fs = Math.max(8, Math.floor(hbox * 0.8));
+          node.style.fontSize = fs + 'px'; node.style.lineHeight = '1.0';
+          contentC.appendChild(node);
+          const MIN_FS = 6;
+          while((node.scrollHeight > node.clientHeight + 2 || node.scrollWidth > node.clientWidth + 2) && fs > MIN_FS){
+            fs = Math.max(MIN_FS, Math.floor(fs * 0.9));
+            node.style.fontSize = fs + 'px';
+          }
+        }
+        else if(el.crop){
+          // skip duplicate crops
+          if(renderedCrops.has(el.crop)) return;
+          renderedCrops.add(el.crop);
+          const cropPath = el.crop.replace(/^outputs\//,'');
+          const im=document.createElement('img'); im.src = cropPath; im.alt = (el.label || 'Detected crop') + ' from ' + imgName;
+          const lbl=(el.label||'').toLowerCase().replace(/\s+/g,'_');
+          if(lbl==='figure'||lbl==='image'||lbl==='picture') im.classList.add('figure-crop');
+          im.style.width='100%'; im.style.height='100%'; im.style.objectFit='cover';
+          node.appendChild(im); contentC.appendChild(node);
+        }
+      });
+
+      applyScale(fitScale());
+      applyDisplayOptions();
+      viewer.setAttribute('aria-busy','false');
+      setStatus('Page ' + (pageNames.indexOf(imgName)+1) + ' ready · compare the source, detected layout and reconstruction.');
+      // re-apply denoise/binarize to the freshly rendered page images
+      applyBinarize();
+    }).catch(err=>{
+      if(version !== viewVersion) return;
+      pageDimensions = null;
+      currentScale = null;
+      viewer.setAttribute('aria-busy','false');
+      ['zoom-in','zoom-out','zoom-reset'].forEach(id=>document.getElementById(id).disabled = true);
+      setStatus('Unable to load ' + imgName + '. Check the originals folder or select another page.', true);
+      console.error('Image load error', err);
+    });
+  }
+  </script>
+</body>
+</html>

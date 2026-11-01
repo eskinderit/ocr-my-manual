@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.629914336001093,
+  "text": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando  \nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente  \nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o  \nper qualsiasi esigenza di carattere costruttivo o commerciale.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Le descrizioni ed illustrazioni fornite nella presente pubblicazione s'intendono non impegnative; la PIAGGIO perciò si riserva il diritto, ferme restando  \nle caratteristiche essenziali del tipo qui descritto ed illustrato, di apportare in qualunque momento, senza impegnarsi ad aggiornare tempestivamente  \nquesta pubblicazione, le eventuali modifiche di organi, particolari o forniture di accessori, che essa ritenga convenienti per scopo di miglioramento o  \nper qualsiasi esigenza di carattere costruttivo o commerciale.\n"
+        }
+      }
+    ],
+    "created": 1793448001,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 289,
+      "total_tokens": 429,
+      "prompt_tokens_details": {
+        "cached_tokens": 288
+      }
+    },
+    "id": "chatcmpl-muUrg6nw9nLPVFdxB9eqYeXyC7KOfRBL",
+    "timings": {
+      "cache_n": 288,
+      "prompt_n": 1,
+      "prompt_ms": 4.8,
+      "prompt_per_token_ms": 4.8,
+      "prompt_per_second": 208.33333333333334,
+      "predicted_n": 140,
+      "predicted_ms": 505.751,
+      "predicted_per_token_ms": 3.638496402877698,
+      "predicted_per_second": 274.83880407552334
+    }
+  }
+}

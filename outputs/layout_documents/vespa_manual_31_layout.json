@@ -1,0 +1,60 @@
+[
+  {
+    "label": "title",
+    "bbox": [
+      688,
+      375,
+      5685,
+      541
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_31/vespa_manual_31_4.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      685,
+      599,
+      5698,
+      831
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_31/vespa_manual_31_2.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      685,
+      853,
+      5701,
+      1186
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_31/vespa_manual_31_1.png"
+  },
+  {
+    "label": "table",
+    "bbox": [
+      695,
+      1212,
+      5686,
+      3670
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_31/vespa_manual_31_0.png",
+    "table": {
+      "error": "no OCR model available"
+    }
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      673,
+      3683,
+      1015,
+      3806
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_31/vespa_manual_31_3.png"
+  }
+]

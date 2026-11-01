@@ -1,0 +1,159 @@
+{
+  "prepared_date": "2026-10-31",
+  "runtime": {
+    "executable": "vendor/llama.cpp/build/bin/llama-server",
+    "version": "0.4.0-dev",
+    "build": 124,
+    "commit": "e71b805",
+    "gpu": "NVIDIA RTX A5000 Laptop GPU",
+    "gpu_total_mib": 16384,
+    "gpu_used_mib_after_both_first_requests": 4794,
+    "python_client": "/home/ada8671/anaconda3/bin/python3.12",
+    "python_dependencies": "standard library only",
+    "shared_server_args": [
+      "--host",
+      "127.0.0.1",
+      "-ngl",
+      "99",
+      "-c",
+      "8192",
+      "-np",
+      "1",
+      "-fa",
+      "on",
+      "--temp",
+      "0",
+      "--jinja"
+    ],
+    "request_config": {
+      "max_tokens": 2048,
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "stream": false
+    }
+  },
+  "total_downloaded_weight_bytes": 3285888928,
+  "smoke_test": {
+    "image": "outputs/crops/vespa_manual_1/vespa_manual_1_2.png",
+    "width": 4715,
+    "height": 386,
+    "mode": "RGB",
+    "client_preprocessing": "none: unchanged PNG sent as base64 data URL",
+    "cold_prompt_cache": true,
+    "server_warmup": true,
+    "scope": "Single crop smoke test, not an aggregate quality benchmark"
+  },
+  "backends": {
+    "lighton3": {
+      "upstream_repository": "lightonai/LightOnOCR-3-1B",
+      "upstream_revision_observed": "23d544085c886bbdace647bcfab91203299417e2",
+      "upstream_created_at": "2026-10-07T09:25:46.000Z",
+      "upstream_hf_model_type": "mistral3",
+      "gguf_repository": "prithivMLmods/LightOnOCR-3-1B-GGUF",
+      "gguf_revision": "ff5c331ec2cfee9de1c8054c21ccf88b8c5b0faa",
+      "official_gguf": false,
+      "conversion_source_exact_revision": null,
+      "decoder_architecture": "qwen3",
+      "projector_type": "lightonocr",
+      "files": [
+        {
+          "name": "LightOnOCR-3-1B.Q8_0.gguf",
+          "bytes": 639443584,
+          "quantization": "Q8_0",
+          "sha256": "2cf9771aaf236a1c25f389a344510c9ad4daa863e5fdd82651cf7d7834fede1c"
+        },
+        {
+          "name": "LightOnOCR-3-1B.mmproj-bf16.gguf",
+          "bytes": 828905728,
+          "quantization": "BF16",
+          "sha256": "86cd7d80e69e5c00402d3f80137375a534f73bb67e29f29731d1eaaca674afb0"
+        }
+      ],
+      "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+      "model_alias": "lightonocr-3-1b",
+      "server_terminal_id": "87cbe2d1-e15d-49c6-85de-9c4a536628cc",
+      "prompt": "",
+      "other_prompt_modes": [
+        "grounding"
+      ],
+      "vision_metadata": {
+        "image_size": 1540,
+        "patch_size": 14,
+        "spatial_merge_size": 2
+      },
+      "server_log": "models/ocr_benchmark/lighton3-server.log",
+      "first_response": "models/ocr_benchmark/lighton3-first-response.json",
+      "first_request": {
+        "elapsed_seconds": 0.8235959590019775,
+        "prompt_tokens": 289,
+        "completion_tokens": 140,
+        "prompt_ms": 246.084,
+        "generation_ms": 509.613,
+        "finish_reason": "stop"
+      },
+      "warnings": [
+        "Vision warmup reports unsupported CUDA IM2COL f32 operator; native backend fallback executes successfully.",
+        "Native loader overrides non-control token type for </s>."
+      ]
+    },
+    "paddle16": {
+      "upstream_repository": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "upstream_revision_observed": "c5630abae1d940eafe0697512a0325494b02ab42",
+      "upstream_created_at": "2026-05-27T06:27:27.000Z",
+      "model_card_release_date": "2026-05-28",
+      "technical_report_date": "2026-06-03",
+      "gguf_repository": "PaddlePaddle/PaddleOCR-VL-1.6-GGUF",
+      "gguf_revision": "511b09642bb324401f15f97cc23bc67e8f0a291d",
+      "official_gguf": true,
+      "decoder_architecture": "paddleocr",
+      "projector_type": "paddleocr",
+      "files": [
+        {
+          "name": "PaddleOCR-VL-1.6-GGUF.gguf",
+          "bytes": 935769056,
+          "quantization": "BF16",
+          "sha256": "f3ae46ec885050acf4b3d31944431e1fd90d50664fb09126af4a3c050ba14ee8"
+        },
+        {
+          "name": "PaddleOCR-VL-1.6-GGUF-mmproj.gguf",
+          "bytes": 881770560,
+          "quantization": "BF16",
+          "sha256": "204d757d7610d9b3faab10d506d69e5b244e32bf765e2bab2d0167e65e0a058a"
+        }
+      ],
+      "endpoint": "http://127.0.0.1:8002/v1/chat/completions",
+      "model_alias": "paddleocr-vl-1.6",
+      "server_terminal_id": "d5ed7f67-c285-4430-81db-adac9d38141b",
+      "prompt": "OCR:",
+      "other_prompt_modes": [
+        "Formula Recognition:",
+        "Table Recognition:",
+        "Chart Recognition:",
+        "Seal Recognition:",
+        "Spotting:"
+      ],
+      "vision_metadata": {
+        "image_size": 1001,
+        "patch_size": 14,
+        "image_min_pixels": 112896,
+        "image_max_pixels": 1003520
+      },
+      "server_log": "models/ocr_benchmark/paddle16-server.log",
+      "first_response": "models/ocr_benchmark/paddle16-first-response.json",
+      "first_request": {
+        "elapsed_seconds": 1.5616676659992663,
+        "prompt_tokens": 1263,
+        "completion_tokens": 140,
+        "prompt_ms": 1053.528,
+        "generation_ms": 455.511,
+        "finish_reason": "stop"
+      },
+      "warnings": [
+        "Native loader reports empty token at index 96148; inference succeeds.",
+        "The official GGUF records version 1.6 and a 1.5 base-model lineage; files match the official 1.6 repository hashes.",
+        "Spotting mode requires different image_max_pixels configuration per official card; current server is configured for OCR, not Spotting."
+      ]
+    }
+  }
+}

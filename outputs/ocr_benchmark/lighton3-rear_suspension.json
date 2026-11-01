@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_10/vespa_manual_10_2.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.8306837620039005,
+  "text": "La sospensione posteriore, a braccio  \noscillante porta motore e ruota, è  \nmunita di molla biconica elicoidale a  \nflessibilità variabile e di ammortizza-  \ntore idraulico a doppio effetto coas-  \nsiale.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "La sospensione posteriore, a braccio  \noscillante porta motore e ruota, è  \nmunita di molla biconica elicoidale a  \nflessibilità variabile e di ammortizza-  \ntore idraulico a doppio effetto coas-  \nsiale.\n"
+        }
+      }
+    ],
+    "created": 1793448004,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 1334,
+      "total_tokens": 1406,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-ut26MY1KdZDXiKM8lu7UVxMqzFOOKhW9",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 1326,
+      "prompt_ms": 424.109,
+      "prompt_per_token_ms": 0.319840874811463,
+      "prompt_per_second": 3126.5547300340245,
+      "predicted_n": 72,
+      "predicted_ms": 287.14,
+      "predicted_per_token_ms": 4.044225352112676,
+      "predicted_per_second": 247.2661419516612
+    }
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "label": "plain text",
+    "bbox": [
+      2990,
+      286,
+      5005,
+      445
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_9.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      417,
+      297,
+      2849,
+      763
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_4.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2988,
+      499,
+      5411,
+      812
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_12.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      424,
+      781,
+      2849,
+      1092
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_8.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2992,
+      824,
+      5418,
+      1296
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_10.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      426,
+      1262,
+      2846,
+      1566
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_5.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2993,
+      1397,
+      5417,
+      1707
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_14.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      421,
+      1589,
+      2856,
+      2223
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_2.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2994,
+      1717,
+      5417,
+      2181
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_13.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      2993,
+      2278,
+      5415,
+      2581
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_11.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      422,
+      2408,
+      2860,
+      2716
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_3.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3486,
+      2621,
+      4933,
+      3067
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_7.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      423,
+      2869,
+      2859,
+      3508
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_0.png"
+  },
+  {
+    "label": "plain text",
+    "bbox": [
+      3001,
+      3182,
+      5428,
+      3493
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_1.png"
+  },
+  {
+    "label": "abandon",
+    "bbox": [
+      5143,
+      3673,
+      5421,
+      3784
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_8/vespa_manual_8_6.png"
+  }
+]

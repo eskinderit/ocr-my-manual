@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_26/vespa_manual_26_4.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.47070131600048626,
+  "text": "1) Smontare il filtro aria e pulirlo agi-  \ntandolo in bagno di benzina-olio al 30%.  \n2) Verificare il livello dell'olio nella  \nscatola del cambio.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "1) Smontare il filtro aria e pulirlo agi-  \ntandolo in bagno di benzina-olio al 30%.  \n2) Verificare il livello dell'olio nella  \nscatola del cambio.\n"
+        }
+      }
+    ],
+    "created": 1793448005,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 784,
+      "total_tokens": 837,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-nPTgfEGr1V5YQoaRS7MjqXTvR7QbywTe",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 776,
+      "prompt_ms": 227.277,
+      "prompt_per_token_ms": 0.29288273195876285,
+      "prompt_per_second": 3414.335810486763,
+      "predicted_n": 53,
+      "predicted_ms": 202.787,
+      "predicted_per_token_ms": 3.89975,
+      "predicted_per_second": 256.4266940188474
+    }
+  }
+}

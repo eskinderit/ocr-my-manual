@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_1.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.5167508980011917,
+  "text": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non  \ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-  \ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-  \nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Per conservare la Vostra VESPA in perfetto stato di efficienza e perché non  \ndecadano le condizioni di garanzia previste dal contratto di vendita, rivol-  \ngeteVi per le riparazioni esclusivamente agli Agenti ed alle Stazioni di Ser-  \nvizio autorizzate. Esigete per le riparazioni soltanto ricambi originali Piaggio.\n"
+        }
+      }
+    ],
+    "created": 1793448002,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 454,
+      "total_tokens": 545,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-ZQl3DgHf4RPADnhamX2EbY5SRHkpIMVR",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 446,
+      "prompt_ms": 123.901,
+      "prompt_per_token_ms": 0.277804932735426,
+      "prompt_per_second": 3599.6481061492645,
+      "predicted_n": 91,
+      "predicted_ms": 335.658,
+      "predicted_per_token_ms": 3.7295333333333334,
+      "predicted_per_second": 268.1300609549005
+    }
+  }
+}

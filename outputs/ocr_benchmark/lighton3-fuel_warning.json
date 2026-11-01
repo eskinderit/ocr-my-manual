@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_0.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.4065182949998416,
+  "text": "Si raccomanda l’uso di miscela carburante composta di benzina normale di  \n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su  \nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Si raccomanda l’uso di miscela carburante composta di benzina normale di  \n1ª qualità ed olio della marca, della graduazione e nella quantità prescritta su  \nquesto opuscolo a pag. 19 e in particolare di non usare olii vegetali e additivi.\n"
+        }
+      }
+    ],
+    "created": 1793448002,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 344,
+      "total_tokens": 416,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-oh0xCxBpKCavENBnd7OANPB6tJlwqrFj",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 336,
+      "prompt_ms": 88.544,
+      "prompt_per_token_ms": 0.2635238095238095,
+      "prompt_per_second": 3794.7235272858697,
+      "predicted_n": 72,
+      "predicted_ms": 262.399,
+      "predicted_per_token_ms": 3.695760563380282,
+      "predicted_per_second": 270.5802994676047
+    }
+  }
+}

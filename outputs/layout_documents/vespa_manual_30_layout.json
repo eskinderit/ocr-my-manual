@@ -1,0 +1,24 @@
+[
+  {
+    "label": "figure",
+    "bbox": [
+      406,
+      93,
+      5201,
+      3761
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_30/vespa_manual_30_0.png"
+  },
+  {
+    "label": "figure_caption",
+    "bbox": [
+      2080,
+      3794,
+      3609,
+      3911
+    ],
+    "text": "",
+    "crop": "crops/vespa_manual_30/vespa_manual_30_1.png"
+  }
+]

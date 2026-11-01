@@ -1,0 +1,14 @@
+docs/crops/*
+docs/originals/*
+docs/ocr_candidate/crops/*
+docs/ocr_candidate/originals/*
+imgs/*
+models/*
+outputs/layouts/*.png
+outputs/layout_documents/*
+*.pyc
+*.tsv
+outputs/layout_documents/*.md
+
+# Local clone of llama.cpp (contains nested Git metadata and build artifacts).
+vendor/llama.cpp/

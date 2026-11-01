@@ -1,0 +1,52 @@
+{
+  "backend": "lighton3",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "image": "/home/ada8671/Desktop/vespa-retrieval/outputs/crops/vespa_manual_1/vespa_manual_1_7.png",
+  "prompt": "",
+  "request_config": {
+    "model": "lightonocr-3-1b",
+    "max_tokens": 4096,
+    "temperature": 0,
+    "top_p": 1,
+    "stream": false,
+    "seed": 42
+  },
+  "elapsed_seconds": 0.8183625199962989,
+  "text": "Presentazione . . . . pag. 3 Impianto elettrico . . . . pag. 13  \nSchema comandi . . . . » 5 Accessori . . . . » 17  \nDati d'identificazione . . . » 6 Norme per l'uso . . . . » 19  \nPrestazioni e caratt. principali » 8 Manutenzione . . . . » 26  \nMotore: descrizione . . . » 8 Tabella della lubrificazione . » 30  \nTelaio: descrizione . . . » 10 Ricerca guasti e irregolarità . » 32\n",
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Presentazione . . . . pag. 3 Impianto elettrico . . . . pag. 13  \nSchema comandi . . . . » 5 Accessori . . . . » 17  \nDati d'identificazione . . . » 6 Norme per l'uso . . . . » 19  \nPrestazioni e caratt. principali » 8 Manutenzione . . . . » 26  \nMotore: descrizione . . . » 8 Tabella della lubrificazione . » 30  \nTelaio: descrizione . . . » 10 Ricerca guasti e irregolarità . » 32\n"
+        }
+      }
+    ],
+    "created": 1793448006,
+    "model": "lightonocr-3-1b",
+    "system_fingerprint": "b124-e71b805",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 619,
+      "total_tokens": 772,
+      "prompt_tokens_details": {
+        "cached_tokens": 8
+      }
+    },
+    "id": "chatcmpl-EEO19nWxVYFFm9TSytnV7kBCnlG1FbKp",
+    "timings": {
+      "cache_n": 8,
+      "prompt_n": 611,
+      "prompt_ms": 175.926,
+      "prompt_per_token_ms": 0.28793126022913257,
+      "prompt_per_second": 3473.0511692416135,
+      "predicted_n": 153,
+      "predicted_ms": 573.036,
+      "predicted_per_token_ms": 3.769973684210526,
+      "predicted_per_second": 265.25384094542056
+    }
+  }
+}
